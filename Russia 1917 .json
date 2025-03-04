@@ -5384,8 +5384,8 @@
           "name": "Blancsdunord",
           "persistentUuid": "0a604ae0-58c0-4b46-8527-5e3da1fa3e0b",
           "width": 174,
-          "x": 1045,
-          "y": 901,
+          "x": 1032,
+          "y": 909,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -5401,8 +5401,8 @@
           "name": "Brittaniquedunord",
           "persistentUuid": "6d11a0bf-ce77-47a3-8ab4-89a4a6f7e6bf",
           "width": 173,
-          "x": 1215,
-          "y": 940,
+          "x": 1219,
+          "y": 935,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -10239,8 +10239,8 @@
           "name": "bolchevick",
           "persistentUuid": "4d7cbefc-77f8-4c11-b3c6-c7eec6007f85",
           "width": 32,
-          "x": 1476,
-          "y": 1612,
+          "x": 1128,
+          "y": 1422,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25894,7 +25894,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "D'abord il ya plusieurs camps blanc (allemand, kotchak, pays etrangers), on identifie ville qui sont en leur possession et troupes qui sot en leur possession\n\nON a les blancs du nord\nLes blancs de l'extreme orient\nLes blancs du caucase\nLes blancs du sud\nLes nationalistes d ukraine (ne veulent que certaines villes)\nles nationalistes du belarus(ne veulent que certaines villes)\nles nationalistes de pologne(ne veulent que certaines villes)\nles nationalistes de finlande(ne veulent que certaines villes)\nles anarchistes d ukraine (ne veulent pas de villes)\nles verts (ne veulent pas de villes)\nles allemands (ne veulent pas de villes)\nles americains (ne veulent pas de villes)\nles anglais (ne veulent pas de villes)\nles francais (ne veulent pas de villes)\nles japonais (ne veulent pas de villes)\n\n\nUPDATE 26 fevrier 2024\nMalgré tout mes esssais, je n'arrive pas à faire un processus qui se suit l'un après l'autre\nfonction de 0 à 2 pour l'instant essayer d'aller plus loin\n\n"
+          "comment": "D'abord il ya plusieurs camps blanc (allemand, kotchak, pays etrangers), on identifie ville qui sont en leur possession et troupes qui sot en leur possession\n\nON a les blancs du nord\nLes blancs de l'extreme orient\nLes blancs du caucase\nLes blancs du sud\nLes nationalistes d ukraine (ne veulent que certaines villes)\nles nationalistes du belarus(ne veulent que certaines villes)\nles nationalistes de pologne(ne veulent que certaines villes)\nles nationalistes de finlande(ne veulent que certaines villes)\nles anarchistes d ukraine (ne veulent pas de villes)\nles verts (ne veulent pas de villes)\nles allemands (ne veulent que ceraines villes et fuient en nov 18)\nles americains (ne veulent pas de villes)\nles anglais (ne veulent pas de villes)\nles francais (ne veulent pas de villes)\nles japonais (ne veulent pas de villes)\n\n\nUPDATE 4 mars 2025\nCode OK mais il faut rajouter la fitesse selon le terrain\nreduire le tremblement\nrajouter la creation d'unite\n\n"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -26152,7 +26152,6 @@
           "actions": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -26277,6 +26276,14 @@
             },
             {
               "type": {
+                "value": "ClearVariableChildren"
+              },
+              "parameters": [
+                "IAstrategique.IAblancsdunord.Position_troupes_controleparmoi.distanceavecautretotal"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -26354,6 +26361,61 @@
                     "compteur",
                     "=",
                     "\"B0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "blancs",
+                    "positionX",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "blancs",
+                    "positionY",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "blancs",
+                    "distance",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "blancs",
+                    "positionX_ennemi",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "blancs",
+                    "positionY_ennemi",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -28085,20 +28147,29 @@
                             ""
                           ]
                         }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetBooleanVariable"
-                          },
-                          "parameters": [
-                            "IAstrategique.IAblancsdunord.processusenpause20sec",
-                            "True",
-                            "0"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "IAstrategique.IAblancsdunord.processusenpause20sec",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -28137,6 +28208,42 @@
                             "Animation",
                             "=",
                             "\"statique\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "blancs",
+                            "Possession_ville",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "IAstrategique.IAblancsdunord.Compteurmanuel",
+                            "=",
+                            "1200-(2*60)"
                           ]
                         }
                       ]
@@ -28884,6 +28991,42 @@
                         "40",
                         ""
                       ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "blancs",
+                            "bolchevick",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "IAstrategique.IAblancsdunord.Compteurmanuel",
+                            "=",
+                            "1200-(2*60)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
                     }
                   ]
                 },
