@@ -14,11 +14,11 @@
 "BLANCS_DENIKINE" = ACTIF
 "BLANCS_KOLTCHACK"= ACTIF
 "BLANCS_IOUDENITCH" = ACTIF
-"BLANCS_BASMATCHI"= Actif limite
+"BLANCS_BASMATCHI"= Actif limite 
 "ANARCHISTES_KRONSTAD" = actif limite Moscou et Petrograd
 "BLANCS_MAKHNOVCHTCHINA"= ACTIF limite
 "BLANCS_PAYSANS_VERT" =INACTF
-"BLANCS_BALTES" = ACTIF_limite "Riga""Tallin"
+"BLANCS_BALTES" = ACTIF_limite "Riga"
 
 TABLE_COMPORTEMENT_IA.Centrenationaliste_X_NBR
 TABLE_COMPORTEMENT_IA.Centrenationaliste_Y_NBR
@@ -40,3 +40,9 @@ cd ~/Documents/export/RUssia_1917/ANDROID
 npm install
 cordova platform add android
 cordova build android
+
+
+dejuin 1919 a octobre 1920 apparitions de 1 "BLANCS_MAKHNOVCHTCHINA" à l'est de l'urkain par mois
+
+
+Basmatchi trouve ses troupes en 191712, en 191801 mais pas en 191805
