@@ -10222,6 +10222,11 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -166910,6 +166915,21 @@
               "name": "FCT1_nbrdelignedumoisencours_index",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "FCT2_souscamp_disponiblepouraction",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "FCT2_Souscamppossible",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "FCT2_camptrouve",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -174129,7 +174149,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Stavaza liste des bugs\n\nSOUSCAMPOFFICIEL\n\"ALLEMANDS\" INACTIF\n\"BOLCHEVIKS\" JOUEUR\n\"KERENSKI\" INACTIF\n\"BLANCS_FINLANDAIS\" = ACTIF_LIMITE\n\"BLANCS_UKRAINIENS\" = ACTIF_LIMITE\n\"BLANCS_BIELORUSSES\"= ACTIF_LIMITE\n\"JAPONAIS\" = ACTIF_LIMITE\n\"LEGION_TCHEQUE\" = ACTIF_LIMITE\n\"AMERICAINS_DU_NORD\" = ACTIF_LIMITE\n\"BRITANNIQUES_DU_NORD\"= ACTIF_LIMITE\n\"POLONAIS\" = ACTIF_LIMITE\n\"FRANCAIS_DU_SUD\"= ACTIF_LIMITE\n\"BRITANNIQUES_DU_CAUCASE\"= ACTIF_LIMITE\n\n\"BLANCS_DENIKINE\" = ACTIF\n\"BLANCS_KOLTCHACK\"= ACTIF\n\"BLANCS_IOUDENITCH\" = ACTIF\n\"BLANCS_BASMATCHI\"= Actif limite\n\"ANARCHISTES_KRONSTAD\" = actif limite Moscou et Petrograd\n\"BLANCS_MAKHNOVCHTCHINA\"= ACTIF limite\n\"BLANCS_PAYSANS_VERT\" =INACTF\n\nstavaza 24.11.2025\nrajouter un systeme qui fait disparaitre les fleches\nrajouter un systeme qui reinitialise une ville qui n'a pas été capturé finalement\nrajouter tableau de fin \n\nStavaza 23.11.2025\nbug au niveau de la fonction 2 les basmatchi ne depasse pas la fonctoin 0.3, ne calcul pas le nobre de soldat par exemple\nCela arrive  a partir de 191804 \n\nStavaza 22.11.2025\n\n\nj'ai cree les images statique et combat OK\nje dois crer les soldat dans le tableau en fonction des dates\nje dois changer le code pour rajouter chaque nationalite OK\nbug : une fois qu'on a fini le jeu, si on le relance, bug les postions ne tiennent plus\n\nStavaza 18.11.2025\nCe que je dois encore faire\n- corriger bug des images \"cretions soldat\" qui sont animation rouge mais blanc a l'interieur OK\n- comprendre pourquoi kharkov ne peut pas etre pris par les ukrainiens OK\n- faire en sorte que les villes ne puissent pas etre capturé par les forces etrangeres mais deviennent inactif OK (redvienne inactif au bout de 10 secondes)\n- c'est seulement les blancs et les nationalistes qui peuvent les capturer les villes ok voir au dessus\n- permettre aux blancs de construire des soldats (gros morceaux)\n- rajouter la musique en identifiant les moments calme des moments forts\n- retravailler la vitesse des fonctions 1 2 et 3 : La 1 doit avoir lieu un ertain nombre de fois au deBut de chaque mois, la deux ok, la droit ne doit avoir lieu chaque seconde qu'en fonction d'evenement de la partie sinon plus calme (mais bon faut encore trouver le bon equilibre\n- chnager le random en un decompte pour le choix des nations\n- enfin rajouter le choix politique (gros morceaux)\n- faire une video de promotion\n\nLe mode defaite n'est pas fini\n\n\nRetour Thomas 22.11.2025\n- Les nouveaux soldats doivent poper plus vite\n- Parfois je dois utiliser 10 soldats pour tuer un seul ennemi\n- Je dois supprimer le bouton choix politique\n- Les trains c'est bien\n- Il y a trop d'ennemi\n- Une bonne idée de moi\n- Quand il y a les ennemis, il y a pas trop de ville envhais par les ennemis mais ils sont enormes\n- Ce serait bien de faire poper deux soldats à la fois et pas un seul\nLe popage est très lent\n\nNouvelles fonctions -----\nSi j'appuye sur l'affiche je devrais avoir des informations\n\nBUG-----\nLe bouton pause et le bouton paramètre est moche\n\n\n\n\nDes soldats rouge que je dirige pres de moscou fonce directement vers Murmansk \nA un moment, les troupes du nord et du sud cesse de bouger\n\n\nLes soldats blanc du nord du sud et les allemands n'attaque plus\nSoldat qui vont sur le mer\nL'impact des montages dans la zone de Bakou est trop important\nLe zoom (+) libere des troupes en mouvement\nUne troupe pres de iekatrinaburg mais sur l'axe samara omsk va prefere iekatrinaburg au lieu de samara ou omst\nPasser un certain momnet, le bouton (créer troupes) ne fonctionne plus\nSoldat reste en triange alors qu'il ne bouge plus\nY a encore des troupes vers Murmansk qui partent vers zero zero\nPas de Menu VICTOIRE\n\nMenu lenine trotsky\n- Le texte apparait une micro seconde après le phylactère\n- Le bouton \"accepter refuser\" doit apparaitre après le texte\n- Le mouvement respiration est ridicule\n- Compte rendu discussion le texte dépasse\n- On peut pas annuler le texte discussion sauf en cliquant sur accepter refuser ce qui n'est pas ok\n- On ne peut pas sortir du menu\n\nStavaza 05.07.2025\n- J'ai rajouté les allemands\n- J'ai corrigé un bug qui faisait transformer tout les soldats blancs dans un seul camp\n- J'ai adapté l'iA allemande pour qu'elle attaque les 7 villes sous brest litovsk si on signe pas l'accord et si on signe l'accord, elle reste dans les zones qu'elle occupe\n- Il y a aussi la desertinn\n\n\n\nbug repere\nLes soldats ne sont plus créé \nLes. lancs du sud sont très inactifs\nmontagnes bouge quand on les touches\nla mini ville ne change pas de couleur blanc quan elle est prise\n\n\nStavaza 07.06.20205\nCode chemin de fer semble fonctionner mais donne des resultats bizarres, déja il rejoint une gare au lieu d'aller vers le chemin de fer et semble pas bien suivre, bref encore creuser des cas concret de déplacement mais y a de l'idée\n\n\n\n\n\nVoici ce que je dois encore faire pour finir l'alpha\n\n\nPar ordre\n\n\nIA\n\n\n\n- rendre le chemin par la mer, très complexe voir impossible\n\n- Il faudrait aussi que je modifie la stratégie de chacune et mettre plus d'aléatoire. Pour obtenir des résultats différents, des recherches doivent être fait pour voir l'efficacité de chacun. J'ai un projet d'article de blog à ce sujet d'ailleurs. Je voudrais aussi une IA qui attaque en masse dans certains cas.\n\n\n\n- Rajouter que l’IA qui décide de donner une cible ne commence à chercher de cible que si elle a des soldats disponibles à combattre pour éviter les calculs inutiles.\n\n- Rajouter une IA tendance nationaliste qui se bat uniquement dans une zone\n- Rajouter que les bolcheviks aussi utilise le train\n\n- QUand je créé un nouveau camp\n- crée IA décision\n- créé IA creation de troupes + regles creation de troupes\n- Bloquer prise de ville pour certaines troupes\n\nUX\n\n\n- La mini map ne change pas de taille quand le zoom grandit OK\n- Rajouter les troupes sur la minimap\n\n\n\n\nVisuel\n\n\n\n- Refaire le visuel des soldats blancs et rouges. Voir ici\n\n- Refaire visuels de chaque sous camp\n\n- Vérifier si les montages nouveau format sont bien situé géographiquement\n\n\n\nTrouver le chemin  \n-          Refaire des lignes droites pour suivre les routes au lieu de ligne courbes et faire une animation de rail\n\n- Rajouter quelques gares si je laisse des courbes et refaire tout les précalcul pour trouver le chemin le plus court. \n\n- Il semble manquer des routes dans le Caucase dans le fichier R qui calcul les chemins les plus courts\n\n\n\nEnnemis\n- Rajouter IA de chaque sous camp de blanc avec explication de son apparition et qui explique son moteur\n\n- Allemand\n\n1917.11 Allemands occupe etats balte, pologne, ukraine, bielorussie\n1918.03 si on signe l'accord de Brest Litovsk, les frontières sont créé mais l'allemagne cesse d'attaquer sinon elle continue à attaquer\n1918.11 Les allemands retire leur troupes qui reste\n\n\n\n- Armes du Tsar\n\n1917.11 Lancement de la révolution et guerre avec armées tsariste à Moscou et saint Petersbourg\n\n- Blancs du nord\n\n1919.07 Création armée du Nord de Ioudenitch en Estonie\n\n- Blancs du Don\n\n1918.12 Création des blancs du sud (Rostov) général Kornilov\n\n- Blancs du Caucase\n\n- Blancs de Sibérie Koltchak\n\n- Britanniques du Nord\n\n1918.03 Debarquement à Mourmansk\n1918.08 Débarquement à Arkhangelsk\n\n- Japonais\n\n- Français du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain de l'est\n\n1918.04 Débarquement à Vladivostok\n\n- Tchecoslovaque\n\n1918.05 Revolte de Iekatrin à Vladivostok \n\n- Français du sud\n\n1918.07 Débarquement à Odessa \n\n- Blanc des pays baltes\n\n1919.11 Estonie Nikolaï Ioudenitch\n\n- Polonais\n\n1918.11 Fondation de la Pologne (Varsovie, Minsk, Brest Litovsk)\n\n- Vert\n\n- Anarchiste ukrainiens\n\n- Nationalistes de Transcaucasie\n\n- Basmatchis\n\n- Nationaliste de Transbaïkalie (Grigory Semenov)\n\n -  Grigory Semenov\n\n-Bouriates, les Iakoutes et les Touvains\n\n l'ataman Roman von Ungern-Sternberg\n\n \n\n\nContenu\n\n- Rajouter des affiches soviétiques en cas de conquête de Moscou ou Petrograd \n\n- Rajouter un début (vous dirigez la révolution)\n\n- Etablir des fins (dont une c'est la fondation de l'URSS si tu as atteint une serie d'étape)\n\n\n- l'idée est d'encore établir un scénario idéal et puis une serie de déviation si le joueur bolchevik arrive à réaliser tel étape ou pas. A encore réfléchir mais on peut imaginer \n\n- Combat contre kronstad ou pas\n\n- Alliance mencheviks ou pas\n\n- Action politique paix terre pain ou pas\n\n- Prise de varsovie ou pas\n\n- Perte de petrograd et ou perte de moscou\n\n\n\nL'idée c'est de faire un chemin et dès qu'on s'écarte de l'un ou des étapes, on a une fin alternative.\n\nFaire un schema\n\n\n\n\n\nRéflexion générale sur la stratégie\nQuand deux unités sont en contact l'une avec l'autre, on a un aspect aléatoire dans la victoire.\nCelui qui conquière les villes les plus vite aura automatiquement plus de force et va gagner.\nMais la réalité, c'est que plus la guerre dure, plus les ressources faiblisse\nA l'inverse des troupes blanches qui sont financé par l'extérieur\nComment introduire l'idée d'épuissement des ressources\n\n\n"
+          "comment": "Stavaza liste des bugs\n\nSOUSCAMPOFFICIEL\n\"ALLEMANDS\" INACTIF\n\"BOLCHEVIKS\" JOUEUR\n\"KERENSKI\" INACTIF\n\"BLANCS_FINLANDAIS\" = ACTIF_LIMITE\n\"BLANCS_UKRAINIENS\" = ACTIF_LIMITE\n\"BLANCS_BIELORUSSES\"= ACTIF_LIMITE\n\"JAPONAIS\" = ACTIF_LIMITE\n\"LEGION_TCHEQUE\" = ACTIF_LIMITE\n\"AMERICAINS_DU_NORD\" = ACTIF_LIMITE\n\"BRITANNIQUES_DU_NORD\"= ACTIF_LIMITE\n\"POLONAIS\" = ACTIF_LIMITE\n\"FRANCAIS_DU_SUD\"= ACTIF_LIMITE\n\"BRITANNIQUES_DU_CAUCASE\"= ACTIF_LIMITE\n\n\"BLANCS_DENIKINE\" = ACTIF\n\"BLANCS_KOLTCHACK\"= ACTIF\n\"BLANCS_IOUDENITCH\" = ACTIF\n\"BLANCS_BASMATCHI\"= Actif limite\n\"ANARCHISTES_KRONSTAD\" = actif limite Moscou et Petrograd\n\"BLANCS_MAKHNOVCHTCHINA\"= ACTIF limite\n\"BLANCS_PAYSANS_VERT\" =INACTF\n\nstavaza 2511.2025\nbug dans la fct2 je n'arrive pas a sauter les sous cam qui n'existe pas\nLe bug semblre resolu mais à tester car me parait très lent\n\nstavaza 24.11.2025\nrajouter un systeme qui fait disparaitre les fleches\nrajouter un systeme qui reinitialise une ville qui n'a pas été capturé finalement\nrajouter tableau de fin \n\nStavaza 23.11.2025\nbug au niveau de la fonction 2 les basmatchi ne depasse pas la fonctoin 0.3, ne calcul pas le nobre de soldat par exemple\nCela arrive  a partir de 191804 \n\nStavaza 22.11.2025\n\n\nj'ai cree les images statique et combat OK\nje dois crer les soldat dans le tableau en fonction des dates\nje dois changer le code pour rajouter chaque nationalite OK\nbug : une fois qu'on a fini le jeu, si on le relance, bug les postions ne tiennent plus\n\nStavaza 18.11.2025\nCe que je dois encore faire\n- corriger bug des images \"cretions soldat\" qui sont animation rouge mais blanc a l'interieur OK\n- comprendre pourquoi kharkov ne peut pas etre pris par les ukrainiens OK\n- faire en sorte que les villes ne puissent pas etre capturé par les forces etrangeres mais deviennent inactif OK (redvienne inactif au bout de 10 secondes)\n- c'est seulement les blancs et les nationalistes qui peuvent les capturer les villes ok voir au dessus\n- permettre aux blancs de construire des soldats (gros morceaux)\n- rajouter la musique en identifiant les moments calme des moments forts\n- retravailler la vitesse des fonctions 1 2 et 3 : La 1 doit avoir lieu un ertain nombre de fois au deBut de chaque mois, la deux ok, la droit ne doit avoir lieu chaque seconde qu'en fonction d'evenement de la partie sinon plus calme (mais bon faut encore trouver le bon equilibre\n- chnager le random en un decompte pour le choix des nations\n- enfin rajouter le choix politique (gros morceaux)\n- faire une video de promotion\n\nLe mode defaite n'est pas fini\n\n\nRetour Thomas 22.11.2025\n- Les nouveaux soldats doivent poper plus vite\n- Parfois je dois utiliser 10 soldats pour tuer un seul ennemi\n- Je dois supprimer le bouton choix politique\n- Les trains c'est bien\n- Il y a trop d'ennemi\n- Une bonne idée de moi\n- Quand il y a les ennemis, il y a pas trop de ville envhais par les ennemis mais ils sont enormes\n- Ce serait bien de faire poper deux soldats à la fois et pas un seul\nLe popage est très lent\n\nNouvelles fonctions -----\nSi j'appuye sur l'affiche je devrais avoir des informations\n\nBUG-----\nLe bouton pause et le bouton paramètre est moche\n\n\n\n\nDes soldats rouge que je dirige pres de moscou fonce directement vers Murmansk \nA un moment, les troupes du nord et du sud cesse de bouger\n\n\nLes soldats blanc du nord du sud et les allemands n'attaque plus\nSoldat qui vont sur le mer\nL'impact des montages dans la zone de Bakou est trop important\nLe zoom (+) libere des troupes en mouvement\nUne troupe pres de iekatrinaburg mais sur l'axe samara omsk va prefere iekatrinaburg au lieu de samara ou omst\nPasser un certain momnet, le bouton (créer troupes) ne fonctionne plus\nSoldat reste en triange alors qu'il ne bouge plus\nY a encore des troupes vers Murmansk qui partent vers zero zero\nPas de Menu VICTOIRE\n\nMenu lenine trotsky\n- Le texte apparait une micro seconde après le phylactère\n- Le bouton \"accepter refuser\" doit apparaitre après le texte\n- Le mouvement respiration est ridicule\n- Compte rendu discussion le texte dépasse\n- On peut pas annuler le texte discussion sauf en cliquant sur accepter refuser ce qui n'est pas ok\n- On ne peut pas sortir du menu\n\nStavaza 05.07.2025\n- J'ai rajouté les allemands\n- J'ai corrigé un bug qui faisait transformer tout les soldats blancs dans un seul camp\n- J'ai adapté l'iA allemande pour qu'elle attaque les 7 villes sous brest litovsk si on signe pas l'accord et si on signe l'accord, elle reste dans les zones qu'elle occupe\n- Il y a aussi la desertinn\n\n\n\nbug repere\nLes soldats ne sont plus créé \nLes. lancs du sud sont très inactifs\nmontagnes bouge quand on les touches\nla mini ville ne change pas de couleur blanc quan elle est prise\n\n\nStavaza 07.06.20205\nCode chemin de fer semble fonctionner mais donne des resultats bizarres, déja il rejoint une gare au lieu d'aller vers le chemin de fer et semble pas bien suivre, bref encore creuser des cas concret de déplacement mais y a de l'idée\n\n\n\n\n\nVoici ce que je dois encore faire pour finir l'alpha\n\n\nPar ordre\n\n\nIA\n\n\n\n- rendre le chemin par la mer, très complexe voir impossible\n\n- Il faudrait aussi que je modifie la stratégie de chacune et mettre plus d'aléatoire. Pour obtenir des résultats différents, des recherches doivent être fait pour voir l'efficacité de chacun. J'ai un projet d'article de blog à ce sujet d'ailleurs. Je voudrais aussi une IA qui attaque en masse dans certains cas.\n\n\n\n- Rajouter que l’IA qui décide de donner une cible ne commence à chercher de cible que si elle a des soldats disponibles à combattre pour éviter les calculs inutiles.\n\n- Rajouter une IA tendance nationaliste qui se bat uniquement dans une zone\n- Rajouter que les bolcheviks aussi utilise le train\n\n- QUand je créé un nouveau camp\n- crée IA décision\n- créé IA creation de troupes + regles creation de troupes\n- Bloquer prise de ville pour certaines troupes\n\nUX\n\n\n- La mini map ne change pas de taille quand le zoom grandit OK\n- Rajouter les troupes sur la minimap\n\n\n\n\nVisuel\n\n\n\n- Refaire le visuel des soldats blancs et rouges. Voir ici\n\n- Refaire visuels de chaque sous camp\n\n- Vérifier si les montages nouveau format sont bien situé géographiquement\n\n\n\nTrouver le chemin  \n-          Refaire des lignes droites pour suivre les routes au lieu de ligne courbes et faire une animation de rail\n\n- Rajouter quelques gares si je laisse des courbes et refaire tout les précalcul pour trouver le chemin le plus court. \n\n- Il semble manquer des routes dans le Caucase dans le fichier R qui calcul les chemins les plus courts\n\n\n\nEnnemis\n- Rajouter IA de chaque sous camp de blanc avec explication de son apparition et qui explique son moteur\n\n- Allemand\n\n1917.11 Allemands occupe etats balte, pologne, ukraine, bielorussie\n1918.03 si on signe l'accord de Brest Litovsk, les frontières sont créé mais l'allemagne cesse d'attaquer sinon elle continue à attaquer\n1918.11 Les allemands retire leur troupes qui reste\n\n\n\n- Armes du Tsar\n\n1917.11 Lancement de la révolution et guerre avec armées tsariste à Moscou et saint Petersbourg\n\n- Blancs du nord\n\n1919.07 Création armée du Nord de Ioudenitch en Estonie\n\n- Blancs du Don\n\n1918.12 Création des blancs du sud (Rostov) général Kornilov\n\n- Blancs du Caucase\n\n- Blancs de Sibérie Koltchak\n\n- Britanniques du Nord\n\n1918.03 Debarquement à Mourmansk\n1918.08 Débarquement à Arkhangelsk\n\n- Japonais\n\n- Français du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain de l'est\n\n1918.04 Débarquement à Vladivostok\n\n- Tchecoslovaque\n\n1918.05 Revolte de Iekatrin à Vladivostok \n\n- Français du sud\n\n1918.07 Débarquement à Odessa \n\n- Blanc des pays baltes\n\n1919.11 Estonie Nikolaï Ioudenitch\n\n- Polonais\n\n1918.11 Fondation de la Pologne (Varsovie, Minsk, Brest Litovsk)\n\n- Vert\n\n- Anarchiste ukrainiens\n\n- Nationalistes de Transcaucasie\n\n- Basmatchis\n\n- Nationaliste de Transbaïkalie (Grigory Semenov)\n\n -  Grigory Semenov\n\n-Bouriates, les Iakoutes et les Touvains\n\n l'ataman Roman von Ungern-Sternberg\n\n \n\n\nContenu\n\n- Rajouter des affiches soviétiques en cas de conquête de Moscou ou Petrograd \n\n- Rajouter un début (vous dirigez la révolution)\n\n- Etablir des fins (dont une c'est la fondation de l'URSS si tu as atteint une serie d'étape)\n\n\n- l'idée est d'encore établir un scénario idéal et puis une serie de déviation si le joueur bolchevik arrive à réaliser tel étape ou pas. A encore réfléchir mais on peut imaginer \n\n- Combat contre kronstad ou pas\n\n- Alliance mencheviks ou pas\n\n- Action politique paix terre pain ou pas\n\n- Prise de varsovie ou pas\n\n- Perte de petrograd et ou perte de moscou\n\n\n\nL'idée c'est de faire un chemin et dès qu'on s'écarte de l'un ou des étapes, on a une fin alternative.\n\nFaire un schema\n\n\n\n\n\nRéflexion générale sur la stratégie\nQuand deux unités sont en contact l'une avec l'autre, on a un aspect aléatoire dans la victoire.\nCelui qui conquière les villes les plus vite aura automatiquement plus de force et va gagner.\nMais la réalité, c'est que plus la guerre dure, plus les ressources faiblisse\nA l'inverse des troupes blanches qui sont financé par l'extérieur\nComment introduire l'idée d'épuissement des ressources\n\n\n"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -174153,6 +174173,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -174199,7 +174220,7 @@
                       "parameters": [
                         "valeurtxt1",
                         "=",
-                        "-1000"
+                        "1000"
                       ]
                     },
                     {
@@ -213693,6 +213714,17 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT2_Random",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -213749,6 +213781,39 @@
                         "=",
                         "0.1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT2_souscamp_disponiblepouraction",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT2_Souscamppossible",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT2_camptrouve",
+                        "False",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -213767,18 +213832,198 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "soldatblanc",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_souscamp_disponiblepouraction",
+                            "+",
+                            "soldatblanc.Souscampsoldatblanc"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Possession_ville",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_souscamp_disponiblepouraction",
+                            "+",
+                            "Possession_ville.Souscampville"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_fonctiondobservation",
+                            "=",
+                            "0.15"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "NumberObjectVariable"
                       },
                       "parameters": [
                         "campdedepart_Blancs_IA_unique",
                         "FCT2_fonctiondobservation",
                         "=",
-                        "0.2"
+                        "0.15"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_Random",
+                            ">",
+                            "21"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_Random",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_fonctiondobservation",
+                            "=",
+                            "0.2"
+                          ]
+                        }
                       ]
                     },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_Random",
+                            "<=",
+                            "21"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_Random",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_fonctiondobservation",
+                            "=",
+                            "0.2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT2_fonctiondobservation",
+                        "=",
+                        "0.15"
+                      ]
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "SetNumberObjectVariable"
@@ -213788,6 +214033,17 @@
                         "FCT2_Random",
                         "=",
                         "RandomInRange(1,21)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT2_fonctiondobservation",
+                        "=",
+                        "0.2"
                       ]
                     }
                   ]
@@ -213824,16 +214080,46 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"ALLEMANDS\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"ALLEMANDS\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"ALLEMANDS\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -213853,16 +214139,46 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BOLCHEVIKS\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BOLCHEVIKS\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BOLCHEVIKS\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -213882,17 +214198,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"KERENSKI\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"KERENSKI\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"KERENSKI\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
@@ -213911,17 +214267,52 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_FINLANDAIS\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_FINLANDAIS\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_FINLANDAIS\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
@@ -213940,17 +214331,52 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_UKRAINIENS\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_UKRAINIENS\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_UKRAINIENS\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
@@ -213969,21 +214395,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_BIELORUSSES\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_BIELORUSSES\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_BIELORUSSES\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -213998,21 +214460,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"JAPONAIS\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"JAPONAIS\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"JAPONAIS\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214027,21 +214525,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"LEGION_TCHEQUE\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"LEGION_TCHEQUE\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"LEGION_TCHEQUE\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214056,21 +214590,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"AMERICAINS_DU_NORD\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"AMERICAINS_DU_NORD\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"AMERICAINS_DU_NORD\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214085,21 +214655,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BRITANNIQUES_DU_NORD\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BRITANNIQUES_DU_NORD\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BRITANNIQUES_DU_NORD\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214114,21 +214720,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"POLONAIS\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"POLONAIS\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"POLONAIS\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214143,21 +214785,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"FRANCAIS_DU_SUD\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"FRANCAIS_DU_SUD\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"FRANCAIS_DU_SUD\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214172,21 +214850,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BRITANNIQUES_DU_CAUCASE\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BRITANNIQUES_DU_CAUCASE\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BRITANNIQUES_DU_CAUCASE\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214201,21 +214915,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_DENIKINE\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_DENIKINE\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_DENIKINE\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214230,21 +214980,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_KOLTCHACK\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_KOLTCHACK\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_KOLTCHACK\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214259,21 +215045,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_IOUDENITCH\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_IOUDENITCH\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_IOUDENITCH\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214288,21 +215110,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_BASMATCHI\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_BASMATCHI\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_BASMATCHI\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214317,21 +215175,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"ANARCHISTES_KRONSTAD\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"ANARCHISTES_KRONSTAD\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"ANARCHISTES_KRONSTAD\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214346,21 +215240,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_MAKHNOVCHTCHINA\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_MAKHNOVCHTCHINA\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_MAKHNOVCHTCHINA\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214375,21 +215305,57 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_PAYSANS_VERT\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_PAYSANS_VERT\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_PAYSANS_VERT\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214404,17 +215370,52 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT2_Souscategorieblanc_selectionne",
-                            "=",
-                            "\"BLANCS_BALTES\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_souscamp_disponiblepouraction",
+                                "contains",
+                                "\"BLANCS_BALTES\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_Souscategorieblanc_selectionne",
+                                "=",
+                                "\"BLANCS_BALTES\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT2_camptrouve",
+                                "True",
+                                "0"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
@@ -214428,9 +215429,181 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
+                            "FCT2_fonctiondobservation",
+                            "=",
+                            "0.21"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_camptrouve",
+                            "True",
+                            "\"BLANCS_BALTES\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_fonctiondobservation",
+                            "=",
+                            "0.21"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
                             "tailleducercle",
                             "=",
                             "10"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_camptrouve",
+                            "contains",
+                            "\"BLANCS_BALTES\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_fonctiondobservation",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT2_fonctiondobservation",
+                        "=",
+                        "0.21"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_camptrouve",
+                            "True",
+                            "\"BLANCS_BALTES\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "tailleducercle",
+                            "=",
+                            "10"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_camptrouve",
+                            "False",
+                            "\"BLANCS_BALTES\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "tailleducercle",
+                            "=",
+                            "59"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT2_fonctiondobservation",
+                            "=",
+                            "0.215"
                           ]
                         },
                         {
@@ -214441,7 +215614,7 @@
                             "campdedepart_Blancs_IA_unique",
                             "FCT2_fonctiondobservation",
                             "=",
-                            "0.21"
+                            "0"
                           ]
                         }
                       ]
@@ -214461,6 +215634,7 @@
                   "comment": "on prend le dernier type connu"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -215776,6 +216950,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -216424,6 +217599,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -217077,6 +218253,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -217961,6 +219138,7 @@
                   "comment": "Etape 1 : Je prend des chiffres de controle du nombre de soldat blanc"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -218087,6 +219265,7 @@
                   "comment": "Etape 2 : Je prend des chiffres de controle du nombre de ville controlé par les blancs"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -218240,7 +219419,6 @@
                   "comment": "Etape 3 Je créé les cercles de collisions des soldats blanc du nord "
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -218399,7 +219577,6 @@
                   "comment": "Etape 4 Je créé les cercles de collisions des villes blanc du nord"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -218621,6 +219798,7 @@
                   "comment": "Etape 3 Je créé les cercles de collisions an centre national si actif limite"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -222033,7 +223211,6 @@
                   "comment": "Etape 13 Si je detecte aucune ville ennemi et neutre  et aucun soldat ennemi, je recommence en agrandissant le cercle "
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -222230,6 +223407,7 @@
                       "comment": "on sauve FCT2_troupes_aliies_proximite_1 pour chaque camp"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -222878,6 +224056,7 @@
                       "comment": "on sauve FCT2_ FCT2_troupes_ennemis_proximite1 pour chaque camp"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -223526,6 +224705,7 @@
                       "comment": "on sauve campdedepart_Blancs_IA_unique.FCT2_Position_villes_ennemiouneutre.X[0] pour chaque camp"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -224174,6 +225354,7 @@
                       "comment": "on sauve campdedepart_Blancs_IA_unique.FCT2_Position_villes_ennemiouneutre.Y[0] pour chaque camp"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -224822,6 +226003,7 @@
                       "comment": "on sauve campdedepart_Blancs_IA_unique.FCT2_Position_troupes_ennemis.X[0] pour chaque camp"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -225455,6 +226637,7 @@
                       "comment": "on sauve campdedepart_Blancs_IA_unique.FCT2_Position_troupes_ennemis.Y[0] pour chaque camp"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -234439,7 +235622,7 @@
                     "valeurtxt1",
                     "Text",
                     "=",
-                    "\"PROCESSUS OBSERVATION IA INSTALLATION.\" + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne + \"\nEtape : \" + campdedepart_Blancs_IA_unique.FCT1_Process_IA + \"\nrandom : \"+campdedepart_Blancs_IA_unique.FCT1_Random+\"\nnbr de fois que le processus a tourne : \"+campdedepart_Blancs_IA_unique.FCT1_nombredefoisque_leprocessus_atourne+\"\nnombredelignepourcemois : \"+campdedepart_Blancs_IA_unique.FCT1_nbrdelignedumoisencours+\"\n-------------\nPROCESSUS IA INFORMATION. \nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT2_Souscategorieblanc_selectionne + \" \"+campdedepart_Blancs_IA_unique.FCT2_TYPE_souscamp_selectionne+\"\nEtape fonction observation :\" + campdedepart_Blancs_IA_unique.FCT2_fonctiondobservation+\"\nvaleur comptage :\"+campdedepart_Blancs_IA_unique.FCT2_valeurdecomptage+\"\ntaille de cercle : \"+campdedepart_Blancs_IA_unique.tailleducercle+\"\n\nPROCESSUS ACTION\nSouscamp : \"+campdedepart_Blancs_IA_unique.FCT3_Souscategorieblanc_selectionne+\"\netape : \"+campdedepart_Blancs_IA_unique.FCT3_fonctiondaction+\"\n\nPROCESSUS CREATION DE SOLDAT.\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat + \"\nEtape fonction observation.\n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat + \"\n---------\" + \"etapecreationsoldat_listedesboutonsactifs_TXT \n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT + \"\netapecreationsoldat_listedessoldatactifs_TXT\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT + \"\netapecreationsoldat_TOTALX : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALX + \"\netapecreationsoldat_TOTALY : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALY + \"\netapecreationsoldat_NB : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_NB + \"\netapecreationsoldat_i : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_i + \"\netapecreationsoldat_chaine_temp_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_chaine_temp_TXT + \"\netapecreationsoldat_boutons_ordonnes_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_boutons_ordonnes_TXT"
+                    "\"PROCESSUS OBSERVATION IA INSTALLATION.\" + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne + \"\nEtape : \" + campdedepart_Blancs_IA_unique.FCT1_Process_IA + \"\nrandom : \"+campdedepart_Blancs_IA_unique.FCT1_Random+\"\nnbr de fois que le processus a tourne : \"+campdedepart_Blancs_IA_unique.FCT1_nombredefoisque_leprocessus_atourne+\"\nnombredelignepourcemois : \"+campdedepart_Blancs_IA_unique.FCT1_nbrdelignedumoisencours+\"\n-------------\nPROCESSUS IA INFORMATION. \nCamptrouve : \"\n+campdedepart_Blancs_IA_unique.FCT2_camptrouve+\"\nrandom : \"+campdedepart_Blancs_IA_unique.FCT2_Random+\"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT2_Souscategorieblanc_selectionne + \" \"+campdedepart_Blancs_IA_unique.FCT2_TYPE_souscamp_selectionne+\"\nEtape fonction observation :\" + campdedepart_Blancs_IA_unique.FCT2_fonctiondobservation+\"\nvaleur comptage :\"+campdedepart_Blancs_IA_unique.FCT2_valeurdecomptage+\"\ntaille de cercle : \"+campdedepart_Blancs_IA_unique.tailleducercle+\"\n\nPROCESSUS ACTION\nSouscamp : \"+campdedepart_Blancs_IA_unique.FCT3_Souscategorieblanc_selectionne+\"\netape : \"+campdedepart_Blancs_IA_unique.FCT3_fonctiondaction+\"\n\nPROCESSUS CREATION DE SOLDAT.\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat + \"\nEtape fonction observation.\n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat + \"\n---------\" + \"etapecreationsoldat_listedesboutonsactifs_TXT \n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT + \"\netapecreationsoldat_listedessoldatactifs_TXT\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT + \"\netapecreationsoldat_TOTALX : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALX + \"\netapecreationsoldat_TOTALY : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALY + \"\netapecreationsoldat_NB : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_NB + \"\netapecreationsoldat_i : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_i + \"\netapecreationsoldat_chaine_temp_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_chaine_temp_TXT + \"\netapecreationsoldat_boutons_ordonnes_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_boutons_ordonnes_TXT"
                   ]
                 }
               ],
@@ -266222,7 +267405,6 @@
                   "comment": "Mois 1917 11"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -273685,7 +274867,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -273712,7 +274893,7 @@
                           },
                           "parameters": [
                             "TABLE_COMPORTEMENT_IA.DATE_NBR",
-                            "191712"
+                            "191811"
                           ]
                         },
                         {
