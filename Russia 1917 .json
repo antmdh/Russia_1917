@@ -8271,7 +8271,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version 24.11.2025",
+          "string": "Version 29.11.2025",
           "font": "STKooperativRegular.ttf",
           "textAlignment": "left",
           "characterSize": 20,
@@ -8294,7 +8294,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version 24.11.2025",
+            "text": "Version 29.11.2025",
             "font": "STKooperativRegular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -136182,7 +136182,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535529,
+        "zoomFactor": 0.3216911764706077,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -137426,6 +137426,16 @@
           "children": [
             {
               "name": "FCT1_A",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "FCT1_B",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "FLECHE",
               "type": "boolean",
               "value": false
             }
@@ -160936,6 +160946,11 @@
               "name": "Asupprimer",
               "type": "boolean",
               "value": false
+            },
+            {
+              "name": "nbrmoisexiste",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -161763,6 +161778,11 @@
               "name": "defaite",
               "type": "boolean",
               "value": false
+            },
+            {
+              "name": "souscamp_type",
+              "type": "string",
+              "value": "0"
             }
           ],
           "effects": [],
@@ -166768,7 +166788,7 @@
               "value": "\"\""
             },
             {
-              "name": "etapecreationsoldat",
+              "name": "FCT4_etapecreationsoldat",
               "type": "number",
               "value": 0
             },
@@ -166908,12 +166928,12 @@
               "value": 0
             },
             {
-              "name": "Random_Ia_constructionunite",
+              "name": "FCT4_Random_Ia_constructionunite",
               "type": "number",
               "value": 0
             },
             {
-              "name": "Souscategorieblanc_selectionne_creation_soldat",
+              "name": "FCT4_Souscategorieblanc_selectionne_creation_soldat",
               "type": "string",
               "value": "0"
             },
@@ -166984,6 +167004,16 @@
             },
             {
               "name": "FCT1_2_3souscampblanc_presentdisponibleaction",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "FCT1_2_3_deuxiemecalcul",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "FCT1_SouscategorieblancSTATUT_selectionne",
               "type": "string",
               "value": "0"
             }
@@ -174205,7 +174235,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Stavaza liste des bugs\n\nSOUSCAMPOFFICIEL\n\"ALLEMANDS\" INACTIF\n\"BOLCHEVIKS\" JOUEUR\n\"KERENSKI\" INACTIF\n\"BLANCS_FINLANDAIS\" = ACTIF_LIMITE\n\"BLANCS_UKRAINIENS\" = ACTIF_LIMITE\n\"BLANCS_BIELORUSSES\"= ACTIF_LIMITE\n\"JAPONAIS\" = ACTIF_LIMITE\n\"LEGION_TCHEQUE\" = ACTIF_LIMITE\n\"AMERICAINS_DU_NORD\" = ACTIF_LIMITE\n\"BRITANNIQUES_DU_NORD\"= ACTIF_LIMITE\n\"POLONAIS\" = ACTIF_LIMITE\n\"FRANCAIS_DU_SUD\"= ACTIF_LIMITE\n\"BRITANNIQUES_DU_CAUCASE\"= ACTIF_LIMITE\n\n\"BLANCS_DENIKINE\" = ACTIF\n\"BLANCS_KOLTCHACK\"= ACTIF\n\"BLANCS_IOUDENITCH\" = ACTIF\n\"BLANCS_BASMATCHI\"= Actif limite\n\"ANARCHISTES_KRONSTAD\" = actif limite Moscou et Petrograd\n\"BLANCS_MAKHNOVCHTCHINA\"= ACTIF limite\n\"BLANCS_PAYSANS_VERT\" =INACTF\nSTAVAZA 29.11.2025\nCODE 1 2 3 OK :-)\nFAUT ÉTALER L'ARRIVÉE DES JAPONAIS ET DES ANGLAIS DU NORD ET DES AMERICAINS\n\nstavaz 26.11.2025\nNouveau code de la fonction 1 plus leger et efficace mais ne s'arrete pas après avoir tourné un nombre suffisant de fois\n\n\nstavaza 2511.2025\nbug dans la fct2 je n'arrive pas a sauter les sous cam qui n'existe pas\nLe bug semblre resolu mais à tester car me parait très lent\n\nstavaza 24.11.2025\nrajouter un systeme qui fait disparaitre les fleches\nrajouter un systeme qui reinitialise une ville qui n'a pas été capturé finalement\nrajouter tableau de fin \n\nStavaza 23.11.2025\nbug au niveau de la fonction 2 les basmatchi ne depasse pas la fonctoin 0.3, ne calcul pas le nobre de soldat par exemple\nCela arrive  a partir de 191804 \n\nStavaza 22.11.2025\n\n\nj'ai cree les images statique et combat OK\nje dois crer les soldat dans le tableau en fonction des dates\nje dois changer le code pour rajouter chaque nationalite OK\nbug : une fois qu'on a fini le jeu, si on le relance, bug les postions ne tiennent plus\n\nStavaza 18.11.2025\nCe que je dois encore faire\n- corriger bug des images \"cretions soldat\" qui sont animation rouge mais blanc a l'interieur OK\n- comprendre pourquoi kharkov ne peut pas etre pris par les ukrainiens OK\n- faire en sorte que les villes ne puissent pas etre capturé par les forces etrangeres mais deviennent inactif OK (redvienne inactif au bout de 10 secondes)\n- c'est seulement les blancs et les nationalistes qui peuvent les capturer les villes ok voir au dessus\n- permettre aux blancs de construire des soldats (gros morceaux)\n- rajouter la musique en identifiant les moments calme des moments forts\n- retravailler la vitesse des fonctions 1 2 et 3 : La 1 doit avoir lieu un ertain nombre de fois au deBut de chaque mois, la deux ok, la droit ne doit avoir lieu chaque seconde qu'en fonction d'evenement de la partie sinon plus calme (mais bon faut encore trouver le bon equilibre\n- chnager le random en un decompte pour le choix des nations\n- enfin rajouter le choix politique (gros morceaux)\n- faire une video de promotion\n\nLe mode defaite n'est pas fini\n\n\nRetour Thomas 22.11.2025\n- Les nouveaux soldats doivent poper plus vite\n- Parfois je dois utiliser 10 soldats pour tuer un seul ennemi\n- Je dois supprimer le bouton choix politique\n- Les trains c'est bien\n- Il y a trop d'ennemi\n- Une bonne idée de moi\n- Quand il y a les ennemis, il y a pas trop de ville envhais par les ennemis mais ils sont enormes\n- Ce serait bien de faire poper deux soldats à la fois et pas un seul\nLe popage est très lent\n\nNouvelles fonctions -----\nSi j'appuye sur l'affiche je devrais avoir des informations\n\nBUG-----\nLe bouton pause et le bouton paramètre est moche\n\n\n\n\nDes soldats rouge que je dirige pres de moscou fonce directement vers Murmansk \nA un moment, les troupes du nord et du sud cesse de bouger\n\n\nLes soldats blanc du nord du sud et les allemands n'attaque plus\nSoldat qui vont sur le mer\nL'impact des montages dans la zone de Bakou est trop important\nLe zoom (+) libere des troupes en mouvement\nUne troupe pres de iekatrinaburg mais sur l'axe samara omsk va prefere iekatrinaburg au lieu de samara ou omst\nPasser un certain momnet, le bouton (créer troupes) ne fonctionne plus\nSoldat reste en triange alors qu'il ne bouge plus\nY a encore des troupes vers Murmansk qui partent vers zero zero\nPas de Menu VICTOIRE\n\nMenu lenine trotsky\n- Le texte apparait une micro seconde après le phylactère\n- Le bouton \"accepter refuser\" doit apparaitre après le texte\n- Le mouvement respiration est ridicule\n- Compte rendu discussion le texte dépasse\n- On peut pas annuler le texte discussion sauf en cliquant sur accepter refuser ce qui n'est pas ok\n- On ne peut pas sortir du menu\n\nStavaza 05.07.2025\n- J'ai rajouté les allemands\n- J'ai corrigé un bug qui faisait transformer tout les soldats blancs dans un seul camp\n- J'ai adapté l'iA allemande pour qu'elle attaque les 7 villes sous brest litovsk si on signe pas l'accord et si on signe l'accord, elle reste dans les zones qu'elle occupe\n- Il y a aussi la desertinn\n\n\n\nbug repere\nLes soldats ne sont plus créé \nLes. lancs du sud sont très inactifs\nmontagnes bouge quand on les touches\nla mini ville ne change pas de couleur blanc quan elle est prise\n\n\nStavaza 07.06.20205\nCode chemin de fer semble fonctionner mais donne des resultats bizarres, déja il rejoint une gare au lieu d'aller vers le chemin de fer et semble pas bien suivre, bref encore creuser des cas concret de déplacement mais y a de l'idée\n\n\n\n\n\nVoici ce que je dois encore faire pour finir l'alpha\n\n\nPar ordre\n\n\nIA\n\n\n\n- rendre le chemin par la mer, très complexe voir impossible\n\n- Il faudrait aussi que je modifie la stratégie de chacune et mettre plus d'aléatoire. Pour obtenir des résultats différents, des recherches doivent être fait pour voir l'efficacité de chacun. J'ai un projet d'article de blog à ce sujet d'ailleurs. Je voudrais aussi une IA qui attaque en masse dans certains cas.\n\n\n\n- Rajouter que l’IA qui décide de donner une cible ne commence à chercher de cible que si elle a des soldats disponibles à combattre pour éviter les calculs inutiles.\n\n- Rajouter une IA tendance nationaliste qui se bat uniquement dans une zone\n- Rajouter que les bolcheviks aussi utilise le train\n\n- QUand je créé un nouveau camp\n- crée IA décision\n- créé IA creation de troupes + regles creation de troupes\n- Bloquer prise de ville pour certaines troupes\n\nUX\n\n\n- La mini map ne change pas de taille quand le zoom grandit OK\n- Rajouter les troupes sur la minimap\n\n\n\n\nVisuel\n\n\n\n- Refaire le visuel des soldats blancs et rouges. Voir ici\n\n- Refaire visuels de chaque sous camp\n\n- Vérifier si les montages nouveau format sont bien situé géographiquement\n\n\n\nTrouver le chemin  \n-          Refaire des lignes droites pour suivre les routes au lieu de ligne courbes et faire une animation de rail\n\n- Rajouter quelques gares si je laisse des courbes et refaire tout les précalcul pour trouver le chemin le plus court. \n\n- Il semble manquer des routes dans le Caucase dans le fichier R qui calcul les chemins les plus courts\n\n\n\nEnnemis\n- Rajouter IA de chaque sous camp de blanc avec explication de son apparition et qui explique son moteur\n\n- Allemand\n\n1917.11 Allemands occupe etats balte, pologne, ukraine, bielorussie\n1918.03 si on signe l'accord de Brest Litovsk, les frontières sont créé mais l'allemagne cesse d'attaquer sinon elle continue à attaquer\n1918.11 Les allemands retire leur troupes qui reste\n\n\n\n- Armes du Tsar\n\n1917.11 Lancement de la révolution et guerre avec armées tsariste à Moscou et saint Petersbourg\n\n- Blancs du nord\n\n1919.07 Création armée du Nord de Ioudenitch en Estonie\n\n- Blancs du Don\n\n1918.12 Création des blancs du sud (Rostov) général Kornilov\n\n- Blancs du Caucase\n\n- Blancs de Sibérie Koltchak\n\n- Britanniques du Nord\n\n1918.03 Debarquement à Mourmansk\n1918.08 Débarquement à Arkhangelsk\n\n- Japonais\n\n- Français du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain de l'est\n\n1918.04 Débarquement à Vladivostok\n\n- Tchecoslovaque\n\n1918.05 Revolte de Iekatrin à Vladivostok \n\n- Français du sud\n\n1918.07 Débarquement à Odessa \n\n- Blanc des pays baltes\n\n1919.11 Estonie Nikolaï Ioudenitch\n\n- Polonais\n\n1918.11 Fondation de la Pologne (Varsovie, Minsk, Brest Litovsk)\n\n- Vert\n\n- Anarchiste ukrainiens\n\n- Nationalistes de Transcaucasie\n\n- Basmatchis\n\n- Nationaliste de Transbaïkalie (Grigory Semenov)\n\n -  Grigory Semenov\n\n-Bouriates, les Iakoutes et les Touvains\n\n l'ataman Roman von Ungern-Sternberg\n\n \n\n\nContenu\n\n- Rajouter des affiches soviétiques en cas de conquête de Moscou ou Petrograd \n\n- Rajouter un début (vous dirigez la révolution)\n\n- Etablir des fins (dont une c'est la fondation de l'URSS si tu as atteint une serie d'étape)\n\n\n- l'idée est d'encore établir un scénario idéal et puis une serie de déviation si le joueur bolchevik arrive à réaliser tel étape ou pas. A encore réfléchir mais on peut imaginer \n\n- Combat contre kronstad ou pas\n\n- Alliance mencheviks ou pas\n\n- Action politique paix terre pain ou pas\n\n- Prise de varsovie ou pas\n\n- Perte de petrograd et ou perte de moscou\n\n\n\nL'idée c'est de faire un chemin et dès qu'on s'écarte de l'un ou des étapes, on a une fin alternative.\n\nFaire un schema\n\n\n\n\n\nRéflexion générale sur la stratégie\nQuand deux unités sont en contact l'une avec l'autre, on a un aspect aléatoire dans la victoire.\nCelui qui conquière les villes les plus vite aura automatiquement plus de force et va gagner.\nMais la réalité, c'est que plus la guerre dure, plus les ressources faiblisse\nA l'inverse des troupes blanches qui sont financé par l'extérieur\nComment introduire l'idée d'épuissement des ressources\n\n\n"
+          "comment": "Stavaza liste des bugs\n\nSOUSCAMPOFFICIEL\n\"ALLEMANDS\" INACTIF\n\"BOLCHEVIKS\" JOUEUR\n\"KERENSKI\" INACTIF\n\"BLANCS_FINLANDAIS\" = ACTIF_LIMITE\n\"BLANCS_UKRAINIENS\" = ACTIF_LIMITE\n\"BLANCS_BIELORUSSES\"= ACTIF_LIMITE\n\"JAPONAIS\" = ACTIF_LIMITE\n\"LEGION_TCHEQUE\" = ACTIF_LIMITE\n\"AMERICAINS_DU_NORD\" = ACTIF_LIMITE\n\"BRITANNIQUES_DU_NORD\"= ACTIF_LIMITE\n\"POLONAIS\" = ACTIF_LIMITE\n\"FRANCAIS_DU_SUD\"= ACTIF_LIMITE\n\"BRITANNIQUES_DU_CAUCASE\"= ACTIF_LIMITE\n\n\"BLANCS_DENIKINE\" = ACTIF\n\"BLANCS_KOLTCHACK\"= ACTIF\n\"BLANCS_IOUDENITCH\" = ACTIF\n\"BLANCS_BASMATCHI\"= Actif limite\n\"ANARCHISTES_KRONSTAD\" = actif limite Moscou et Petrograd\n\"BLANCS_MAKHNOVCHTCHINA\"= ACTIF limite\n\"BLANCS_PAYSANS_VERT\" =INACTF\nSTAVAZA 30.11.2025\nil y a encore des actif limite qui vont vers d'autres destinations mais je ne comprend pas pourquoi,\nLa fct 4 ne fonctionne pas\n\n\nstavaza 24.11.2025\nrajouter un systeme qui fait disparaitre les fleches\nrajouter un systeme qui reinitialise une ville qui n'a pas été capturé finalement\nrajouter tableau de fin \n\nStavaza 23.11.2025\nbug au niveau de la fonction 2 les basmatchi ne depasse pas la fonctoin 0.3, ne calcul pas le nobre de soldat par exemple\nCela arrive  a partir de 191804 \n\nStavaza 22.11.2025\n\n\nj'ai cree les images statique et combat OK\nje dois crer les soldat dans le tableau en fonction des dates\nje dois changer le code pour rajouter chaque nationalite OK\nbug : une fois qu'on a fini le jeu, si on le relance, bug les postions ne tiennent plus\n\nStavaza 18.11.2025\nCe que je dois encore faire\n- corriger bug des images \"cretions soldat\" qui sont animation rouge mais blanc a l'interieur OK\n- comprendre pourquoi kharkov ne peut pas etre pris par les ukrainiens OK\n- faire en sorte que les villes ne puissent pas etre capturé par les forces etrangeres mais deviennent inactif OK (redvienne inactif au bout de 10 secondes)\n- c'est seulement les blancs et les nationalistes qui peuvent les capturer les villes ok voir au dessus\n- permettre aux blancs de construire des soldats (gros morceaux)\n- rajouter la musique en identifiant les moments calme des moments forts\n- retravailler la vitesse des fonctions 1 2 et 3 : La 1 doit avoir lieu un ertain nombre de fois au deBut de chaque mois, la deux ok, la droit ne doit avoir lieu chaque seconde qu'en fonction d'evenement de la partie sinon plus calme (mais bon faut encore trouver le bon equilibre\n- chnager le random en un decompte pour le choix des nations\n- enfin rajouter le choix politique (gros morceaux)\n- faire une video de promotion\n\nLe mode defaite n'est pas fini\n\n\nRetour Thomas 22.11.2025\n- Les nouveaux soldats doivent poper plus vite\n- Parfois je dois utiliser 10 soldats pour tuer un seul ennemi\n- Je dois supprimer le bouton choix politique\n- Les trains c'est bien\n- Il y a trop d'ennemi\n- Une bonne idée de moi\n- Quand il y a les ennemis, il y a pas trop de ville envhais par les ennemis mais ils sont enormes\n- Ce serait bien de faire poper deux soldats à la fois et pas un seul\nLe popage est très lent\n\nNouvelles fonctions -----\nSi j'appuye sur l'affiche je devrais avoir des informations\n\nBUG-----\nLe bouton pause et le bouton paramètre est moche\n\n\n\n\nDes soldats rouge que je dirige pres de moscou fonce directement vers Murmansk \nA un moment, les troupes du nord et du sud cesse de bouger\n\n\nLes soldats blanc du nord du sud et les allemands n'attaque plus\nSoldat qui vont sur le mer\nL'impact des montages dans la zone de Bakou est trop important\nLe zoom (+) libere des troupes en mouvement\nUne troupe pres de iekatrinaburg mais sur l'axe samara omsk va prefere iekatrinaburg au lieu de samara ou omst\nPasser un certain momnet, le bouton (créer troupes) ne fonctionne plus\nSoldat reste en triange alors qu'il ne bouge plus\nY a encore des troupes vers Murmansk qui partent vers zero zero\nPas de Menu VICTOIRE\n\nMenu lenine trotsky\n- Le texte apparait une micro seconde après le phylactère\n- Le bouton \"accepter refuser\" doit apparaitre après le texte\n- Le mouvement respiration est ridicule\n- Compte rendu discussion le texte dépasse\n- On peut pas annuler le texte discussion sauf en cliquant sur accepter refuser ce qui n'est pas ok\n- On ne peut pas sortir du menu\n\nStavaza 05.07.2025\n- J'ai rajouté les allemands\n- J'ai corrigé un bug qui faisait transformer tout les soldats blancs dans un seul camp\n- J'ai adapté l'iA allemande pour qu'elle attaque les 7 villes sous brest litovsk si on signe pas l'accord et si on signe l'accord, elle reste dans les zones qu'elle occupe\n- Il y a aussi la desertinn\n\n\n\nbug repere\nLes soldats ne sont plus créé \nLes. lancs du sud sont très inactifs\nmontagnes bouge quand on les touches\nla mini ville ne change pas de couleur blanc quan elle est prise\n\n\nStavaza 07.06.20205\nCode chemin de fer semble fonctionner mais donne des resultats bizarres, déja il rejoint une gare au lieu d'aller vers le chemin de fer et semble pas bien suivre, bref encore creuser des cas concret de déplacement mais y a de l'idée\n\n\n\n\n\nVoici ce que je dois encore faire pour finir l'alpha\n\n\nPar ordre\n\n\nIA\n\n\n\n- rendre le chemin par la mer, très complexe voir impossible\n\n- Il faudrait aussi que je modifie la stratégie de chacune et mettre plus d'aléatoire. Pour obtenir des résultats différents, des recherches doivent être fait pour voir l'efficacité de chacun. J'ai un projet d'article de blog à ce sujet d'ailleurs. Je voudrais aussi une IA qui attaque en masse dans certains cas.\n\n\n\n- Rajouter que l’IA qui décide de donner une cible ne commence à chercher de cible que si elle a des soldats disponibles à combattre pour éviter les calculs inutiles.\n\n- Rajouter une IA tendance nationaliste qui se bat uniquement dans une zone\n- Rajouter que les bolcheviks aussi utilise le train\n\n- QUand je créé un nouveau camp\n- crée IA décision\n- créé IA creation de troupes + regles creation de troupes\n- Bloquer prise de ville pour certaines troupes\n\nUX\n\n\n- La mini map ne change pas de taille quand le zoom grandit OK\n- Rajouter les troupes sur la minimap\n\n\n\n\nVisuel\n\n\n\n- Refaire le visuel des soldats blancs et rouges. Voir ici\n\n- Refaire visuels de chaque sous camp\n\n- Vérifier si les montages nouveau format sont bien situé géographiquement\n\n\n\nTrouver le chemin  \n-          Refaire des lignes droites pour suivre les routes au lieu de ligne courbes et faire une animation de rail\n\n- Rajouter quelques gares si je laisse des courbes et refaire tout les précalcul pour trouver le chemin le plus court. \n\n- Il semble manquer des routes dans le Caucase dans le fichier R qui calcul les chemins les plus courts\n\n\n\nEnnemis\n- Rajouter IA de chaque sous camp de blanc avec explication de son apparition et qui explique son moteur\n\n- Allemand\n\n1917.11 Allemands occupe etats balte, pologne, ukraine, bielorussie\n1918.03 si on signe l'accord de Brest Litovsk, les frontières sont créé mais l'allemagne cesse d'attaquer sinon elle continue à attaquer\n1918.11 Les allemands retire leur troupes qui reste\n\n\n\n- Armes du Tsar\n\n1917.11 Lancement de la révolution et guerre avec armées tsariste à Moscou et saint Petersbourg\n\n- Blancs du nord\n\n1919.07 Création armée du Nord de Ioudenitch en Estonie\n\n- Blancs du Don\n\n1918.12 Création des blancs du sud (Rostov) général Kornilov\n\n- Blancs du Caucase\n\n- Blancs de Sibérie Koltchak\n\n- Britanniques du Nord\n\n1918.03 Debarquement à Mourmansk\n1918.08 Débarquement à Arkhangelsk\n\n- Japonais\n\n- Français du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain de l'est\n\n1918.04 Débarquement à Vladivostok\n\n- Tchecoslovaque\n\n1918.05 Revolte de Iekatrin à Vladivostok \n\n- Français du sud\n\n1918.07 Débarquement à Odessa \n\n- Blanc des pays baltes\n\n1919.11 Estonie Nikolaï Ioudenitch\n\n- Polonais\n\n1918.11 Fondation de la Pologne (Varsovie, Minsk, Brest Litovsk)\n\n- Vert\n\n- Anarchiste ukrainiens\n\n- Nationalistes de Transcaucasie\n\n- Basmatchis\n\n- Nationaliste de Transbaïkalie (Grigory Semenov)\n\n -  Grigory Semenov\n\n-Bouriates, les Iakoutes et les Touvains\n\n l'ataman Roman von Ungern-Sternberg\n\n \n\n\nContenu\n\n- Rajouter des affiches soviétiques en cas de conquête de Moscou ou Petrograd \n\n- Rajouter un début (vous dirigez la révolution)\n\n- Etablir des fins (dont une c'est la fondation de l'URSS si tu as atteint une serie d'étape)\n\n\n- l'idée est d'encore établir un scénario idéal et puis une serie de déviation si le joueur bolchevik arrive à réaliser tel étape ou pas. A encore réfléchir mais on peut imaginer \n\n- Combat contre kronstad ou pas\n\n- Alliance mencheviks ou pas\n\n- Action politique paix terre pain ou pas\n\n- Prise de varsovie ou pas\n\n- Perte de petrograd et ou perte de moscou\n\n\n\nL'idée c'est de faire un chemin et dès qu'on s'écarte de l'un ou des étapes, on a une fin alternative.\n\nFaire un schema\n\n\n\n\n\nRéflexion générale sur la stratégie\nQuand deux unités sont en contact l'une avec l'autre, on a un aspect aléatoire dans la victoire.\nCelui qui conquière les villes les plus vite aura automatiquement plus de force et va gagner.\nMais la réalité, c'est que plus la guerre dure, plus les ressources faiblisse\nA l'inverse des troupes blanches qui sont financé par l'extérieur\nComment introduire l'idée d'épuissement des ressources\n\n\n"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -174224,12 +174254,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "0. CHEATCODE",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -174603,7 +174633,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "1. Etablissement du jeu et de la carte",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -177091,7 +177120,7 @@
                           "parameters": [
                             "TEMPSDEJEU.Duree_entre2clic_creationsoldat",
                             "=",
-                            "10"
+                            "1"
                           ]
                         }
                       ]
@@ -177487,7 +177516,7 @@
                           "parameters": [
                             "TEMPSDEJEU.Duree_entre2clic_creationsoldat",
                             "=",
-                            "10"
+                            "1"
                           ]
                         },
                         {
@@ -177633,7 +177662,7 @@
                           "parameters": [
                             "TEMPSDEJEU.Duree_entre2clic_creationsoldat",
                             "=",
-                            "5"
+                            "0.5"
                           ]
                         }
                       ]
@@ -177673,6 +177702,7 @@
                   "comment": "Compter soldat sur le terrain au debut"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -177754,6 +177784,7 @@
                   "comment": "Deplacement_soldat bolcheviks sur les differents terrains (montagnes, rail ,mer)"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -177972,6 +178003,7 @@
                   "comment": "la fleche"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [
@@ -178185,6 +178217,7 @@
                   "comment": "la fleche se dessine sur l'axe z zero\n"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -178743,6 +178776,117 @@
                             "Resizable",
                             "32",
                             "32"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "la fleche est supprimé après deux mois"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Changementdemois.FLECHE",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "FLECHE",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "FLECHE",
+                                "nbrmoisexiste",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "FLECHE",
+                                "nbrmoisexiste",
+                                ">",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "FLECHE",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Changementdemois.FLECHE",
+                            "False",
+                            ""
                           ]
                         }
                       ]
@@ -207536,6 +207680,7 @@
               "comment": "1. IA INSTALLATION QUI etudie les circonstances du mois pour chaque entité et enregistre la plus recente coordonné\"es. Tourne à chaque FRAME"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -207618,6 +207763,216 @@
                             "=",
                             "\"\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT1_2_3souscamp_present",
+                            "=",
+                            "\"\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT1_2_3souscampblanc_presentdisponibleaction",
+                            "=",
+                            "\"\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "5"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "soldatblanc",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": true,
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "campdedepart_Blancs_IA_unique",
+                                        "FCT1_2_3souscamp_present",
+                                        "contains",
+                                        "soldatblanc.Souscampsoldatblanc"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "campdedepart_Blancs_IA_unique",
+                                        "FCT1_2_3souscamp_present",
+                                        "+",
+                                        "soldatblanc.Souscampsoldatblanc"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "Possession_ville",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": true,
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "campdedepart_Blancs_IA_unique",
+                                        "FCT1_2_3souscamp_present",
+                                        "contains",
+                                        "Possession_ville.Souscampville"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "campdedepart_Blancs_IA_unique",
+                                        "FCT1_2_3souscamp_present",
+                                        "+",
+                                        "Possession_ville.Souscampville"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "soldatblanc",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": true,
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "campdedepart_Blancs_IA_unique",
+                                        "FCT1_2_3souscampblanc_presentdisponibleaction",
+                                        "contains",
+                                        "soldatblanc.Souscampsoldatblanc"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Or"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "StringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "soldatblanc",
+                                            "souscamp_type",
+                                            "=",
+                                            "\"ACTIF\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "StringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "soldatblanc",
+                                            "souscamp_type",
+                                            "=",
+                                            "\"ACTIF_LIMITE\""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "campdedepart_Blancs_IA_unique",
+                                        "FCT1_2_3souscampblanc_presentdisponibleaction",
+                                        "+",
+                                        "soldatblanc.Souscampsoldatblanc"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -207633,7 +207988,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "lancer le processus un certains nombre de fois au bedut du mois s'applique pour les trois fonctions"
+                  "comment": "lancer le processus un certains nombre de fois au bedut du mois s'applique pour les trois fonctions, il se relance une deuxieme fois a la fin du processus"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -207704,9 +208059,32 @@
                         "=",
                         "\"\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT1_2_3souscampblanc_presentdisponibleaction",
+                        "=",
+                        "\"\""
+                      ]
                     }
                   ],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "identifie pour le mois les camp present et actif ou actif limite"
+                    },
                     {
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "soldatblanc",
@@ -207718,16 +208096,36 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT1_2_3souscamp_present",
-                            "+",
-                            "soldatblanc.Souscampsoldatblanc"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT1_2_3souscamp_present",
+                                "contains",
+                                "soldatblanc.Souscampsoldatblanc"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT1_2_3souscamp_present",
+                                "+",
+                                "soldatblanc.Souscampsoldatblanc"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -207743,17 +208141,42 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT1_2_3souscamp_present",
-                            "+",
-                            "Possession_ville.Souscampville"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT1_2_3souscamp_present",
+                                "contains",
+                                "Possession_ville.Souscampville"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT1_2_3souscamp_present",
+                                "+",
+                                "Possession_ville.Souscampville"
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     },
@@ -207768,16 +208191,66 @@
                           "parameters": []
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "campdedepart_Blancs_IA_unique",
-                            "FCT1_2_3souscampblanc_presentdisponibleaction",
-                            "+",
-                            "soldatblanc.Souscampsoldatblanc"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT1_2_3souscampblanc_presentdisponibleaction",
+                                "contains",
+                                "soldatblanc.Souscampsoldatblanc"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "soldatblanc",
+                                    "souscamp_type",
+                                    "=",
+                                    "\"ACTIF\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "soldatblanc",
+                                    "souscamp_type",
+                                    "=",
+                                    "\"ACTIF_LIMITE\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT1_2_3souscampblanc_presentdisponibleaction",
+                                "+",
+                                "soldatblanc.Souscampsoldatblanc"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -207813,7 +208286,6 @@
                   "comment": "Etape 1, je parcours chaque sous camp pour le mois (idealement je pourrais optimiser et ne regarder que les camps present ce mois la ce qui me permettrait de remplacer la valeur fixe 21 par une valeur dynamique"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -207952,7 +208424,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -207982,6 +208453,17 @@
                             "FCT1_Souscategorieblanc_selectionne",
                             "=",
                             "TABLE_COMPORTEMENT_IA.CAMP_TXT[campdedepart_Blancs_IA_unique.FCT1_Random]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT1_SouscategorieblancSTATUT_selectionne",
+                            "=",
+                            "TABLE_COMPORTEMENT_IA.STATUT_TXT[campdedepart_Blancs_IA_unique.FCT1_Random]"
                           ]
                         }
                       ]
@@ -208134,6 +208616,7 @@
                   "comment": "Etape 3 on va chercher la ligne qui correspond au mois en cours et au camp choisis à l'etape 2"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -211879,7 +212362,6 @@
                   "comment": "Etape 5, on crée les troupes comme l'indique le tableau"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -211941,6 +212423,7 @@
                       "actions": [],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -212075,6 +212558,17 @@
                                     "Souscampsoldatblanc",
                                     "=",
                                     "campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetStringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "soldatblanc",
+                                    "souscamp_type",
+                                    "=",
+                                    "campdedepart_Blancs_IA_unique.FCT1_SouscategorieblancSTATUT_selectionne"
                                   ]
                                 },
                                 {
@@ -212708,7 +213202,6 @@
                   "comment": "Etape 5 bis je dois rajouter les villes possédé par l'ordinateur"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -213013,6 +213506,72 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Etape 6 je redonne a chaque soldat l'information de son type de camp"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "campdedepart_Blancs_IA_unique",
+                        "FCT1_Process_IA",
+                        "=",
+                        "\"I\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "soldatblanc",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "souscamp_type",
+                            "=",
+                            "campdedepart_Blancs_IA_unique.FCT1_SouscategorieblancSTATUT_selectionne"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -213113,7 +213672,314 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Etape 6 chaque sous camp agit selon la regle de la derniere valeur connue pas OK"
+                  "comment": "lancer le processus un certains nombre de fois au bedut du mois s'applique pour les trois fonctions, il se relance une deuxieme fois a la fin du processus"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Changementdemois.FCT1_B",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "\"fct123_deuxiemecalcul\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Changementdemois.FCT1_B",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "\"fct123_deuxiemecalcul\"",
+                            ">=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT1_2_3_deuxiemecalcul",
+                            "True",
+                            "\"\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT1_2_3_deuxiemecalcul",
+                            "True",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT1_2_3souscampblanc_presentdisponibleaction",
+                            "=",
+                            "\"\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT1_2_3souscamp_present",
+                            "=",
+                            "\"\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "soldatblanc",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "campdedepart_Blancs_IA_unique",
+                                    "FCT1_2_3souscamp_present",
+                                    "contains",
+                                    "soldatblanc.Souscampsoldatblanc"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetStringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "campdedepart_Blancs_IA_unique",
+                                    "FCT1_2_3souscamp_present",
+                                    "+",
+                                    "soldatblanc.Souscampsoldatblanc"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Possession_ville",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "campdedepart_Blancs_IA_unique",
+                                    "FCT1_2_3souscamp_present",
+                                    "contains",
+                                    "Possession_ville.Souscampville"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetStringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "campdedepart_Blancs_IA_unique",
+                                    "FCT1_2_3souscamp_present",
+                                    "+",
+                                    "Possession_ville.Souscampville"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "soldatblanc",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "campdedepart_Blancs_IA_unique",
+                                    "FCT1_2_3souscampblanc_presentdisponibleaction",
+                                    "contains",
+                                    "soldatblanc.Souscampsoldatblanc"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "soldatblanc",
+                                        "souscamp_type",
+                                        "=",
+                                        "\"ACTIF\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "soldatblanc",
+                                        "souscamp_type",
+                                        "=",
+                                        "\"ACTIF_LIMITE\""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetStringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "campdedepart_Blancs_IA_unique",
+                                    "FCT1_2_3souscampblanc_presentdisponibleaction",
+                                    "+",
+                                    "soldatblanc.Souscampsoldatblanc"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT1_2_3_deuxiemecalcul",
+                                "False",
+                                "\"\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -213540,7 +214406,6 @@
                   "comment": "il regarde chaque camp et decide si il a trouvé un camp dans la chaine de caractere souscampdisponiblepouraction"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -227073,6 +227938,7 @@
               "actions": []
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -227254,17 +228120,6 @@
                       "parameters": [
                         "campdedepart_Blancs_IA_unique",
                         "\"FCT3_dureedeaction\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "campdedepart_Blancs_IA_unique",
-                        "FCT3_fonctiondaction",
-                        "=",
-                        "12"
                       ]
                     },
                     {
@@ -229573,7 +230428,6 @@
                       "comment": "Recupère le type"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -230222,7 +231076,6 @@
                       "comment": "recupère le nombre d'ennemis"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -230861,7 +231714,6 @@
                       "comment": "recupère le nombre d'allies a proximite"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -231495,7 +232347,6 @@
                       "comment": "recupère Position_villes_ennemiouneutre.X[0]"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -232129,7 +232980,6 @@
                       "comment": "recupère Position_villes_ennemiouneutre.Y[0]"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [],
@@ -234633,6 +235483,7 @@
                           "comment": "- si troupes ennemis a proximite >0 et troupes allies a proximite =0\n=> attaque troupes ennemis dans 80% des cas sinon ville la plus proche"
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -235904,7 +236755,6 @@
                   "comment": "etape 3 On active un soldat en lui donnant la position à prendre"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -236927,18 +237777,6 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 194,
-                "g": 227,
-                "r": 80,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "IA qui crée des soldats"
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -236950,7 +237788,7 @@
                     "valeurtxt1",
                     "Text",
                     "=",
-                    "\"PROCESSUS OBSERVATION IA INSTALLATION.\" + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne + \"\nEtape : \" + campdedepart_Blancs_IA_unique.FCT1_Process_IA + \"\nrandom : \"+campdedepart_Blancs_IA_unique.FCT1_Random+\"\nnbr de fois que le processus a tourne : \"+campdedepart_Blancs_IA_unique.FCT1_nombredefoisque_leprocessus_atourne+\"\nnombredelignepourcemois : \"+campdedepart_Blancs_IA_unique.FCT1_nbrdelignedumoisencours+\"\n-------------\nPROCESSUS IA INFORMATION. \nCamptrouve : \"\n+campdedepart_Blancs_IA_unique.FCT2_camptrouve+\"\nrandom : \"+campdedepart_Blancs_IA_unique.FCT2_Random+\"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT2_Souscategorieblanc_selectionne + \" \"+campdedepart_Blancs_IA_unique.FCT2_TYPE_souscamp_selectionne+\"\nEtape fonction observation :\" + campdedepart_Blancs_IA_unique.FCT2_fonctiondobservation+\"\nvaleur comptage :\"+campdedepart_Blancs_IA_unique.FCT2_valeurdecomptage+\"\ntaille de cercle : \"+campdedepart_Blancs_IA_unique.tailleducercle+\"\n\nPROCESSUS ACTION\nSouscamp : \"+campdedepart_Blancs_IA_unique.FCT3_Souscategorieblanc_selectionne+\"\netape : \"+campdedepart_Blancs_IA_unique.FCT3_fonctiondaction+\"\n\nPROCESSUS CREATION DE SOLDAT.\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat + \"\nEtape fonction observation.\n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat + \"\n---------\" + \"etapecreationsoldat_listedesboutonsactifs_TXT \n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT + \"\netapecreationsoldat_listedessoldatactifs_TXT\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT + \"\netapecreationsoldat_TOTALX : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALX + \"\netapecreationsoldat_TOTALY : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALY + \"\netapecreationsoldat_NB : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_NB + \"\netapecreationsoldat_i : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_i + \"\netapecreationsoldat_chaine_temp_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_chaine_temp_TXT + \"\netapecreationsoldat_boutons_ordonnes_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_boutons_ordonnes_TXT"
+                    "\"PROCESSUS OBSERVATION IA INSTALLATION.\" + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne + \"\nEtape : \" + campdedepart_Blancs_IA_unique.FCT1_Process_IA + \"\nrandom : \" + campdedepart_Blancs_IA_unique.FCT1_Random + \"\nnbr de fois que le processus a tourne : \" + campdedepart_Blancs_IA_unique.FCT1_nombredefoisque_leprocessus_atourne + \"\nnombredelignepourcemois : \" + campdedepart_Blancs_IA_unique.FCT1_nbrdelignedumoisencours + \"\n-------------\nPROCESSUS IA INFORMATION. \nCamptrouve : \" + campdedepart_Blancs_IA_unique.FCT2_camptrouve + \"\nrandom : \" + campdedepart_Blancs_IA_unique.FCT2_Random + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT2_Souscategorieblanc_selectionne + \" \" + campdedepart_Blancs_IA_unique.FCT2_TYPE_souscamp_selectionne + \"\nEtape fonction observation :\" + campdedepart_Blancs_IA_unique.FCT2_fonctiondobservation + \"\nvaleur comptage :\" + campdedepart_Blancs_IA_unique.FCT2_valeurdecomptage + \"\ntaille de cercle : \" + campdedepart_Blancs_IA_unique.tailleducercle + \"\n\nPROCESSUS ACTION\nSouscamp : \" + campdedepart_Blancs_IA_unique.FCT3_Souscategorieblanc_selectionne + \"\netape : \" + campdedepart_Blancs_IA_unique.FCT3_fonctiondaction + \"\n\nPROCESSUS CREATION DE SOLDAT.\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat + \"\nEtape fonction observation.\n\" + campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat + \"\n---------\" + \"etapecreationsoldat_listedesboutonsactifs_TXT \n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT + \"\netapecreationsoldat_listedessoldatactifs_TXT\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT + \"\netapecreationsoldat_TOTALX : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALX + \"\netapecreationsoldat_TOTALY : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALY + \"\netapecreationsoldat_NB : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_NB + \"\netapecreationsoldat_i : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_i + \"\netapecreationsoldat_chaine_temp_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_chaine_temp_TXT + \"\netapecreationsoldat_boutons_ordonnes_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_boutons_ordonnes_TXT"
                   ]
                 }
               ]
@@ -237013,13 +237851,24 @@
               ]
             },
             {
-              "disabled": true,
-              "folded": true,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 194,
+                "g": 227,
+                "r": 80,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "4. IA qui crée des soldats"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
               "events": [
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -237091,7 +237940,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0"
                           ]
@@ -237107,7 +237956,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0"
                           ]
@@ -237120,7 +237969,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0.1"
                           ]
@@ -237136,7 +237985,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0.1"
                           ]
@@ -237149,9 +237998,9 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "Random_Ia_constructionunite",
+                            "FCT4_Random_Ia_constructionunite",
                             "=",
-                            "RandomInRange(1,4)"
+                            "RandomInRange(1,12)"
                           ]
                         },
                         {
@@ -237160,7 +238009,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0.2"
                           ]
@@ -237180,6 +238029,7 @@
                       "comment": "Etape 1.5 on selectionne les camps qui sont les seuls à pouvoir produire des soldats, les autres ont la valeur 0"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -237188,7 +238038,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0.2"
                           ]
@@ -237217,7 +238067,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "1"
                               ]
@@ -237230,7 +238080,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"BLANCS_FINLANDAIS\""
                               ]
@@ -237246,7 +238096,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "2"
                               ]
@@ -237259,7 +238109,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"BLANCS_UKRAINIENS\""
                               ]
@@ -237275,7 +238125,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "3"
                               ]
@@ -237288,7 +238138,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"BLANCS_BIELORUSSES\""
                               ]
@@ -237304,7 +238154,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "4"
                               ]
@@ -237317,9 +238167,241 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"POLONAIS\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"BLANCS_DENIKINE\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"BLANCS_KOLTCHACK\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "7"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"BLANCS_IOUDENITCH\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "8"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"BLANCS_BASMATCHI\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "9"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"ANARCHISTES_KRONSTAD\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "10"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"BLANCS_MAKHNOVCHTCHINA\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "11"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"BLANCS_PAYSANS_VERT\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Random_Ia_constructionunite",
+                                "=",
+                                "12"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "campdedepart_Blancs_IA_unique",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
+                                "=",
+                                "\"BLANCS_BALTES\""
                               ]
                             }
                           ]
@@ -237345,7 +238427,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237358,7 +238440,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"BOLCHEVIKS\""
                               ]
@@ -237374,7 +238456,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237387,7 +238469,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"ALLEMANDS\""
                               ]
@@ -237403,7 +238485,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237416,7 +238498,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"KERENSKI\""
                               ]
@@ -237432,7 +238514,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237445,7 +238527,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"JAPONAIS\""
                               ]
@@ -237461,7 +238543,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237474,7 +238556,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"LEGION_TCHEQUE\""
                               ]
@@ -237490,7 +238572,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237503,7 +238585,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"AMERICAINS_DU_NORD\""
                               ]
@@ -237519,7 +238601,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237532,7 +238614,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"BRITANNIQUES_DU_NORD\""
                               ]
@@ -237548,7 +238630,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237561,7 +238643,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"FRANCAIS_DU_SUD\""
                               ]
@@ -237577,7 +238659,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Random_Ia_constructionunite",
+                                "FCT4_Random_Ia_constructionunite",
                                 "=",
                                 "0"
                               ]
@@ -237590,7 +238672,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "Souscategorieblanc_selectionne_creation_soldat",
+                                "FCT4_Souscategorieblanc_selectionne_creation_soldat",
                                 "=",
                                 "\"BRITANNIQUES_DU_CAUCASE\""
                               ]
@@ -237607,7 +238689,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "etapecreationsoldat",
+                                "FCT4_etapecreationsoldat",
                                 "=",
                                 "0.3"
                               ]
@@ -237650,7 +238732,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0.3"
                           ]
@@ -237705,7 +238787,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0.3"
                           ]
@@ -237729,7 +238811,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "1"
                           ]
@@ -237786,7 +238868,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "1"
                           ]
@@ -237806,7 +238888,7 @@
                                 "creationsoldat",
                                 "V2_souscamp",
                                 "=",
-                                "campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat"
+                                "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                               ]
                             }
                           ],
@@ -237883,7 +238965,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "1"
                           ]
@@ -237896,7 +238978,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "2"
                           ]
@@ -237924,7 +239006,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "2"
                           ]
@@ -237950,7 +239032,7 @@
                                 "soldatblanc",
                                 "Souscampsoldatblanc",
                                 "=",
-                                "campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat"
+                                "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                               ]
                             },
                             {
@@ -238038,7 +239120,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "2"
                           ]
@@ -238051,7 +239133,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "3"
                           ]
@@ -238085,7 +239167,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "3"
                           ]
@@ -238147,7 +239229,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "3"
                           ]
@@ -238333,7 +239415,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "3"
                           ]
@@ -238346,7 +239428,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4"
                           ]
@@ -238362,7 +239444,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4"
                           ]
@@ -238438,7 +239520,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4"
                           ]
@@ -238451,7 +239533,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.8"
                           ]
@@ -238478,7 +239560,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.5"
                           ]
@@ -238563,7 +239645,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "etapecreationsoldat",
+                                "FCT4_etapecreationsoldat",
                                 "=",
                                 "7"
                               ]
@@ -238581,7 +239663,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "5"
                           ]
@@ -238627,7 +239709,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "5"
                           ]
@@ -238775,7 +239857,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "5"
                           ]
@@ -238788,7 +239870,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "6"
                           ]
@@ -238806,7 +239888,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "6"
                           ]
@@ -238825,7 +239907,7 @@
                             "creationsoldat",
                             "souscamp",
                             "=",
-                            "campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat"
+                            "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                           ]
                         }
                       ],
@@ -238935,7 +240017,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "6"
                           ]
@@ -238948,7 +240030,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "7"
                           ]
@@ -238964,7 +240046,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.8"
                           ]
@@ -238995,7 +240077,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.9"
                           ]
@@ -239011,7 +240093,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.9"
                           ]
@@ -239032,7 +240114,7 @@
                                 "creationsoldat",
                                 "V2_souscamp",
                                 "=",
-                                "campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat"
+                                "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                               ]
                             },
                             {
@@ -239082,7 +240164,7 @@
                               },
                               "parameters": [
                                 "campdedepart_Blancs_IA_unique",
-                                "etapecreationsoldat",
+                                "FCT4_etapecreationsoldat",
                                 "=",
                                 "4.91"
                               ]
@@ -239100,7 +240182,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.91"
                           ]
@@ -239124,7 +240206,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.92"
                           ]
@@ -239140,7 +240222,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "4.92"
                           ]
@@ -239164,7 +240246,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "7"
                           ]
@@ -239180,7 +240262,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "7"
                           ]
@@ -239200,7 +240282,7 @@
                                 "creationsoldat",
                                 "V2_souscamp",
                                 "=",
-                                "campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat"
+                                "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                               ]
                             },
                             {
@@ -239389,8 +240471,8 @@
                                           "parameters": [
                                             "soldatblanc",
                                             "Resizable",
-                                            "32",
-                                            "32"
+                                            "64",
+                                            "64"
                                           ]
                                         },
                                         {
@@ -239440,7 +240522,7 @@
                                                 "soldatblanc",
                                                 "Souscampsoldatblanc",
                                                 "=",
-                                                "campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat"
+                                                "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                                               ]
                                             }
                                           ]
@@ -239728,8 +240810,8 @@
                                           "parameters": [
                                             "soldatblanc",
                                             "Resizable",
-                                            "32",
-                                            "32"
+                                            "64",
+                                            "64"
                                           ]
                                         },
                                         {
@@ -239779,7 +240861,7 @@
                                                 "soldatblanc",
                                                 "Souscampsoldatblanc",
                                                 "=",
-                                                "campdedepart_Blancs_IA_unique.Souscategorieblanc_selectionne_creation_soldat"
+                                                "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                                               ]
                                             }
                                           ]
@@ -240155,7 +241237,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "7"
                           ]
@@ -240179,7 +241261,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat",
+                            "FCT4_etapecreationsoldat",
                             "=",
                             "0"
                           ]
@@ -240265,6 +241347,7 @@
               "comment": "9.1 preparation general des gares +positions gare (une fois)"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -257583,6 +258666,7 @@
               "comment": "9.2 Deplacement des blancs"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -262458,6 +263542,7 @@
                   "comment": "🔷 ÉTAPES DU DÉPLACEMENT"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -262492,6 +263577,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [],
@@ -262864,6 +263950,7 @@
                   "comment": "🔸 Étape 2 : Recherche de la gare la plus proche depuis le soldat OK"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [
@@ -263083,6 +264170,7 @@
                   "actions": []
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [
@@ -263349,6 +264437,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [],
@@ -263617,6 +264706,7 @@
                   "comment": "🔸 Étape 5 : Découper la chaîne PathStations sans regex (compatible GDevelop)"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [],
@@ -263873,6 +264963,7 @@
                   "comment": "🔸 Étape 6 : Déplacement du Soldat vers chaque point contenu dans le tableau"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [],
@@ -264034,6 +265125,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [],
@@ -264129,6 +265221,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "soldatbolchevick",
                   "conditions": [],
@@ -264405,6 +265498,7 @@
                   "comment": "🔸 Étape 7 : Rejoindre la destination finale après les gares"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -264880,7 +265974,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "11. VILLE PRODUISE TROUPES",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -264903,7 +265996,6 @@
                   "comment": "Fonction cheatcode"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Possession_ville",
                   "conditions": [],
@@ -266972,6 +268064,26 @@
                             "True",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Changementdemois.FCT1_B",
+                            "True",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Changementdemois.FLECHE",
+                            "True",
+                            "1"
+                          ]
                         }
                       ]
                     }
@@ -267203,7 +268315,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -274636,7 +275747,6 @@
                   "comment": "mois 1918 04"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -274726,7 +275836,7 @@
                           },
                           "parameters": [
                             "TABLE_COMPORTEMENT_IA.Centrenationaliste_X_NBR",
-                            "4611"
+                            "3615"
                           ]
                         },
                         {
@@ -274735,7 +275845,7 @@
                           },
                           "parameters": [
                             "TABLE_COMPORTEMENT_IA.Centrenationaliste_Y_NBR",
-                            "2025"
+                            "1479"
                           ]
                         },
                         {
@@ -274744,7 +275854,7 @@
                           },
                           "parameters": [
                             "TABLE_COMPORTEMENT_IA.Centrenationaliste_TAILLE_LONGEUR",
-                            "375"
+                            "1371"
                           ]
                         },
                         {
@@ -274753,7 +275863,7 @@
                           },
                           "parameters": [
                             "TABLE_COMPORTEMENT_IA.Centrenationaliste_TAILLE_HAUTEUR",
-                            "476"
+                            "1022"
                           ]
                         }
                       ],
@@ -282623,7 +283733,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -285862,7 +286971,7 @@
                     "valeurtxt1",
                     "Text",
                     "=",
-                    "\"Souscampsoldatblanc : \" + soldatblanc.Souscampsoldatblanc+\"\ndistancecible : \"+soldatblanc.distancecible+\"\ndistance : \"+soldatblanc.distance+\"\nCoordonnes_cible.X : \"+soldatblanc.Coordonnes_cible.X+\"\nCoordonnes_cible.Y : \"+soldatblanc.Coordonnes_cible.Y+\"\nenaction : \"+soldatblanc.enaction"
+                    "\"Souscampsoldatblanc : \" + soldatblanc.Souscampsoldatblanc+\" \"+soldatblanc.souscamp_type+\"\ndistancecible : \"+soldatblanc.distancecible+\"\ndistance : \"+soldatblanc.distance+\"\nCoordonnes_cible.X : \"+soldatblanc.Coordonnes_cible.X+\"\nCoordonnes_cible.Y : \"+soldatblanc.Coordonnes_cible.Y+\"\nenaction : \"+soldatblanc.enaction"
                   ]
                 }
               ]
@@ -285873,6 +286982,42 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "FLECHE",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsHovered"
+                  },
+                  "parameters": [
+                    "FLECHE",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "valeurtxt1",
+                    "Text",
+                    "=",
+                    "FLECHE.nbrmoisexiste"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
