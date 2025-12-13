@@ -1,7 +1,7 @@
 {
   "firstLayout": "ZONE_MENU",
   "gdVersion": {
-    "build": 249,
+    "build": 250,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -5154,6 +5154,30 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"barreenbois.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "barreenbois.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fiche_DENIKINE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fiche_DENIKINE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fiche_Koltchack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fiche_Koltchack.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fiche_Ioudenitch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fiche_Ioudenitch.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -134951,7 +134975,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37971210019481627,
+        "zoomFactor": 0.5290357402157162,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -136440,6 +136464,1314 @@
           "name": "Nbrdedevillespossede_par_minutes_temp",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "FICHIE_INFO",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "ALLEMANDS",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "AMERICAINS_DU_NORD",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "ANARCHISTES_KRONSTAD",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_BALTES",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_BASMATCHI",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_BIELORUSSES",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_DENIKINE",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_FINLANDAIS",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_IOUDENITCH",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_KOLTCHACK",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_MAKHNOVCHTCHINA",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_PAYSANS_VERT",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BLANCS_UKRAINIENS",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BOLCHEVIKS",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BRITANNIQUES_DU_CAUCASE",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "BRITANNIQUES_DU_NORD",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "FRANCAIS_DU_SUD",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "JAPONAIS",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "KERENSKI",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "LEGION_TCHEQUE",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "name": "POLONAIS",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "TEXTE_FR_103_01",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_02",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_03",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_04",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_05",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_06",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_07",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_08",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_09",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TEXTE_FR_103_10",
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "name": "TITRE_FR_22",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
         }
       ],
       "instances": [
@@ -158551,13 +159883,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 29,
           "keepRatio": true,
           "layer": "UX_Permanent",
           "name": "Texte_FICHE_TITRE_22",
           "persistentUuid": "0bae8c0e-1071-45df-80b2-43a35f646ed4",
-          "width": 0,
+          "width": 342.6296296296297,
           "x": 912,
           "y": 492,
           "zOrder": 38,
@@ -158569,14 +159902,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 137,
+          "height": 169,
           "keepRatio": true,
           "layer": "UX_Permanent",
-          "name": "Texte_FICHE_TEXTE_75",
+          "name": "Texte_FICHE_TEXTE_103",
           "persistentUuid": "91d22176-38f8-481e-a586-e9a26d36b0c1",
           "width": 209,
           "x": 1041,
-          "y": 548,
+          "y": 516,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -172843,7 +174176,7 @@
           "string": "Lorps ipsodium Lorps i",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 24,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -172867,7 +174200,7 @@
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 24,
+            "characterSize": 20,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -172876,14 +174209,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Texte_FICHE_TEXTE_75",
+          "name": "Texte_FICHE_TEXTE_103",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium ",
+          "string": "Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium 123456712345671234567123456Z",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 20,
@@ -172906,7 +174239,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium ",
+            "text": "Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium 123456712345671234567123456Z",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -173551,13 +174884,146 @@
               ]
             },
             {
-              "name": "",
+              "name": "BLANCS_DENIKINE",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fiche_DENIKINE.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Koltchak",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fiche_Koltchack.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ioudenitch",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Fiche_Ioudenitch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -173776,7 +175242,7 @@
                 "objectName": "Texte_FICHE_TITRE_22"
               },
               {
-                "objectName": "Texte_FICHE_TEXTE_75"
+                "objectName": "Texte_FICHE_TEXTE_103"
               },
               {
                 "objectName": "Affiche_propagande_dynamique"
@@ -267915,7 +269381,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "12.CALENDRIER",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -268443,7 +269908,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -269648,6 +271112,58 @@
               "comment": "FICHE INFO"
             },
             {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FileSystem::SaveVariableToJSONFileSync"
+                  },
+                  "parameters": [
+                    "FICHIE_INFO",
+                    "\"/Users/antoineetholly/Downloads/fiche_info_blancs.json\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FileSystem::LoadVariableFromJSONFileSync"
+                  },
+                  "parameters": [
+                    "FICHIE_INFO",
+                    "\"/Users/antoineetholly/Documents/GitHub/Russia_1917/Fiche_info/fiche_info_blancs_rempli.json\"",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -269672,7 +271188,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "Texte_FICHE_TEXTE_75"
+                    "Texte_FICHE_TEXTE_103"
                   ]
                 },
                 {
@@ -269723,7 +271239,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Texte_FICHE_TEXTE_75",
+                    "Texte_FICHE_TEXTE_103",
                     ""
                   ]
                 },
@@ -269753,6 +271269,18 @@
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Rajouter un index pour que chaque fois qu'on clique sur un soldat, on voit une phrase suivante, attention de ne pas le mettre dans la racine du fichier info qui est supprimé dès l'importation des données au début de la scene, il faut le mettre ailleurs"
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -269872,6 +271400,35 @@
                             "Animation",
                             "=",
                             "\"BLANCS_FINLANDAIS\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_DENIKINE\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_DENIKINE\""
                           ]
                         }
                       ]
