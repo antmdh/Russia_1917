@@ -5180,6 +5180,54 @@
         "name": "Fiche_Ioudenitch.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Pays baltes2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pays baltes2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vert.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vert.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "DENIKINE (9).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DENIKINE (9).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "kronstad3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kronstad3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "kerenski2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kerenski2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ukrainien2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ukrainien2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -136470,1306 +136518,1165 @@
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "ALLEMANDS",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "AMERICAINS_DU_NORD",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "ANARCHISTES_KRONSTAD",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_BALTES",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_BASMATCHI",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_BIELORUSSES",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_DENIKINE",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_FINLANDAIS",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_IOUDENITCH",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_KOLTCHACK",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_MAKHNOVCHTCHINA",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_PAYSANS_VERT",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BLANCS_UKRAINIENS",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BOLCHEVIKS",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BRITANNIQUES_DU_CAUCASE",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "BRITANNIQUES_DU_NORD",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "FRANCAIS_DU_SUD",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "JAPONAIS",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "KERENSKI",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "LEGION_TCHEQUE",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
             },
             {
-              "folded": true,
               "name": "POLONAIS",
-              "type": "structure",
+              "type": "array",
               "children": [
                 {
-                  "name": "TEXTE_FR_103_01",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_02",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_03",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_04",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_05",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_06",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_07",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_08",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_09",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TEXTE_FR_103_10",
                   "type": "string",
                   "value": "0"
                 },
                 {
-                  "name": "TITRE_FR_22",
                   "type": "string",
                   "value": "0"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "FICHE_INFO_INDICE",
+          "type": "structure",
+          "children": [
+            {
+              "name": "ALLEMANDS",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "AMERICAINS_DU_NORD",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "ANARCHISTES_KRONSTAD",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_BALTES",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_BASMATCHI",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_BIELORUSSES",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_DENIKINE",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_FINLANDAIS",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_IOUDENITCH",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_KOLTCHACK",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_MAKHNOVCHTCHINA",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_PAYSANS_VERT",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BLANCS_UKRAINIENS",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BOLCHEVIKS",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BRITANNIQUES_DU_CAUCASE",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BRITANNIQUES_DU_NORD",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "FRANCAIS_DU_SUD",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "JAPONAIS",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "KERENSKI",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "LEGION_TCHEQUE",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "POLONAIS",
+              "type": "number",
+              "value": 0
             }
           ]
         }
@@ -174219,7 +174126,7 @@
           "string": "Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium Lorps ipsodium 123456712345671234567123456Z",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 18,
           "color": {
             "b": 0,
             "g": 0,
@@ -174243,7 +174150,7 @@
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 18,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -174788,54 +174695,6 @@
               ]
             },
             {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 120,
-                            "y": 0
-                          },
-                          {
-                            "x": 120,
-                            "y": 100
-                          },
-                          {
-                            "x": 0,
-                            "y": 100
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "BRITANNIQUES_DU_NORD",
               "useMultipleDirections": false,
               "directions": [
@@ -174932,7 +174791,7 @@
               ]
             },
             {
-              "name": "Koltchak",
+              "name": "BLANCS_KOLTCHACK",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -174980,7 +174839,7 @@
               ]
             },
             {
-              "name": "Ioudenitch",
+              "name": "BLANCS_IOUDENITCH",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -174990,6 +174849,294 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Fiche_Ioudenitch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ANARCHISTES_KRONSTAD",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "kronstad3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BLANCS_MAKHNOVCHTCHINA",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DENIKINE (9).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BLANCS_PAYSANS_VERT",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "vert.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BLANCS_BALTES",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pays baltes2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "KERENSKI",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "kerenski2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 0
+                          },
+                          {
+                            "x": 120,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BLANCS_UKRAINIENS",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ukrainien2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -271164,6 +271311,243 @@
               ]
             },
             {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FileSystem::LoadVariableFromJSONFileSync"
+                  },
+                  "parameters": [
+                    "FICHIE_INFO",
+                    "\"/Users/antoineetholly/Documents/GitHub/Russia_1917/Fiche_info/fiche_info_blancs_rempli.json\"",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.ALLEMANDS",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.AMERICAINS_DU_NORD",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.ANARCHISTES_KRONSTAD",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_BALTES",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_BASMATCHI",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_BIELORUSSES",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_DENIKINE",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_FINLANDAIS",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_IOUDENITCH",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_KOLTCHACK",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_MAKHNOVCHTCHINA",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_PAYSANS_VERT",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BLANCS_UKRAINIENS",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BOLCHEVIKS",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_CAUCASE",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_NORD",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.FRANCAIS_DU_SUD",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.KERENSKI",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.JAPONAIS",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.LEGION_TCHEQUE",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FICHE_INFO_INDICE.POLONAIS",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -271314,39 +271698,103 @@
                             "=",
                             "\"ALLEMANDS\""
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                        },
                         {
                           "type": {
-                            "value": "StringObjectVariable"
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                           },
                           "parameters": [
-                            "soldatblanc",
-                            "Souscampsoldatblanc",
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
                             "=",
-                            "\"JAPONAIS\""
+                            "FICHIE_INFO.ALLEMANDS[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.ALLEMANDS[FICHE_INFO_INDICE.ALLEMANDS]"
                           ]
                         }
                       ],
-                      "actions": [
+                      "events": [
                         {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "fiche_illustration",
-                            "Animation",
-                            "=",
-                            "\"JAPONAIS\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ALLEMANDS",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ALLEMANDS",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ALLEMANDS",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ALLEMANDS",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -271372,10 +271820,225 @@
                             "=",
                             "\"AMERICAINS_DU_NORD\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.AMERICAINS_DU_NORD[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.AMERICAINS_DU_NORD[FICHE_INFO_INDICE.AMERICAINS_DU_NORD]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.AMERICAINS_DU_NORD",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.AMERICAINS_DU_NORD",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.AMERICAINS_DU_NORD",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.AMERICAINS_DU_NORD",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
                     {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_BIELORUSSES\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_BIELORUSSES\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_BIELORUSSES[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_BIELORUSSES[FICHE_INFO_INDICE.BLANCS_BIELORUSSES]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BIELORUSSES",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BIELORUSSES",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BIELORUSSES",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BIELORUSSES",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -271401,10 +272064,1079 @@
                             "=",
                             "\"BLANCS_FINLANDAIS\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_FINLANDAIS[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_FINLANDAIS[FICHE_INFO_INDICE.BLANCS_FINLANDAIS]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_FINLANDAIS",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_FINLANDAIS",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_FINLANDAIS",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_FINLANDAIS",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
                     {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_UKRAINIENS\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_UKRAINIENS\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_UKRAINIENS[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_UKRAINIENS[FICHE_INFO_INDICE.BLANCS_UKRAINIENS]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_UKRAINIENS",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_UKRAINIENS",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_UKRAINIENS",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_UKRAINIENS",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BRITANNIQUES_DU_CAUCASE\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BRITANNIQUES_DU_CAUCASE\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BRITANNIQUES_DU_CAUCASE[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BRITANNIQUES_DU_CAUCASE[FICHE_INFO_INDICE.BRITANNIQUES_DU_CAUCASE]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_CAUCASE",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_CAUCASE",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_CAUCASE",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_CAUCASE",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BRITANNIQUES_DU_NORD\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BRITANNIQUES_DU_NORD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BRITANNIQUES_DU_NORD[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BRITANNIQUES_DU_NORD[FICHE_INFO_INDICE.BRITANNIQUES_DU_NORD]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_NORD",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_NORD",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_NORD",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BRITANNIQUES_DU_NORD",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"FRANCAIS_DU_SUD\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"FRANCAIS_DU_SUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.FRANCAIS_DU_SUD[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.FRANCAIS_DU_SUD[FICHE_INFO_INDICE.FRANCAIS_DU_SUD]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.FRANCAIS_DU_SUD",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.FRANCAIS_DU_SUD",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.FRANCAIS_DU_SUD",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.FRANCAIS_DU_SUD",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"JAPONAIS\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"JAPONAIS\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.JAPONAIS[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.JAPONAIS[FICHE_INFO_INDICE.JAPONAIS]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.JAPONAIS",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.JAPONAIS",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.JAPONAIS",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.JAPONAIS",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"KERENSKI\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"KERENSKI\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.KERENSKI[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.KERENSKI[FICHE_INFO_INDICE.KERENSKI]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.KERENSKI",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.KERENSKI",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.KERENSKI",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.KERENSKI",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"LEGION_TCHEQUE\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"LEGION_TCHEQUE\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.LEGION_TCHEQUE[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.LEGION_TCHEQUE[FICHE_INFO_INDICE.LEGION_TCHEQUE]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.LEGION_TCHEQUE",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.LEGION_TCHEQUE",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.LEGION_TCHEQUE",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.LEGION_TCHEQUE",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"POLONAIS\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"POLONAIS\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.POLONAIS[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.POLONAIS[FICHE_INFO_INDICE.POLONAIS]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.POLONAIS",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.POLONAIS",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.POLONAIS",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.POLONAIS",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -271430,8 +273162,974 @@
                             "=",
                             "\"BLANCS_DENIKINE\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_DENIKINE[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_DENIKINE[FICHE_INFO_INDICE.BLANCS_DENIKINE]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_DENIKINE",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_DENIKINE",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_DENIKINE",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_DENIKINE",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_BASMATCHI\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_BASMATCHI\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_BASMATCHI[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_BASMATCHI[FICHE_INFO_INDICE.BLANCS_BASMATCHI]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BASMATCHI",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BASMATCHI",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BASMATCHI",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BASMATCHI",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_IOUDENITCH\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_IOUDENITCH\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_IOUDENITCH[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_IOUDENITCH[FICHE_INFO_INDICE.BLANCS_IOUDENITCH]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_IOUDENITCH",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_IOUDENITCH",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_IOUDENITCH",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_IOUDENITCH",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_KOLTCHACK\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_KOLTCHACK\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_KOLTCHACK[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_KOLTCHACK[FICHE_INFO_INDICE.BLANCS_KOLTCHACK]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_KOLTCHACK",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_KOLTCHACK",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_KOLTCHACK",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_KOLTCHACK",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"ANARCHISTES_KRONSTAD\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"ANARCHISTES_KRONSTAD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.ANARCHISTES_KRONSTAD[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.ANARCHISTES_KRONSTAD[FICHE_INFO_INDICE.ANARCHISTES_KRONSTAD]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ANARCHISTES_KRONSTAD",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ANARCHISTES_KRONSTAD",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ANARCHISTES_KRONSTAD",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.ANARCHISTES_KRONSTAD",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_MAKHNOVCHTCHINA\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_MAKHNOVCHTCHINA\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_MAKHNOVCHTCHINA[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_MAKHNOVCHTCHINA[FICHE_INFO_INDICE.BLANCS_MAKHNOVCHTCHINA]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_MAKHNOVCHTCHINA",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_MAKHNOVCHTCHINA",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_MAKHNOVCHTCHINA",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_MAKHNOVCHTCHINA",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_PAYSANS_VERT\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_PAYSANS_VERT\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_PAYSANS_VERT[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_PAYSANS_VERT[FICHE_INFO_INDICE.BLANCS_PAYSANS_VERT]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_PAYSANS_VERT",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_PAYSANS_VERT",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_PAYSANS_VERT",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_PAYSANS_VERT",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "soldatblanc",
+                            "Souscampsoldatblanc",
+                            "=",
+                            "\"BLANCS_BALTES\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "fiche_illustration",
+                            "Animation",
+                            "=",
+                            "\"BLANCS_BALTES\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TITRE_22",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_BALTES[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Texte_FICHE_TEXTE_103",
+                            "Text",
+                            "=",
+                            "FICHIE_INFO.BLANCS_BALTES[FICHE_INFO_INDICE.BLANCS_BALTES]"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BALTES",
+                                    ">",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BALTES",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BALTES",
+                                    "<=",
+                                    "9"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "FICHE_INFO_INDICE.BLANCS_BALTES",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
                     }
                   ]
                 }
