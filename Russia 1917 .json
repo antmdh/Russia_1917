@@ -5228,6 +5228,14 @@
         "name": "ukrainien2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Fiche_info/fiche_info_blancs_rempli.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "Fiche_info/fiche_info_blancs_rempli.json",
+        "userAdded": false
       }
     ]
   },
@@ -7067,7 +7075,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Version 12.12.2025",
+          "string": "Version 15.12.2025",
           "font": "STKooperativRegular.ttf",
           "textAlignment": "left",
           "characterSize": 20,
@@ -7090,7 +7098,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Version 12.12.2025",
+            "text": "Version 15.12.2025",
             "font": "STKooperativRegular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -159816,7 +159824,7 @@
           "persistentUuid": "91d22176-38f8-481e-a586-e9a26d36b0c1",
           "width": 209,
           "x": 1041,
-          "y": 516,
+          "y": 518,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -166907,7 +166915,7 @@
               "value": 0
             },
             {
-              "name": "etapecreationsoldat_listedesboutonsactifs_TXT",
+              "name": "FCT4_etapecreationsoldat_listedesboutonsactifs_TXT",
               "type": "string",
               "value": "\"\""
             },
@@ -166917,7 +166925,7 @@
               "value": 0
             },
             {
-              "name": "etapecreationsoldat_listedessoldatactifs_TXT",
+              "name": "fCT4_etapecreationsoldat_listedessoldatactifs_TXT",
               "type": "string",
               "value": "\"\""
             },
@@ -174091,7 +174099,7 @@
           },
           "content": {
             "bold": true,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
             "outlineColor": "255;255;255",
@@ -174115,7 +174123,7 @@
         {
           "assetStoreId": "",
           "bold": false,
-          "italic": false,
+          "italic": true,
           "name": "Texte_FICHE_TEXTE_103",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -174136,7 +174144,7 @@
             "bold": false,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
-            "italic": false,
+            "italic": true,
             "outlineColor": "255;255;255",
             "outlineThickness": 2,
             "shadowAngle": 90,
@@ -175538,7 +175546,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Stavaza liste des bugs\n\nSOUSCAMPOFFICIEL\n\"ALLEMANDS\" INACTIF\n\"BOLCHEVIKS\" JOUEUR\n\"KERENSKI\" INACTIF\n\"BLANCS_FINLANDAIS\" = ACTIF_LIMITE\n\"BLANCS_UKRAINIENS\" = ACTIF_LIMITE\n\"BLANCS_BIELORUSSES\"= ACTIF_LIMITE\n\"JAPONAIS\" = ACTIF_LIMITE\n\"LEGION_TCHEQUE\" = ACTIF_LIMITE\n\"AMERICAINS_DU_NORD\" = ACTIF_LIMITE\n\"BRITANNIQUES_DU_NORD\"= ACTIF_LIMITE\n\"POLONAIS\" = ACTIF_LIMITE\n\"FRANCAIS_DU_SUD\"= ACTIF_LIMITE\n\"BRITANNIQUES_DU_CAUCASE\"= ACTIF_LIMITE\n\n\"BLANCS_DENIKINE\" = ACTIF\n\"BLANCS_KOLTCHACK\"= ACTIF\n\"BLANCS_IOUDENITCH\" = ACTIF\n\"BLANCS_BASMATCHI\"= Actif limite\n\"ANARCHISTES_KRONSTAD\" = actif limite Moscou et Petrograd\n\"BLANCS_MAKHNOVCHTCHINA\"= ACTIF limite\n\"BLANCS_PAYSANS_VERT\" =INACTF\nSTAVAZA 30.11.2025\nil y a encore des actif limite qui vont vers d'autres destinations mais je ne comprend pas pourquoi,\nLa fct 4 ne fonctionne pas\n\nstavaza 08.06.2025\nFaire des textes et images pour les fiches titre 22 caracetere espace compris\ntxtes 75 caracteres espace compris\nImage 120x100\nil semble qu'il y ait un bug pour lres troupes limites quinvont chercher des cibles villes hors de leur zone\nJ'ai rajoute deux indicateurs (nombre de mort par minutes et pourcebtage de troupes disponibles par minutes pour caler la musique dessus\nquand on clique sur un bouton creation soldat certaines fonction ne se font pas, j'avais rajoutn un boutonn de controle mais le resultat provoque des bugs\nj'ai supprimé le controle mais le probleme continue na exister\nstavaza 24.11.2025\nrajouter un systeme qui fait disparaitre les fleches\nrajouter un systeme qui reinitialise une ville qui n'a pas été capturé finalement\nrajouter tableau de fin \n\nStavaza 23.11.2025\nbug au niveau de la fonction 2 les basmatchi ne depasse pas la fonctoin 0.3, ne calcul pas le nobre de soldat par exemple\nCela arrive  a partir de 191804 \n\nStavaza 22.11.2025\n\n\nj'ai cree les images statique et combat OK\nje dois crer les soldat dans le tableau en fonction des dates\nje dois changer le code pour rajouter chaque nationalite OK\nbug : une fois qu'on a fini le jeu, si on le relance, bug les postions ne tiennent plus\n\nStavaza 18.11.2025\nCe que je dois encore faire\n- corriger bug des images \"cretions soldat\" qui sont animation rouge mais blanc a l'interieur OK\n- comprendre pourquoi kharkov ne peut pas etre pris par les ukrainiens OK\n- faire en sorte que les villes ne puissent pas etre capturé par les forces etrangeres mais deviennent inactif OK (redvienne inactif au bout de 10 secondes)\n- c'est seulement les blancs et les nationalistes qui peuvent les capturer les villes ok voir au dessus\n- permettre aux blancs de construire des soldats (gros morceaux)\n- rajouter la musique en identifiant les moments calme des moments forts\n- retravailler la vitesse des fonctions 1 2 et 3 : La 1 doit avoir lieu un ertain nombre de fois au deBut de chaque mois, la deux ok, la droit ne doit avoir lieu chaque seconde qu'en fonction d'evenement de la partie sinon plus calme (mais bon faut encore trouver le bon equilibre\n- chnager le random en un decompte pour le choix des nations\n- enfin rajouter le choix politique (gros morceaux)\n- faire une video de promotion\n\nLe mode defaite n'est pas fini\n\n\nRetour Thomas 22.11.2025\n- Les nouveaux soldats doivent poper plus vite\n- Parfois je dois utiliser 10 soldats pour tuer un seul ennemi\n- Je dois supprimer le bouton choix politique\n- Les trains c'est bien\n- Il y a trop d'ennemi\n- Une bonne idée de moi\n- Quand il y a les ennemis, il y a pas trop de ville envhais par les ennemis mais ils sont enormes\n- Ce serait bien de faire poper deux soldats à la fois et pas un seul\nLe popage est très lent\n\nNouvelles fonctions -----\nSi j'appuye sur l'affiche je devrais avoir des informations\n\nBUG-----\nLe bouton pause et le bouton paramètre est moche\n\n\n\n\nDes soldats rouge que je dirige pres de moscou fonce directement vers Murmansk \nA un moment, les troupes du nord et du sud cesse de bouger\n\n\nLes soldats blanc du nord du sud et les allemands n'attaque plus\nSoldat qui vont sur le mer\nL'impact des montages dans la zone de Bakou est trop important\nLe zoom (+) libere des troupes en mouvement\nUne troupe pres de iekatrinaburg mais sur l'axe samara omsk va prefere iekatrinaburg au lieu de samara ou omst\nPasser un certain momnet, le bouton (créer troupes) ne fonctionne plus\nSoldat reste en triange alors qu'il ne bouge plus\nY a encore des troupes vers Murmansk qui partent vers zero zero\nPas de Menu VICTOIRE\n\nMenu lenine trotsky\n- Le texte apparait une micro seconde après le phylactère\n- Le bouton \"accepter refuser\" doit apparaitre après le texte\n- Le mouvement respiration est ridicule\n- Compte rendu discussion le texte dépasse\n- On peut pas annuler le texte discussion sauf en cliquant sur accepter refuser ce qui n'est pas ok\n- On ne peut pas sortir du menu\n\nStavaza 05.07.2025\n- J'ai rajouté les allemands\n- J'ai corrigé un bug qui faisait transformer tout les soldats blancs dans un seul camp\n- J'ai adapté l'iA allemande pour qu'elle attaque les 7 villes sous brest litovsk si on signe pas l'accord et si on signe l'accord, elle reste dans les zones qu'elle occupe\n- Il y a aussi la desertinn\n\n\n\nbug repere\nLes soldats ne sont plus créé \nLes. lancs du sud sont très inactifs\nmontagnes bouge quand on les touches\nla mini ville ne change pas de couleur blanc quan elle est prise\n\n\nStavaza 07.06.20205\nCode chemin de fer semble fonctionner mais donne des resultats bizarres, déja il rejoint une gare au lieu d'aller vers le chemin de fer et semble pas bien suivre, bref encore creuser des cas concret de déplacement mais y a de l'idée\n\n\n\n\n\nVoici ce que je dois encore faire pour finir l'alpha\n\n\nPar ordre\n\n\nIA\n\n\n\n- rendre le chemin par la mer, très complexe voir impossible\n\n- Il faudrait aussi que je modifie la stratégie de chacune et mettre plus d'aléatoire. Pour obtenir des résultats différents, des recherches doivent être fait pour voir l'efficacité de chacun. J'ai un projet d'article de blog à ce sujet d'ailleurs. Je voudrais aussi une IA qui attaque en masse dans certains cas.\n\n\n\n- Rajouter que l’IA qui décide de donner une cible ne commence à chercher de cible que si elle a des soldats disponibles à combattre pour éviter les calculs inutiles.\n\n- Rajouter une IA tendance nationaliste qui se bat uniquement dans une zone\n- Rajouter que les bolcheviks aussi utilise le train\n\n- QUand je créé un nouveau camp\n- crée IA décision\n- créé IA creation de troupes + regles creation de troupes\n- Bloquer prise de ville pour certaines troupes\n\nUX\n\n\n- La mini map ne change pas de taille quand le zoom grandit OK\n- Rajouter les troupes sur la minimap\n\n\n\n\nVisuel\n\n\n\n- Refaire le visuel des soldats blancs et rouges. Voir ici\n\n- Refaire visuels de chaque sous camp\n\n- Vérifier si les montages nouveau format sont bien situé géographiquement\n\n\n\nTrouver le chemin  \n-          Refaire des lignes droites pour suivre les routes au lieu de ligne courbes et faire une animation de rail\n\n- Rajouter quelques gares si je laisse des courbes et refaire tout les précalcul pour trouver le chemin le plus court. \n\n- Il semble manquer des routes dans le Caucase dans le fichier R qui calcul les chemins les plus courts\n\n\n\nEnnemis\n- Rajouter IA de chaque sous camp de blanc avec explication de son apparition et qui explique son moteur\n\n- Allemand\n\n1917.11 Allemands occupe etats balte, pologne, ukraine, bielorussie\n1918.03 si on signe l'accord de Brest Litovsk, les frontières sont créé mais l'allemagne cesse d'attaquer sinon elle continue à attaquer\n1918.11 Les allemands retire leur troupes qui reste\n\n\n\n- Armes du Tsar\n\n1917.11 Lancement de la révolution et guerre avec armées tsariste à Moscou et saint Petersbourg\n\n- Blancs du nord\n\n1919.07 Création armée du Nord de Ioudenitch en Estonie\n\n- Blancs du Don\n\n1918.12 Création des blancs du sud (Rostov) général Kornilov\n\n- Blancs du Caucase\n\n- Blancs de Sibérie Koltchak\n\n- Britanniques du Nord\n\n1918.03 Debarquement à Mourmansk\n1918.08 Débarquement à Arkhangelsk\n\n- Japonais\n\n- Français du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain de l'est\n\n1918.04 Débarquement à Vladivostok\n\n- Tchecoslovaque\n\n1918.05 Revolte de Iekatrin à Vladivostok \n\n- Français du sud\n\n1918.07 Débarquement à Odessa \n\n- Blanc des pays baltes\n\n1919.11 Estonie Nikolaï Ioudenitch\n\n- Polonais\n\n1918.11 Fondation de la Pologne (Varsovie, Minsk, Brest Litovsk)\n\n- Vert\n\n- Anarchiste ukrainiens\n\n- Nationalistes de Transcaucasie\n\n- Basmatchis\n\n- Nationaliste de Transbaïkalie (Grigory Semenov)\n\n -  Grigory Semenov\n\n-Bouriates, les Iakoutes et les Touvains\n\n l'ataman Roman von Ungern-Sternberg\n\n \n\n\nContenu\n\n- Rajouter des affiches soviétiques en cas de conquête de Moscou ou Petrograd \n\n- Rajouter un début (vous dirigez la révolution)\n\n- Etablir des fins (dont une c'est la fondation de l'URSS si tu as atteint une serie d'étape)\n\n\n- l'idée est d'encore établir un scénario idéal et puis une serie de déviation si le joueur bolchevik arrive à réaliser tel étape ou pas. A encore réfléchir mais on peut imaginer \n\n- Combat contre kronstad ou pas\n\n- Alliance mencheviks ou pas\n\n- Action politique paix terre pain ou pas\n\n- Prise de varsovie ou pas\n\n- Perte de petrograd et ou perte de moscou\n\n\n\nL'idée c'est de faire un chemin et dès qu'on s'écarte de l'un ou des étapes, on a une fin alternative.\n\nFaire un schema\n\n\n\n\n\nRéflexion générale sur la stratégie\nQuand deux unités sont en contact l'une avec l'autre, on a un aspect aléatoire dans la victoire.\nCelui qui conquière les villes les plus vite aura automatiquement plus de force et va gagner.\nMais la réalité, c'est que plus la guerre dure, plus les ressources faiblisse\nA l'inverse des troupes blanches qui sont financé par l'extérieur\nComment introduire l'idée d'épuissement des ressources\n\n\n"
+          "comment": "Stavaza liste des bugs\n\nSOUSCAMPOFFICIEL\n\"ALLEMANDS\" INACTIF\n\"BOLCHEVIKS\" JOUEUR\n\"KERENSKI\" INACTIF\n\"BLANCS_FINLANDAIS\" = ACTIF_LIMITE\n\"BLANCS_UKRAINIENS\" = ACTIF_LIMITE\n\"BLANCS_BIELORUSSES\"= ACTIF_LIMITE\n\"JAPONAIS\" = ACTIF_LIMITE\n\"LEGION_TCHEQUE\" = ACTIF_LIMITE\n\"AMERICAINS_DU_NORD\" = ACTIF_LIMITE\n\"BRITANNIQUES_DU_NORD\"= ACTIF_LIMITE\n\"POLONAIS\" = ACTIF_LIMITE\n\"FRANCAIS_DU_SUD\"= ACTIF_LIMITE\n\"BRITANNIQUES_DU_CAUCASE\"= ACTIF_LIMITE\n\n\"BLANCS_DENIKINE\" = ACTIF\n\"BLANCS_KOLTCHACK\"= ACTIF\n\"BLANCS_IOUDENITCH\" = ACTIF\n\"BLANCS_BASMATCHI\"= Actif limite\n\"ANARCHISTES_KRONSTAD\" = actif limite Moscou et Petrograd\n\"BLANCS_MAKHNOVCHTCHINA\"= ACTIF limite\n\"BLANCS_PAYSANS_VERT\" =INACTF\nSTAVAZA 30.11.2025\nil y a encore des actif limite qui vont vers d'autres destinations mais je ne comprend pas pourquoi,\nLa fct 4 ne fonctionne pas\n\nstavaza 08.06.2025\n\nil semble qu'il y ait un bug pour lres troupes limites quinvont chercher des cibles villes hors de leur zone\nJ'ai rajoute deux indicateurs (nombre de mort par minutes et pourcebtage de troupes disponibles par minutes pour caler la musique dessus\nquand on clique sur un bouton creation soldat certaines fonction ne se font pas, j'avais rajoutn un boutonn de controle mais le resultat provoque des bugs\nj'ai supprimé le controle mais le probleme continue na exister\nstavaza 24.11.2025\nrajouter un systeme qui fait disparaitre les fleches\nrajouter un systeme qui reinitialise une ville qui n'a pas été capturé finalement\nrajouter tableau de fin \n\nStavaza 23.11.2025\nbug au niveau de la fonction 2 les basmatchi ne depasse pas la fonctoin 0.3, ne calcul pas le nobre de soldat par exemple\nCela arrive  a partir de 191804 \n\nStavaza 22.11.2025\n\n\nj'ai cree les images statique et combat OK\nje dois crer les soldat dans le tableau en fonction des dates\nje dois changer le code pour rajouter chaque nationalite OK\nbug : une fois qu'on a fini le jeu, si on le relance, bug les postions ne tiennent plus\n\nStavaza 18.11.2025\nCe que je dois encore faire\n- corriger bug des images \"cretions soldat\" qui sont animation rouge mais blanc a l'interieur OK\n- comprendre pourquoi kharkov ne peut pas etre pris par les ukrainiens OK\n- faire en sorte que les villes ne puissent pas etre capturé par les forces etrangeres mais deviennent inactif OK (redvienne inactif au bout de 10 secondes)\n- c'est seulement les blancs et les nationalistes qui peuvent les capturer les villes ok voir au dessus\n- permettre aux blancs de construire des soldats (gros morceaux)\n- rajouter la musique en identifiant les moments calme des moments forts\n- retravailler la vitesse des fonctions 1 2 et 3 : La 1 doit avoir lieu un ertain nombre de fois au deBut de chaque mois, la deux ok, la droit ne doit avoir lieu chaque seconde qu'en fonction d'evenement de la partie sinon plus calme (mais bon faut encore trouver le bon equilibre\n- chnager le random en un decompte pour le choix des nations\n- enfin rajouter le choix politique (gros morceaux)\n- faire une video de promotion\n\nLe mode defaite n'est pas fini\n\n\nRetour Thomas 22.11.2025\n- Les nouveaux soldats doivent poper plus vite\n- Parfois je dois utiliser 10 soldats pour tuer un seul ennemi\n- Je dois supprimer le bouton choix politique\n- Les trains c'est bien\n- Il y a trop d'ennemi\n- Une bonne idée de moi\n- Quand il y a les ennemis, il y a pas trop de ville envhais par les ennemis mais ils sont enormes\n- Ce serait bien de faire poper deux soldats à la fois et pas un seul\nLe popage est très lent\n\nNouvelles fonctions -----\nSi j'appuye sur l'affiche je devrais avoir des informations\n\nBUG-----\nLe bouton pause et le bouton paramètre est moche\n\n\n\n\nDes soldats rouge que je dirige pres de moscou fonce directement vers Murmansk \nA un moment, les troupes du nord et du sud cesse de bouger\n\n\nLes soldats blanc du nord du sud et les allemands n'attaque plus\nSoldat qui vont sur le mer\nL'impact des montages dans la zone de Bakou est trop important\nLe zoom (+) libere des troupes en mouvement\nUne troupe pres de iekatrinaburg mais sur l'axe samara omsk va prefere iekatrinaburg au lieu de samara ou omst\nPasser un certain momnet, le bouton (créer troupes) ne fonctionne plus\nSoldat reste en triange alors qu'il ne bouge plus\nY a encore des troupes vers Murmansk qui partent vers zero zero\nPas de Menu VICTOIRE\n\nMenu lenine trotsky\n- Le texte apparait une micro seconde après le phylactère\n- Le bouton \"accepter refuser\" doit apparaitre après le texte\n- Le mouvement respiration est ridicule\n- Compte rendu discussion le texte dépasse\n- On peut pas annuler le texte discussion sauf en cliquant sur accepter refuser ce qui n'est pas ok\n- On ne peut pas sortir du menu\n\nStavaza 05.07.2025\n- J'ai rajouté les allemands\n- J'ai corrigé un bug qui faisait transformer tout les soldats blancs dans un seul camp\n- J'ai adapté l'iA allemande pour qu'elle attaque les 7 villes sous brest litovsk si on signe pas l'accord et si on signe l'accord, elle reste dans les zones qu'elle occupe\n- Il y a aussi la desertinn\n\n\n\nbug repere\nLes soldats ne sont plus créé \nLes. lancs du sud sont très inactifs\nmontagnes bouge quand on les touches\nla mini ville ne change pas de couleur blanc quan elle est prise\n\n\nStavaza 07.06.20205\nCode chemin de fer semble fonctionner mais donne des resultats bizarres, déja il rejoint une gare au lieu d'aller vers le chemin de fer et semble pas bien suivre, bref encore creuser des cas concret de déplacement mais y a de l'idée\n\n\n\n\n\nVoici ce que je dois encore faire pour finir l'alpha\n\n\nPar ordre\n\n\nIA\n\n\n\n- rendre le chemin par la mer, très complexe voir impossible\n\n- Il faudrait aussi que je modifie la stratégie de chacune et mettre plus d'aléatoire. Pour obtenir des résultats différents, des recherches doivent être fait pour voir l'efficacité de chacun. J'ai un projet d'article de blog à ce sujet d'ailleurs. Je voudrais aussi une IA qui attaque en masse dans certains cas.\n\n\n\n- Rajouter que l’IA qui décide de donner une cible ne commence à chercher de cible que si elle a des soldats disponibles à combattre pour éviter les calculs inutiles.\n\n- Rajouter une IA tendance nationaliste qui se bat uniquement dans une zone\n- Rajouter que les bolcheviks aussi utilise le train\n\n- QUand je créé un nouveau camp\n- crée IA décision\n- créé IA creation de troupes + regles creation de troupes\n- Bloquer prise de ville pour certaines troupes\n\nUX\n\n\n- La mini map ne change pas de taille quand le zoom grandit OK\n- Rajouter les troupes sur la minimap\n\n\n\n\nVisuel\n\n\n\n- Refaire le visuel des soldats blancs et rouges. Voir ici\n\n- Refaire visuels de chaque sous camp\n\n- Vérifier si les montages nouveau format sont bien situé géographiquement\n\n\n\nTrouver le chemin  \n-          Refaire des lignes droites pour suivre les routes au lieu de ligne courbes et faire une animation de rail\n\n- Rajouter quelques gares si je laisse des courbes et refaire tout les précalcul pour trouver le chemin le plus court. \n\n- Il semble manquer des routes dans le Caucase dans le fichier R qui calcul les chemins les plus courts\n\n\n\nEnnemis\n- Rajouter IA de chaque sous camp de blanc avec explication de son apparition et qui explique son moteur\n\n- Allemand\n\n1917.11 Allemands occupe etats balte, pologne, ukraine, bielorussie\n1918.03 si on signe l'accord de Brest Litovsk, les frontières sont créé mais l'allemagne cesse d'attaquer sinon elle continue à attaquer\n1918.11 Les allemands retire leur troupes qui reste\n\n\n\n- Armes du Tsar\n\n1917.11 Lancement de la révolution et guerre avec armées tsariste à Moscou et saint Petersbourg\n\n- Blancs du nord\n\n1919.07 Création armée du Nord de Ioudenitch en Estonie\n\n- Blancs du Don\n\n1918.12 Création des blancs du sud (Rostov) général Kornilov\n\n- Blancs du Caucase\n\n- Blancs de Sibérie Koltchak\n\n- Britanniques du Nord\n\n1918.03 Debarquement à Mourmansk\n1918.08 Débarquement à Arkhangelsk\n\n- Japonais\n\n- Français du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain du Nord\n\n1918.08 Débarquement à Arkhangelsk\n\n- Americain de l'est\n\n1918.04 Débarquement à Vladivostok\n\n- Tchecoslovaque\n\n1918.05 Revolte de Iekatrin à Vladivostok \n\n- Français du sud\n\n1918.07 Débarquement à Odessa \n\n- Blanc des pays baltes\n\n1919.11 Estonie Nikolaï Ioudenitch\n\n- Polonais\n\n1918.11 Fondation de la Pologne (Varsovie, Minsk, Brest Litovsk)\n\n- Vert\n\n- Anarchiste ukrainiens\n\n- Nationalistes de Transcaucasie\n\n- Basmatchis\n\n- Nationaliste de Transbaïkalie (Grigory Semenov)\n\n -  Grigory Semenov\n\n-Bouriates, les Iakoutes et les Touvains\n\n l'ataman Roman von Ungern-Sternberg\n\n \n\n\nContenu\n\n- Rajouter des affiches soviétiques en cas de conquête de Moscou ou Petrograd \n\n- Rajouter un début (vous dirigez la révolution)\n\n- Etablir des fins (dont une c'est la fondation de l'URSS si tu as atteint une serie d'étape)\n\n\n- l'idée est d'encore établir un scénario idéal et puis une serie de déviation si le joueur bolchevik arrive à réaliser tel étape ou pas. A encore réfléchir mais on peut imaginer \n\n- Combat contre kronstad ou pas\n\n- Alliance mencheviks ou pas\n\n- Action politique paix terre pain ou pas\n\n- Prise de varsovie ou pas\n\n- Perte de petrograd et ou perte de moscou\n\n\n\nL'idée c'est de faire un chemin et dès qu'on s'écarte de l'un ou des étapes, on a une fin alternative.\n\nFaire un schema\n\n\n\n\n\nRéflexion générale sur la stratégie\nQuand deux unités sont en contact l'une avec l'autre, on a un aspect aléatoire dans la victoire.\nCelui qui conquière les villes les plus vite aura automatiquement plus de force et va gagner.\nMais la réalité, c'est que plus la guerre dure, plus les ressources faiblisse\nA l'inverse des troupes blanches qui sont financé par l'extérieur\nComment introduire l'idée d'épuissement des ressources\n\n\n"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -175562,6 +175570,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -175608,7 +175617,7 @@
                       "parameters": [
                         "valeurtxt1",
                         "=",
-                        "-1000"
+                        "1000"
                       ]
                     },
                     {
@@ -175935,12 +175944,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "1. Etablissement du jeu et de la carte",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -178312,7 +178321,6 @@
                   "comment": "Valeur fixe"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -178459,7 +178467,6 @@
                   "comment": "on utilise pas avance rapide, fonctionne pas bien"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [],
@@ -209164,7 +209171,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "8. IA strategique unique des blancs et apparitions des troupes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -209297,7 +209303,6 @@
               "comment": "1. IA INSTALLATION QUI etudie les circonstances du mois pour chaque entité et enregistre la plus recente coordonné\"es. Tourne à chaque FRAME"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -210233,7 +210238,6 @@
                   "comment": "Etape 3 on va chercher la ligne qui correspond au mois en cours et au camp choisis à l'etape 2"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -210342,7 +210346,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -211341,7 +211344,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -211970,7 +211972,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -212609,7 +212610,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -213278,7 +213278,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -214040,7 +214039,6 @@
                       "actions": [],
                       "events": [
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -215613,6 +215611,7 @@
               "comment": "2. IA OBSERVATION qui tourne sans arret et recommence tant qu'elle a pas trouvé une ville ennemi ou un soldat ennemis"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -229553,6 +229552,7 @@
               "actions": []
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -239402,7 +239402,25 @@
                     "valeurtxt1",
                     "Text",
                     "=",
-                    "\"PROCESSUS OBSERVATION IA INSTALLATION.\" + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne + \"\nEtape : \" + campdedepart_Blancs_IA_unique.FCT1_Process_IA + \"\nrandom : \" + campdedepart_Blancs_IA_unique.FCT1_Random + \"\nnbr de fois que le processus a tourne : \" + campdedepart_Blancs_IA_unique.FCT1_nombredefoisque_leprocessus_atourne + \"\nnombredelignepourcemois : \" + campdedepart_Blancs_IA_unique.FCT1_nbrdelignedumoisencours + \"\n-------------\nPROCESSUS IA INFORMATION. \nCamptrouve : \" + campdedepart_Blancs_IA_unique.FCT2_camptrouve + \"\nrandom : \" + campdedepart_Blancs_IA_unique.FCT2_Random + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT2_Souscategorieblanc_selectionne + \" \" + campdedepart_Blancs_IA_unique.FCT2_TYPE_souscamp_selectionne + \"\nEtape fonction observation :\" + campdedepart_Blancs_IA_unique.FCT2_fonctiondobservation + \"\nvaleur comptage :\" + campdedepart_Blancs_IA_unique.FCT2_valeurdecomptage + \"\ntaille de cercle : \" + campdedepart_Blancs_IA_unique.tailleducercle + \"\n\nPROCESSUS ACTION\nSouscamp : \" + campdedepart_Blancs_IA_unique.FCT3_Souscategorieblanc_selectionne + \"\netape : \" + campdedepart_Blancs_IA_unique.FCT3_fonctiondaction + \"\n\nPROCESSUS CREATION DE SOLDAT.\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat + \"\nEtape fonction observation.\n\" + campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat + \"\n---------\" + \"etapecreationsoldat_listedesboutonsactifs_TXT \n\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT + \"\netapecreationsoldat_listedessoldatactifs_TXT\" + campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT + \"\netapecreationsoldat_TOTALX : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALX + \"\netapecreationsoldat_TOTALY : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALY + \"\netapecreationsoldat_NB : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_NB + \"\netapecreationsoldat_i : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_i + \"\netapecreationsoldat_chaine_temp_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_chaine_temp_TXT + \"\netapecreationsoldat_boutons_ordonnes_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_boutons_ordonnes_TXT"
+                    "\"PROCESSUS OBSERVATION IA INSTALLATION.\" + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT1_Souscategorieblanc_selectionne + \"\nEtape : \" + campdedepart_Blancs_IA_unique.FCT1_Process_IA + \"\nrandom : \" + campdedepart_Blancs_IA_unique.FCT1_Random + \"\nnbr de fois que le processus a tourne : \" + campdedepart_Blancs_IA_unique.FCT1_nombredefoisque_leprocessus_atourne + \"\nnombredelignepourcemois : \" + campdedepart_Blancs_IA_unique.FCT1_nbrdelignedumoisencours + \"\n-------------\nPROCESSUS IA INFORMATION. \nCamptrouve : \" + campdedepart_Blancs_IA_unique.FCT2_camptrouve + \"\nrandom : \" + campdedepart_Blancs_IA_unique.FCT2_Random + \"\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT2_Souscategorieblanc_selectionne + \" \" + campdedepart_Blancs_IA_unique.FCT2_TYPE_souscamp_selectionne + \"\nEtape fonction observation :\" + campdedepart_Blancs_IA_unique.FCT2_fonctiondobservation + \"\nvaleur comptage :\" + campdedepart_Blancs_IA_unique.FCT2_valeurdecomptage + \"\ntaille de cercle : \" + campdedepart_Blancs_IA_unique.tailleducercle + \"\n\nPROCESSUS ACTION\nSouscamp : \" + campdedepart_Blancs_IA_unique.FCT3_Souscategorieblanc_selectionne + \"\netape : \" + campdedepart_Blancs_IA_unique.FCT3_fonctiondaction + \"\n\nPROCESSUS CREATION DE SOLDAT.\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat + \"\nEtape fonction observation.\n\" + campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat + \"\n---------\" + \"etapecreationsoldat_listedesboutonsactifs_TXT \n\" + campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat_listedesboutonsactifs_TXT + \"\netapecreationsoldat_listedessoldatactifs_TXT\" + campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT + \"\netapecreationsoldat_TOTALX : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALX + \"\netapecreationsoldat_TOTALY : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALY + \"\netapecreationsoldat_NB : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_NB + \"\netapecreationsoldat_i : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_i + \"\netapecreationsoldat_chaine_temp_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_chaine_temp_TXT + \"\netapecreationsoldat_boutons_ordonnes_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_boutons_ordonnes_TXT"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "valeurtxt1",
+                    "Text",
+                    "=",
+                    "\"PROCESSUS CREATION DE SOLDAT.\nSous camp blanc : \" + campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat + \"\nEtape fonction observation.\n\" + campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat + \"\n---------\" + \"etapecreationsoldat_listedesboutonsactifs_TXT \n\" + campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat_listedesboutonsactifs_TXT + \"\netapecreationsoldat_listedessoldatactifs_TXT\" + campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT + \"\netapecreationsoldat_TOTALX : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALX + \"\netapecreationsoldat_TOTALY : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_TOTALY + \"\netapecreationsoldat_NB : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_NB + \"\netapecreationsoldat_i : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_i + \"\netapecreationsoldat_chaine_temp_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_chaine_temp_TXT + \"\netapecreationsoldat_boutons_ordonnes_TXT : \" + campdedepart_Blancs_IA_unique.etapecreationsoldat_boutons_ordonnes_TXT+\"\n\n\n\n\"+\"campdedepart_Blancs_IA_unique.V2_bouton_creation_soldat_X[campdedepart_Blancs_IA_unique.Nombredeboutoncreesoldat_random] \"+campdedepart_Blancs_IA_unique.V2_bouton_creation_soldat_X[campdedepart_Blancs_IA_unique.Nombredeboutoncreesoldat_random]"
                   ]
                 }
               ]
@@ -239477,7 +239495,18 @@
               "comment": "4. IA qui crée des soldats"
             },
             {
-              "folded": true,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "cela semble fonctionner au mois ue fois mais pas sur plusieurs fois"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -239529,6 +239558,41 @@
                       "comment": "etape0 on lance le processus au bout de 10 secondes"
                     },
                     {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DepartScene"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT4_etapecreationsoldat",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -239632,6 +239696,47 @@
                       ]
                     },
                     {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT4_etapecreationsoldat",
+                            "=",
+                            "0.1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT4_Random_Ia_constructionunite",
+                            "=",
+                            "RandomInRange(1,12)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT4_etapecreationsoldat",
+                            "=",
+                            "0.2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -239644,7 +239749,6 @@
                       "comment": "Etape 1.5 on selectionne les camps qui sont les seuls à pouvoir produire des soldats, les autres ont la valeur 0"
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -240375,7 +240479,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat_listedesboutonsactifs_TXT",
+                            "FCT4_etapecreationsoldat_listedesboutonsactifs_TXT",
                             "=",
                             "\"\""
                           ]
@@ -240386,7 +240490,7 @@
                           },
                           "parameters": [
                             "campdedepart_Blancs_IA_unique",
-                            "etapecreationsoldat_listedessoldatactifs_TXT",
+                            "fCT4_etapecreationsoldat_listedessoldatactifs_TXT",
                             "=",
                             "\"\""
                           ]
@@ -240461,8 +240565,32 @@
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT4_etapecreationsoldat",
+                            "=",
+                            "99"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "campdedepart_Blancs_IA_unique",
+                            "FCT4_etapecreationsoldat",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -240518,7 +240646,7 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedesboutonsactifs_TXT",
+                                    "FCT4_etapecreationsoldat_listedesboutonsactifs_TXT",
                                     "=",
                                     "\"\""
                                   ]
@@ -240531,7 +240659,7 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedesboutonsactifs_TXT",
+                                    "FCT4_etapecreationsoldat_listedesboutonsactifs_TXT",
                                     "=",
                                     "ToString(roundTo(creationsoldat.X(),2))+\";\"+ToString(roundTo(creationsoldat.Y(),2))+\"/\""
                                   ]
@@ -240547,7 +240675,7 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedesboutonsactifs_TXT",
+                                    "FCT4_etapecreationsoldat_listedesboutonsactifs_TXT",
                                     "!=",
                                     "\"\""
                                   ]
@@ -240560,12 +240688,17 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedesboutonsactifs_TXT",
+                                    "FCT4_etapecreationsoldat_listedesboutonsactifs_TXT",
                                     "+",
                                     "ToString(roundTo(creationsoldat.X(),2))+\";\"+ToString(roundTo(creationsoldat.Y(),2))+\"/\""
                                   ]
                                 }
                               ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": []
                             }
                           ]
                         }
@@ -240673,7 +240806,7 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedessoldatactifs_TXT",
+                                    "fCT4_etapecreationsoldat_listedessoldatactifs_TXT",
                                     "=",
                                     "\"\""
                                   ]
@@ -240686,7 +240819,7 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedessoldatactifs_TXT",
+                                    "fCT4_etapecreationsoldat_listedessoldatactifs_TXT",
                                     "=",
                                     " ToString(roundTo(soldatblanc.X(),2))+\";\"+ToString(roundTo(soldatblanc.Y(),2))+\"/\""
                                   ]
@@ -240702,7 +240835,7 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedessoldatactifs_TXT",
+                                    "fCT4_etapecreationsoldat_listedessoldatactifs_TXT",
                                     "!=",
                                     "\"\""
                                   ]
@@ -240715,7 +240848,7 @@
                                   },
                                   "parameters": [
                                     "campdedepart_Blancs_IA_unique",
-                                    "etapecreationsoldat_listedessoldatactifs_TXT",
+                                    "fCT4_etapecreationsoldat_listedessoldatactifs_TXT",
                                     "+",
                                     " ToString(roundTo(soldatblanc.X(),2))+\";\"+ToString(roundTo(soldatblanc.Y(),2))+\"/\""
                                   ]
@@ -240863,7 +240996,7 @@
                                 "campdedepart_Blancs_IA_unique",
                                 "etapecreationsoldat_i",
                                 "<",
-                                "StrLength(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT)"
+                                "StrLength(campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT)"
                               ]
                             },
                             {
@@ -240887,7 +241020,7 @@
                                 "campdedepart_Blancs_IA_unique",
                                 "etapecreationsoldat_tempcoord_TXT",
                                 "=",
-                                "SubStr(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrFind(SubStr(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrLength(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT)), \"/\"))"
+                                "SubStr(campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrFind(SubStr(campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrLength(campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT)), \"/\"))"
                               ]
                             },
                             {
@@ -241004,7 +241137,7 @@
                                 "campdedepart_Blancs_IA_unique",
                                 "etapecreationsoldat_i",
                                 "+",
-                                "StrFind(SubStr(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrLength(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedessoldatactifs_TXT)), \"/\") + 1"
+                                "StrFind(SubStr(campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrLength(campdedepart_Blancs_IA_unique.fCT4_etapecreationsoldat_listedessoldatactifs_TXT)), \"/\") + 1"
                               ]
                             }
                           ]
@@ -241366,7 +241499,7 @@
                                 "campdedepart_Blancs_IA_unique",
                                 "etapecreationsoldat_i",
                                 "<",
-                                "StrLength(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT)"
+                                "StrLength(campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat_listedesboutonsactifs_TXT)"
                               ]
                             }
                           ],
@@ -241379,7 +241512,7 @@
                                 "campdedepart_Blancs_IA_unique",
                                 "etapecreationsoldat_et5_sep",
                                 "=",
-                                "StrFind(SubStr(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrLength(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT)), \"/\")"
+                                "StrFind(SubStr(campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat_listedesboutonsactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, StrLength(campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat_listedesboutonsactifs_TXT)), \"/\")"
                               ]
                             },
                             {
@@ -241390,7 +241523,7 @@
                                 "campdedepart_Blancs_IA_unique",
                                 "etapecreationsoldat_et5_coord_TXT",
                                 "=",
-                                "SubStr(campdedepart_Blancs_IA_unique.etapecreationsoldat_listedesboutonsactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, campdedepart_Blancs_IA_unique.etapecreationsoldat_et5_sep)"
+                                "SubStr(campdedepart_Blancs_IA_unique.FCT4_etapecreationsoldat_listedesboutonsactifs_TXT, campdedepart_Blancs_IA_unique.etapecreationsoldat_i, campdedepart_Blancs_IA_unique.etapecreationsoldat_et5_sep)"
                               ]
                             },
                             {
@@ -242257,6 +242390,238 @@
                                               ]
                                             }
                                           ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_DENIKINE\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blancs_denikine\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_KOLTCHACK\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"Statique_blanc_KOLTCHACK\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_IOUDENITCH\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_IOUDENITCH\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_BASMATCHI\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_BASMATCHI\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"ANARCHISTES_KRONSTAD\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_KRONSTAD\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_MAKHNOVCHTCHINA\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_MAKHNOVCHTCHINA\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_PAYSANS_VERT\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_PAYSANS_VERT\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_BALTES\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_BALTES\""
+                                              ]
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
@@ -242478,6 +242843,15 @@
                                                 "=",
                                                 "campdedepart_Blancs_IA_unique.FCT4_Souscategorieblanc_selectionne_creation_soldat"
                                               ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ChangeColor"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "\"248;231;28\""
+                                              ]
                                             }
                                           ]
                                         },
@@ -242593,6 +242967,238 @@
                                                 "Animation",
                                                 "=",
                                                 "\"statique_pologne\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_DENIKINE\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blancs_denikine\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_KOLTCHACK\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"Statique_blanc_KOLTCHACK\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_IOUDENITCH\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_IOUDENITCH\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_BASMATCHI\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_BASMATCHI\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"ANARCHISTES_KRONSTAD\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_KRONSTAD\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_MAKHNOVCHTCHINA\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_MAKHNOVCHTCHINA\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_PAYSANS_VERT\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_PAYSANS_VERT\""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Souscampsoldatblanc",
+                                                "=",
+                                                "\"BLANCS_BALTES\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "soldatblanc",
+                                                "Animation",
+                                                "=",
+                                                "\"statique_blanc_BALTES\""
                                               ]
                                             }
                                           ]
@@ -242962,7 +243568,6 @@
               "comment": "9.1 preparation general des gares +positions gare (une fois)"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -269528,6 +270133,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "12.CALENDRIER",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -271285,6 +271891,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -271305,6 +271912,43 @@
                     "FICHIE_INFO",
                     "\"/Users/antoineetholly/Documents/GitHub/Russia_1917/Fiche_info/fiche_info_blancs_rempli.json\"",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONResourceLoader::LoadJSONToScene"
+                  },
+                  "parameters": [
+                    "",
+                    "Fiche_info/fiche_info_blancs_rempli.json",
+                    "FICHIE_INFO",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "JSONResourceLoader::LoadJSONToScene"
+                  },
+                  "parameters": [
+                    "",
+                    "Fiche_info/fiche_info_blancs_rempli.json",
+                    "FICHIE_INFO",
                     ""
                   ]
                 }
@@ -291755,7 +292399,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -291880,6 +292523,7 @@
           "comment": "MUSIQUE"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -562803,6 +563447,170 @@
           ]
         }
       ]
+    },
+    {
+      "author": "",
+      "category": "General",
+      "extensionNamespace": "",
+      "fullName": "JSON Resource Loading",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZpbGUtY29kZS1vdXRsaW5lIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME05LjU0IDE1LjY1TDExLjYzIDE3Ljc0TDEwLjM1IDE5TDcgMTUuNjVMMTAuMzUgMTIuM0wxMS42MyAxMy41Nkw5LjU0IDE1LjY1TTE3IDE1LjY1TDEzLjY1IDE5TDEyLjM4IDE3Ljc0TDE0LjQ3IDE1LjY1TDEyLjM4IDEzLjU2TDEzLjY1IDEyLjNMMTcgMTUuNjVaIiAvPjwvc3ZnPg==",
+      "name": "JSONResourceLoader",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/file-code-outline.svg",
+      "shortDescription": "Loads a JSON resource into a variable.",
+      "version": "1.0.0",
+      "description": [
+        "Loads a (static) JSON resource from your project files into a global, scene, or object variable.",
+        "",
+        "NEVER use this to load your game.json into a variable - this would increase your game size by a lot and make your whole project file available for anyone to open!"
+      ],
+      "origin": {
+        "identifier": "JSONResourceLoader",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "json",
+        "resource",
+        "load",
+        "open",
+        "file",
+        "data",
+        "static",
+        "file"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Loads a JSON resource into a scene structure variable.",
+          "fullName": "Load a JSON resource in a scene variable",
+          "functionType": "Action",
+          "name": "LoadJSONToScene",
+          "sentence": "Load _PARAM1_ into scene variable _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext",
+                "    .getArgument(\"Variable\")",
+                "    .fromJSObject(",
+                "        runtimeScene",
+                "            .getGame()",
+                "            .getJsonManager()",
+                "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+                "    );",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The resource to load the JSON from",
+              "name": "Resource",
+              "type": "jsonResource"
+            },
+            {
+              "description": "The scene variable to load the JSON to",
+              "name": "Variable",
+              "type": "scenevar"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Loads a JSON resource into a global structure variable.",
+          "fullName": "Load a JSON resource in a global variable",
+          "functionType": "Action",
+          "name": "LoadJSONToGlobal",
+          "sentence": "Load _PARAM1_ into global variable _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext",
+                "    .getArgument(\"Variable\")",
+                "    .fromJSObject(",
+                "        runtimeScene",
+                "            .getGame()",
+                "            .getJsonManager()",
+                "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+                "    );",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The resource to load the JSON from",
+              "name": "Resource",
+              "type": "jsonResource"
+            },
+            {
+              "description": "The global variable to load the JSON to",
+              "name": "Variable",
+              "type": "globalvar"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Loads a JSON resource into an object structure variable.",
+          "fullName": "Load a JSON resource in an object variable",
+          "functionType": "Action",
+          "name": "LoadJSONToObject",
+          "sentence": "Load _PARAM1_ into object variable _PARAM3_ of object _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext",
+                "    .getArgument(\"Variable\")",
+                "    .fromJSObject(",
+                "        runtimeScene",
+                "            .getGame()",
+                "            .getJsonManager()",
+                "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+                "    );",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The resource to load the JSON from",
+              "name": "Resource",
+              "type": "jsonResource"
+            },
+            {
+              "description": "The object where to find the variable",
+              "name": "Object",
+              "type": "objectList"
+            },
+            {
+              "description": "The object variable to load the JSON to",
+              "name": "Variable",
+              "type": "objectvar"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": []

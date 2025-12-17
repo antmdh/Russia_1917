@@ -49,6 +49,12 @@ Basmatchi trouve ses troupes en 191712, en 191801 mais pas en 191805
 
 
 1er commentaire
+Stavaza 
+17.12.2025
+l'IA ne créé qu'une seule nouvelle unité pour tous les camps (pas une pour chaque camp)
+Quand 5 unités en contact avec un seul unité, toutes disparaissent
+Bug durant une partie out tout le monde n'arrivent pas a prendre une ville rouge
+Enfin blanc ne bougent pas si rouges ne bougent pas
 
 stavaza 08.06.2025
 Faire des textes et images pour les fiches titre 22 caracetere espace compris
