@@ -49,7 +49,12 @@ Basmatchi trouve ses troupes en 191712, en 191801 mais pas en 191805
 
 
 1er commentaire
+
+
 Stavaza 
+22.12.2025
+Je reecris le code 4 en plus simple, pas le choix et je supprime l'enregistrement des soldats qui plante
+
 17.12.2025
 l'IA ne créé qu'une seule nouvelle unité pour tous les camps (pas une pour chaque camp)
 Quand 5 unités en contact avec un seul unité, toutes disparaissent
