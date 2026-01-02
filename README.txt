@@ -42,6 +42,13 @@ cordova platform add android
 cordova build android
 
 
+Stavaza 2.1.2026
+Creation de troupes OK avec une limite de taille
+
+
+
+
+
 dejuin 1919 a octobre 1920 apparitions de 1 "BLANCS_MAKHNOVCHTCHINA" à l'est de l'urkain par mois
 
 
