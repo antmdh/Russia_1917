@@ -20,6 +20,19 @@
 "BLANCS_PAYSANS_VERT" =INACTF
 "BLANCS_BALTES" = ACTIF_limite "Riga"
 
+
+TYPEDECAMP
+"ALLIANCE" : 
+"ALLEMANDS",
+"ENTENTE" : "AMERICAINS_DU_NORD","BRITANNIQUES_DU_CAUCASE","BRITANNIQUES_DU_NORD","FRANCAIS_DU_SUD","JAPONAIS","LEGION_TCHEQUE"
+"BLANCS_REGIONALISTES" : 
+"BLANCS_BIELORUSSES","BLANCS_FINLANDAIS","BLANCS_UKRAINIENS","POLONAIS","BLANCS_BALTES"
+"BOLCHEVIKS":
+"BOLCHEVIKS"
+"EXTREMEGAUCHE": "BLANCS_PAYSANS_VERT","BLANCS_MAKHNOVCHTCHINA","ANARCHISTES_KRONSTAD" 
+"BLANCS_NATIONALISTE" : "BLANCS_DENIKINE" , "BLANCS_KOLTCHACK","BLANCS_IOUDENITCH","KERENSKI"
+
+
 TABLE_COMPORTEMENT_IA.Centrenationaliste_X_NBR
 TABLE_COMPORTEMENT_IA.Centrenationaliste_Y_NBR
 TABLE_COMPORTEMENT_IA.Centrenationaliste_TAILLE_LONGEUR
@@ -40,6 +53,14 @@ cd ~/Documents/export/RUssia_1917/ANDROID
 npm install
 cordova platform add android
 cordova build android
+
+Stavaza 4.1.2026
+Bug : les blancs nationalistes n'attaque pas ou très très peu faut vérifier si cela marche
+Les troupes bolcheviks suivent le chemin de fer dans leur premier trajet
+
+
+
+
 
 
 Stavaza 2.1.2026
