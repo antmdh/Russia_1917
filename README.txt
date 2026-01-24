@@ -60,6 +60,16 @@ npm install
 cordova platform add android
 cordova build android
 
+
+
+Stavaza
+20260124
+Le bouton pour appliquer une nouvelle question ne fonctionne pas
+Le mois d'octobre 1917 ne devrait durer qu'une seconde
+L'image IMAGE_DOCUMENT_SCENARIO_278_214 apparait alors qu'elle ne devrait pas quand on l'a affiché et qu'on efface le rapport
+Mettre une limite au zoom
+
+
 Stavaza 4.1.2026
 Bug : les blancs nationalistes n'attaque pas ou très très peu faut vérifier si cela marche
 Les troupes bolcheviks suivent le chemin de fer dans leur premier trajet
