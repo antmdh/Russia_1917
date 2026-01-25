@@ -63,11 +63,16 @@ cordova build android
 
 
 Stavaza
+20260125
+scenario 
+BUG : deux bugs les phylacteres sont decalé le premiers mois - les phylacteres ne se relance pas après etre revenu une premiere fois sur le cham strategique - le loepsum s'affiche dans le rapport du 2e mois
+
+
 20260124
 Le bouton pour appliquer une nouvelle question ne fonctionne pas
-Le mois d'octobre 1917 ne devrait durer qu'une seconde
-L'image IMAGE_DOCUMENT_SCENARIO_278_214 apparait alors qu'elle ne devrait pas quand on l'a affiché et qu'on efface le rapport
-Mettre une limite au zoom
+Le mois d'octobre 1917 ne devrait durer qu'une seconde OK
+L'image IMAGE_DOCUMENT_SCENARIO_278_214 apparait alors qu'elle ne devrait pas quand on l'a affiché et qu'on efface le rapport OK
+Mettre une limite au zoom OK
 
 
 Stavaza 4.1.2026
