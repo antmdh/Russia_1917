@@ -63,6 +63,10 @@ cordova build android
 
 
 Stavaza
+20260127
+j'ai corrigé le phylactere qui apparaissait au mauvais endroit durant une seconde
+Mais par contre le passage aux questions suivantes et mois suivantne fon ctionne pas bien
+
 20260125
 scenario 
 BUG : deux bugs les phylacteres sont decalé le premiers mois - les phylacteres ne se relance pas après etre revenu une premiere fois sur le cham strategique - le loepsum s'affiche dans le rapport du 2e mois
