@@ -62,7 +62,17 @@ cordova build android
 
 
 
+
+
+
 Stavaza
+20260128
+bug 1 = je dois viter cliquer sur la croix, il faudrait que cela lance la vitesse
+bug 2 = quand je clique sur documment scenario - le PV ne s'affiche pas, il faut aussi cliquer sur PV OK
+Bug 3 = Par mauvaise manip; je peux valider deux politique, l'une après l'autre (je pourrais mettre un petit décompte, style 3,2,1___
+Bug 4 : le passage d'une mission à une autre fonctionne mais il semble que les autres points ne fonctionne pas bien. Le dialogue ne se met pas a jour
+Bug 5 après les 6 premières questions, le mois ne dure pas 30 secondes
+
 20260127
 j'ai corrigé le phylactere qui apparaissait au mauvais endroit durant une seconde
 Mais par contre le passage aux questions suivantes et mois suivantne fon ctionne pas bien
