@@ -66,6 +66,11 @@ cordova build android
 
 
 Stavaza
+20260207
+mise en place des 43 questions
+Mise en place du textre pour 2e questions
+
+
 20260128
 bug 1 = je dois viter cliquer sur la croix, il faudrait que cela lance la vitesse
 bug 2 = quand je clique sur documment scenario - le PV ne s'affiche pas, il faut aussi cliquer sur PV OK
