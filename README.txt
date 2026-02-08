@@ -60,7 +60,49 @@ npm install
 cordova platform add android
 cordova build android
 
-
+1.Faire_la_revolution
+2.Decret_sur_la_terre
+3.Decret_sur_la_paix
+4.Droit_autodetermination_peuples
+5.Decret_controle_ouvrier
+6.Creation_tcheka
+7.Independance_finlande
+8.Mariage_civil_egalite_hf
+9.Nationalisation_banques_dettes
+10.Dissolution_assemblee_constituante
+11.Creation_armee_rouge
+12.Calendrier_gregorien
+13.Accord_brest_litovsk_1
+14.Accord_brest_litovsk_2
+15.Monopole_commerce_exterieur
+16.Dictature_alimentaire
+17.Nationalisation_grande_industrie
+18.Comites_paysans_pauvres
+19.Constitution_RSFSR
+20.Execution_tsar
+21.Terreur_rouge
+22.Code_famille
+23.Journee_8_heures
+24.Prodrazviorstka
+25.Creation_komintern
+26.Creation_politburo
+27.Creation_jenotdel
+28.Lutte_analphabetisme_likbez
+29.Traite_tartu_estonie
+30.Plan_goelro
+31.Militarisation_travail
+32.21_conditions_komintern
+33.Congres_peuples_orient
+34.Legalisation_avortement
+35.Debat_syndicats
+36.Adoption_NEP
+37.Interdiction_fractions
+38.Front_unique_komintern
+39.Accord_ARA_famine
+40.Congres_extreme_orient
+41.Conference_genes
+42.Traite_rapallo
+43.Creation_URSS
 
 
 
