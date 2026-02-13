@@ -108,6 +108,10 @@ cordova build android
 
 
 Stavaza
+stavaza 20260208
+je rajoute le texte "decret de la terre"
+bug je n'arrive pas a faire redemarer les dialogues du debut
+
 20260207
 mise en place des 43 questions
 Mise en place du textre pour 2e questions
