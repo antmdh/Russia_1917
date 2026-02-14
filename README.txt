@@ -104,7 +104,9 @@ cordova build android
 42.Traite_rapallo
 43.Creation_URSS
 
-
+stavaza,14 02 2026
+j'ai corrigé une partie du bug du scenario
+mais le resultat n'est pas le meme entre undialogue qui va au bout et un dailogue qui ne va pas au bout, la premiere ligne est effacé
 
 
 Stavaza
