@@ -104,6 +104,36 @@ cordova build android
 42.Traite_rapallo
 43.Creation_URSS
 
+
+Minsk
+Kiev
+Kharkov
+Rostov
+Tsaritsyn
+Samara
+Kazan
+Perm
+Yekaterin...
+Omsk
+Tashkent
+Tbilissi
+Erevan
+Bakou
+Sebastopol
+Novosibirsk
+Irkustk
+Khabarovsk
+Vladivostok
+Varsovie
+
+17.02.2026
+en testant le jeu pour voir si la victoire "possede toutes les villes avant dec 1922", je me rend compte que j'ai des situations possessions villes qui sont bizarre
+
+Déja j'ai v2 proprietaire et sous camp
+Mais j'ai aussi des situations ou v2 proprietzires et sous camp sont rouge mais animations en blanc, 
+il faut que je change tout cela
+
+
 stavaza,14 02 2026
 j'ai corrigé une partie du bug du scenario
 mais le resultat n'est pas le meme entre undialogue qui va au bout et un dailogue qui ne va pas au bout, la premiere ligne est effacé
