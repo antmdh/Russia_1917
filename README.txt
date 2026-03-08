@@ -126,6 +126,43 @@ Khabarovsk
 Vladivostok
 Varsovie
 
+08.03.2026
+Bon
+Qu’est ce que je dois résoudre en UI
+
+- Dans tout les cas, je dois faire un zoom avec le glisser déposer. 
+Je dois tester l’option que cela conduise par défaut sur deux ou trois niveau de zoom
+
+- Je dois enlever l’oeuvre artistique, les affiches et la mini map
+A la place je met trois boutons et un système de notification 
+
+=> Menu scénario pour accéder ensuite à chaque scénario
+	=> Les scénario peuvent arriver à partir d’un certains moments dans l’histoire, ils ne DOIVENT pas être décidé à ce moment la
+	=> Un menu (situation du pays) qui remet l’oeuvre d’art ainsi que quelques chiffres et le point pour les différentes missions 
+        => Un menu préférence, musique, sauvegarde
+
+
+
+
+- La mini map avec les troupes se trouve dans le cadre scénario (faire des essais pour voir ce que cela donne)
+
+- Le code artistique
+
+
+
+08.03.2026
+Bilan de la journée ou j'ai eu 4h
+
+- Je n'arrive pas à tester le format pincer et zoomer mais en principe c'est possible
+- La minicarte ne donne rien de bien sur un mobile, il faut que je crée un menu pour la consulter, c'est mieux
+- Par contre une grande carte avec 99% de l'écran visible ,cela donne vraiment mieux 
+- Je dois travailler ainsi
+a) Finir le mode pincement à la place du zoom
+B) Déplacer mini map/ oeuvre d'art et affiche dans des nouveaux menus
+
+
+
+
 
 01.03.2026
 Le premier scenario (faire a révolution) fonctionne
