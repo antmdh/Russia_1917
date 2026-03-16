@@ -126,6 +126,10 @@ Khabarovsk
 Vladivostok
 Varsovie
 
+
+15.03.2026
+Zoom par pincement ok (5h de travail)
+
 08.03.2026
 Bon
 Qu’est ce que je dois résoudre en UI
