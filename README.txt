@@ -127,6 +127,19 @@ Vladivostok
 Varsovie
 
 
+16 Mars 2026
+
+
+5 MODE+1
+MODE STRATEGIQUE (la carte)
+MODE DEBAT - LISTE
+MODE DEBAT - UNIQUE
+MODE SITUATION DU PAYS
+MODE MENU ACCEUIL
+MODE EXTRA - UX (nous suit partout mais peut varier selon le mode)
+
+
+
 15.03.2026
 Zoom par pincement ok (5h de travail)
 
