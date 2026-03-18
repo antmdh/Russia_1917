@@ -139,6 +139,8 @@ MODE MENU ACCEUIL
 MODE EXTRA - UX (nous suit partout mais peut varier selon le mode)
 
 
+18.03.2026
+je dois supprimer la valeur mode strategique et remplacer par. ouvelle valeur
 
 15.03.2026
 Zoom par pincement ok (5h de travail)
