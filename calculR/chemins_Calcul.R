@@ -16,7 +16,9 @@ library(assertr)
 library(janitor)
 library(lubridate, warn.conflicts = FALSE)
 library(stringr)
+install.packages("dplyr")
 library(dplyr, warn.conflicts = FALSE)
+install.packages("tidyr")
 library(tidyr)
 library(futile.logger)
 library(arrow)
@@ -24,7 +26,7 @@ library(arrow)
 # 0. Choix du nombre de gares
 choix <- 44
 
-# 1. Pr¨¦paration des donn¨¦es
+# 1. Pr??paration des donn??es
 if (choix == 5) {
   stations <- data.frame(
     name = c("A","B","C","D","E"),
@@ -260,7 +262,7 @@ if (choix == 44) {
 
 #write.csv2(edges, "C:/Users/u99amo/Downloads/edges.csv")
 # Inversion de y pour l'affichage
-stations$y <- -stations$y
+stations$y <- stations$y
 
 # 2. Calcul des poids (distance euclidienne)
 edges$weight <- with(edges, 
@@ -268,7 +270,7 @@ edges$weight <- with(edges,
                             (stations$y[match(from, stations$name)] - stations$y[match(to, stations$name)])^2)
 )
 
-# 3. Construction d'une liste d'adjacence (graphe non orient¨¦)
+# 3. Construction d'une liste d'adjacence (graphe non orient??)
 adj <- setNames(vector("list", nrow(stations)), stations$name)
 for (i in seq_len(nrow(edges))) {
   f <- edges$from[i]; t <- edges$to[i]; w <- edges$weight[i]
@@ -276,7 +278,7 @@ for (i in seq_len(nrow(edges))) {
   adj[[t]] <- rbind(adj[[t]], data.frame(node = f, weight = w, stringsAsFactors = FALSE))
 }
 
-# 4. Impl¨¦mentation de Dijkstra en base R
+# 4. Impl??mentation de Dijkstra en base R
 dijkstra <- function(adj, start) {
   nodes <- names(adj)
   dist <- setNames(rep(Inf, length(nodes)), nodes)
@@ -327,13 +329,13 @@ for (i in seq_len(n-1)) {
   }
 }
 
-# 6. Mise en forme des r¨¦sultats
+# 6. Mise en forme des r??sultats
 transformer_positions <- function(chemin, stations_df) {
   coords <- sapply(chemin, function(st) {
     stn <- stations_df[stations_df$name == st, ]
     paste0(stn$x, ";", stn$y)
   })
-  paste(coords, collapse = "£ü")
+  paste(coords, collapse = "??")
 }
 
 result_df <- data.frame(
@@ -364,8 +366,8 @@ for (res in resultats) {
   )
 }
 
-# 7. Affichage de la base de donn¨¦es
-cat("Base de donn¨¦es des plus courts chemins (dans les deux sens) :\n")
+# 7. Affichage de la base de donn??es
+cat("Base de donn??es des plus courts chemins (dans les deux sens) :\n")
 print(result_df)
 
 # 8. Visualisation
@@ -373,7 +375,7 @@ print(result_df)
 plot(stations$x, stations$y, pch = 19, cex = 1.5, xaxt = "n", yaxt = "n", xlab = "", ylab = "", main = "Graphe des gares")
 text(stations$x, stations$y, labels = stations$name, pos = 3)
 
-# trace des ar¨ºtes et ¨¦tiquettes de poids
+# trace des ar??tes et ??tiquettes de poids
 for (i in seq_len(nrow(edges))) {
   x0 <- stations$x[match(edges$from[i], stations$name)]
   y0 <- stations$y[match(edges$from[i], stations$name)]
@@ -384,4 +386,5 @@ for (i in seq_len(nrow(edges))) {
   text(xm, ym, labels = round(edges$weight[i], 2), cex = 0.8, col = "blue")
 }
 
-write.csv2(result_df, "C:/Users/u99amo/Downloads/chemins.csv")
+write.csv2(result_df, "/Users/antoineetholly/Documents/GitHub/Russia_1917/calculR/chemins.csv")
+
