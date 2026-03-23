@@ -22,7 +22,7 @@ library(futile.logger)
 library(arrow)
 
 # 0. Choix du nombre de gares
-choix <- 41
+choix <- 44
 
 # 1. Pr¨¦paration des donn¨¦es
 if (choix == 5) {
@@ -114,6 +114,8 @@ if (choix == 41) {
              "Tashkent","Samara","Novosibirsk","Irkustk","ID33","Irkustk","ID34",
              "ID35","ID36","Khabarovsk","Khabarovsk","Vladivostok"),
     stringsAsFactors = FALSE
+    
+    
   )
   #correction chemin
   edges<-edges%>%filter(from != "Murmansk" & from != "Moscou")
@@ -131,10 +133,134 @@ if (choix == 41) {
   edges<-rbind(edges,edgestemp )
   }
 
+if (choix == 44) {
+  stations <- data.frame(
+    name = c("Murmansk","Helsinski","ID3","Petrograd","ID5","Archangel","Tallin","Riga","Minsk","Br.Litovsk","Moscou","Kiev","Kharkov","Sebastopol","Rostov","Tsaritsyn","ID17","ID18","Kazan","Samara","Tbilissi","Erevan","Bakou","ID24","Tashkent","Perm","Yekaterin...","Omsk","Novosibirsk","Irkustk","ID31","ID32","ID33","ID34","ID35","ID36","Khabarovsk","ID38","Vladivostok","ID40","ID41","ID42","ID43","ID44"),
+    x = c(1204,886,1209,1089,1140,1481,940,890,1016,873,1352,1131,1284,1221,1448,1618,1485,1650,1784,1827,1514,1529,1710,2263,2469,2111,2238,2661,2992,3775,3675,4263,4361,4496,4635,4789,4895,4953,4843,2446,2583,1006,1033,4616),
+    y = c(4256,4736,4843,4834,4378,4548,4853,5014,5187,5278,5056,5381,5427,5670,5553,5475,5272,5185,5076,5227,5675,5820,5819,5525,5875,4978,5034,5156,5135,5327,5202,5345,5198,5185,5322,5479,5447,5523,5751,4971,5016,4742,4904,5246),
+    stringsAsFactors = FALSE
+  )
+  edges <- data.frame(
+    from = c("Archangel",
+             "Br.Litovsk",
+             "Helsinski",
+             "ID17",
+             "ID17",
+             "ID17",
+             "ID17",
+             "ID18",
+             "ID18",
+             "ID18",
+             "ID24",
+             "ID24",
+             "ID3",
+             "ID3",
+             "ID31",
+             "ID31",
+             "ID32",
+             "ID32",
+             "ID33",
+             "ID35",
+             "ID36",
+             "ID38",
+             "ID38",
+             "ID40",
+             "ID40",
+             "ID40",
+             "ID41",
+             "ID44",
+             "ID44",
+             "ID5",
+             "ID5",
+             "Kazan",
+             "Kazan",
+             "Kharkov",
+             "Kharkov",
+             "Kharkov",
+             "Kiev",
+             "Kiev",
+             "Minsk",
+             "Minsk",
+             "Omsk",
+             "Perm",
+             "Riga",
+             "Riga",
+             "Riga",
+             "Rostov",
+             "Samara",
+             "Samara",
+             "ID43",
+             "Tallin",
+             "Tbilissi",
+             "Tbilissi",
+             "Tbilissi",
+             "ID43",
+             "ID42"),
+    to   = c("Moscou",
+             "Minsk",
+             "ID42",
+             "ID18",
+             "Moscou",
+             "Rostov",
+             "Tsaritsyn",
+             "Kazan",
+             "Moscou",
+             "Samara",
+             "Samara",
+             "Tashkent",
+             "Moscou",
+             "Petrograd",
+             "Irkustk",
+             "Novosibirsk",
+             "ID33",
+             "Irkustk",
+             "ID34",
+             "ID36",
+             "Khabarovsk",
+             "Khabarovsk",
+             "Vladivostok",
+             "ID41",
+             "Perm",
+             "Yekaterin...",
+             "Omsk",
+             "ID34",
+             "ID35",
+             "ID3",
+             "Murmansk",
+             "Moscou",
+             "Perm",
+             "Moscou",
+             "Rostov",
+             "Sebastopol",
+             "Kharkov",
+             "Moscou",
+             "Kiev",
+             "Moscou",
+             "Novosibirsk",
+             "Yekaterin...",
+             "Br.Litovsk",
+             "Minsk",
+             "ID43",
+             "Tsaritsyn",
+             "Omsk",
+             "Tsaritsyn",
+             "Petrograd",
+             "Riga",
+             "Bakou",
+             "Erevan",
+             "Tsaritsyn",
+             "Tallin",
+             "Petrograd"),
+    stringsAsFactors = FALSE
+    
+    
+  )
+  
+}
 
-
+#write.csv2(edges, "C:/Users/u99amo/Downloads/edges.csv")
 # Inversion de y pour l'affichage
-stations$y <- - stations$y
+stations$y <- -stations$y
 
 # 2. Calcul des poids (distance euclidienne)
 edges$weight <- with(edges, 
