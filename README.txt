@@ -154,6 +154,12 @@ Vladivostok
 Varsovie
 
 
+
+
+27 Mars 2021
+Jai mis le fichier liste debat ok sauf que le niveau 2 reste systématiquement caché
+A encore creuser, aussi la navitation avec les fleches
+
 16 Mars 2026
 
 
