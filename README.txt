@@ -1,3 +1,4 @@
+Les nations
 "ALLEMANDS" INACTIF puis DEFAITE
 "AMERICAINS_DU_NORD" = ACTIF_LIMITE
 "BLANCS_BIELORUSSES"= ACTIF_LIMITE
@@ -153,6 +154,48 @@ Khabarovsk
 Vladivostok
 Varsovie
 
+
+09.04.2026
+reflexion IA
+Ce que je veux arriver à faire
+
+Definir un but en fonction du world count
+
+Definir action, chaque actiona un pre requis un effet et un cout
+
+definir un planner qui parcours chaque action
+- parcours les prerequis
+- choisis le moins cher
+
+
+Resumer de ce que j'ai appris en GOAP
+
+Le goap c'est l'idée que l'IA génère un plan d'action et puis choisis de le réaliser
+On travail avec plusieurs logiques
+
+1. Wordlcount - Je regarde la situation du monde en temps réél (dans mon exemple est ce ue Robinson a de la nourriture sur lui, si il voit de la nourriture, a combien de pourcent sa maison est construire etc)
+
+2. ENsuite je détermine son besoin du moment, cela peut etre de satisfaire sa faim, cela peut etre d'assurer sa sécurité, d'explorter son environnement ou simplement allumer un feu pour etre vu du bateau
+Ce but est changé en focntion du worldcount
+
+3. On determine une serie d'action simple que peut realiser l'iA. Cela peut etre manger une noix de coco ou un poisson, aller chercher une noix de coco, aller cherche un poisson. partir explorer au hasard, etc
+l'idée c'est qu'une action puisse etre utilisé dans plusieurs plan : par exemple chercher une arbre dans le cade de repondre a sa faim ou bien chercher un arbre pour avoir du bois de construction
+l'idée est aussi qu'un plan puisse etre realisé de plusieurs manière
+par exemple satifaire sa faim peut etre : trouver un poisson, manger le poisson ou trouver une noix de coco et manger la noix de coco
+
+4. On fait le plan
+Soit on code tout les plans possibles et on prend le moins cher ("trouver un poisson, manger le poisson" = 3 ou "trouver une noix de coco et manger la noix de coco" =2), soit on prend toute les actions possible et on les combine pour voir ce que coute chaque plan 
+La premiere demarche est determinisite (chaque plan a été pensé par le developpeur), la deuxième est emergente (elle realise des plans que le developpeur n'a pas pensé).
+
+Le problème pour faire cela en gdevelop, c'est compliqué sauf si on passe apr un bloc javascript
+En effet, il faut créer un tableau qui prevoit pour chaque action ses conditions, ses effets et ses consequences puis un deuxième tableau qui etablis les plans possible en fonction de letat du monde du but recherché et des conditions et effet de chaque action.
+C'est possible mais complexe surtout en pseudocode gdevelop
+
+5. Validation
+L'idée est de voir si avec ette ia, on va avoir une ia qui se comporte toujours d ela meem facon ou bien si fasse a des inputs differents, elle sera reactive. Pour tester cela en mode robinson, il faut que les ressources et le bateau apparaissent de manière aleatoire et voir si l'IA survit oun pas
+
+6. A quoi bon
+dans le acdre de mon jeu, je dois voir en quoi l'IA des russses blancs peut appporter une grande divetrsité avec le goap, si un arbre de cision ou une famille de comprtement n'est pas plus simple
 
 
 
