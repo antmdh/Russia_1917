@@ -192,7 +192,7 @@ En effet, il faut créer un tableau qui prevoit pour chaque action ses condition
 C'est possible mais complexe surtout en pseudocode gdevelop
 
 5. Validation
-L'idée est de voir si avec ette ia, on va avoir une ia qui se comporte toujours d ela meem facon ou bien si fasse a des inputs differents, elle sera reactive. Pour tester cela en mode robinson, il faut que les ressources et le bateau apparaissent de manière aleatoire et voir si l'IA survit oun pas
+L'idée est de voir si avec ette ia, on va avoir une ia qui se comporte toujours d ela meem facon ou bien si fasse a des inputs differents, elle sera reactive. Pour tester cela en mode robinson, il faut que les ressources et le bateau apparaissent de manière aleatoire et voir si l'IA survit oun pas en faisant tourner un grand nombre de fois le jeu
 
 6. A quoi bon
 dans le acdre de mon jeu, je dois voir en quoi l'IA des russses blancs peut appporter une grande divetrsité avec le goap, si un arbre de cision ou une famille de comprtement n'est pas plus simple
