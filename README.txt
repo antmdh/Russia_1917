@@ -154,6 +154,44 @@ Khabarovsk
 Vladivostok
 Varsovie
 
+STAVAZA 21.04.2026
+LE NOM DU DEBAT EST SAUVER DANS LE BOUTON QU'ON CLIQUE POUR ACCEDER AU DEBAT
+IL FAUT MAINTENANT METTRE EN PLACE LE MENU DEBAT A VALIDER ET REPRENDRE L'INFORMATION DU BOUTON POUR AFFICHE RLE BON TEXTE
+
+20.04.2026
+Essais d'une partie, aucune interaction sauf defense de Moscou et Petrograd
+Bug
+- Le mois d'octobre dure trop longtemsp et rien ne se passe
+- Je dois configurer que si on clique sur une des banners avant que le chronomètre se termine, alors on a accès à la conversation sinon on a la réponse
+- Les notifications doivent apparaitre
+Visuel
+- La carte doit avoir un peu plus de motif
+
+IA
+- Au niveua de l'IA, Si je ne bouge pas, les blancs n'attaque pas idem pour laes anglos americains (seul les allemands attaque Moscou)
+- Des troupes blanches (généraux blancs) apparaissent et disparaissent à Tbilissi alors qu'il y a aucun ennemi
+- Les généraux blancs ne prennent pas de villes (je veux dire la ville ne devient pas blanche alors qu'ils sont dessus) ex Tbilissi en sep 1918
+- Les baltes aussi ont le meme probleme pour prendre RIGA octobre 1918
+- Il y a plein de morts sur la carte artisitique alors que je vois aucun combat
+- La ville de Rostov n'a plus de troupes mais je ne sais pas qui les a crée
+- les vertpaysant ne prennent pas de villes 
+- Pas de conflit entre nationaliste ukrainens et anarchiste ukrainiens
+
+
+Fonctionnalité suplémentaire
+- Rajouter un message quand une ville est prise ou perdue pour le joueur 
+- Page les débats, il y a trop de page vide 
+- Le bouton "plus d'information" de "situation du pays" provoque un retour au début et un affichage inccorect
+- Boucle de gameplay = Mettre une série de scénario réussite (petite victoire en conservant moscou et petrograd, grande victoire en gardant tout le monde)
+- Game desing = personne n'attaque avant mars 1918
+- Puis personne n'attaque meme pas les finlandais 
+- Game desing il faut qu'on puisse identifier les troupes de chaque pays ainsi que les villes et qui les possède
+- Rajouter un fichier LOG de chaque opération fait par l'IA
+- Rajotuer un tableau qui indique situation de chaque IA 
+- Rajouter un tableau qui indique le nombre de mort par camps et pays
+- Game design, UNe partie de 62 minutes, c'est trop long sans sauvegarde mais peut etre tricher avec les minutes qui dure pas le meme temps, en tout cas en developpement, on doit rester à 15 ou 30 secondes 
+- Rajouter un bouton (retour menu et sauvegarde)
+
 
 09.04.2026
 reflexion IA
