@@ -1,3 +1,5 @@
+https://excalidraw.com/#room=44dc19f319c08c2c59e6,h1ZXSZQWEENms35iYvHj3g
+
 Les nations
 "ALLEMANDS" INACTIF puis DEFAITE
 "AMERICAINS_DU_NORD" = ACTIF_LIMITE
