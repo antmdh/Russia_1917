@@ -64,8 +64,8 @@ cordova platform add android
 cordova build android
 
 1.Faire_la_revolution
-2.Decret_sur_la_terre
-3.Decret_sur_la_paix
+2.Decret_sur_la_paix
+3.Decret_sur_la_terre
 4.Droit_autodetermination_peuples
 5.Decret_controle_ouvrier
 6.Creation_tcheka
@@ -155,6 +155,11 @@ Irkustk
 Khabarovsk
 Vladivostok
 Varsovie
+
+Stavaza 29.04.2026
+J'ai bien avancé sur la validation des décisions mais deux bugs
+- IL y a un décalage des réponses (ON indique réponse 7 validé alors que c'est la 6 dans situation du pays)
+- L'icone STATUT_APPROUVE_REFUSE ne reste pas active durant tout le jeu mais seulemnt quelques instant, je ne comprend pas pourquoi ? Rectificarion cela à l'air d'aller mais par contre plus les mois passe, plus la mise en page de liste debat bug complètement
 
 stavaza 25.04.26
 mettre DBU1 2 3 sur calque de base
