@@ -155,6 +155,10 @@ Irkustk
 Khabarovsk
 Vladivostok
 Varsovie
+1.5.2026
+les troupes qui meurt c'est les conflits entre blancs, les troupes allemandes par exemples disparaissent en une fois
+j'ai annulé la version enjs et j'ai fait une noouvelle mais l'ordinateur ne detcte pas la collission, je ne sais pas pourquoi, je dois faire des tests plus avancé
+
 
 Stavaza 29.04.2026
 J'ai bien avancé sur la validation des décisions mais deux bugs
