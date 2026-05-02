@@ -155,6 +155,13 @@ Irkustk
 Khabarovsk
 Vladivostok
 Varsovie
+
+Stavaza 02.05.2026
+Je suis à la recherche de savoir pourquoi autant de troupes blances disparaissent dans les combats inter blancs, j'ai mis en place les log et cela à l'air de fonctionner pour identifier les problemes, dès Avril 2018, enormement de blancs et de legion tcheque disparaissent
+Etrange
+
+
+
 1.5.2026
 les troupes qui meurt c'est les conflits entre blancs, les troupes allemandes par exemples disparaissent en une fois
 j'ai annulé la version enjs et j'ai fait une noouvelle mais l'ordinateur ne detcte pas la collission, je ne sais pas pourquoi, je dois faire des tests plus avancé
