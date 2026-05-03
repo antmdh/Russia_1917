@@ -156,10 +156,43 @@ Khabarovsk
 Vladivostok
 Varsovie
 
+Liste des situations :
+
+1) Conflits (7) :
+- ENTENTE vs EXTREME GAUCHE
+- ALLIANCE vs EXTREME GAUCHE
+- ALLIANCE vs BLANCS_NATIONALISTE
+- ENTENTE vs ALLIANCE
+- EXTREME GAUCHE vs BLANCS_REGIONALISTES
+- BLANCS_NATIONALISTE vs BLANCS_REGIONALISTES
+- BLANCS_NATIONALISTE vs EXTREME GAUCHE
+
+2) Non-conflits (même camp) :
+- ENTENTE vs ENTENTE
+- ALLIANCE vs ALLIANCE
+- EXTREME GAUCHE vs EXTREME GAUCHE
+- BLANCS_NATIONALISTE vs BLANCS_NATIONALISTE
+- BLANCS_REGIONALISTES vs BLANCS_REGIONALISTES
+
+3) Non-conflits (non listés dans les 7 conflits) :
+- ENTENTE vs BLANCS_NATIONALISTE
+- ENTENTE vs BLANCS_REGIONALISTES
+- ALLIANCE vs BLANCS_REGIONALISTES
+
+
+stavaza 3.5.2026
+tentative de comprehension du bug
+dès que les japonais apparaissent en avril
+11 disparaissent (selon le log) et il reste 11
+J'ai crée en pseudocode une logique pour voir si ils entre en conflit mais je n'arrive pas à vérifeir, à encore tester 
+J'ai remarqué aussi que la zone des forces blances nationalistes est 0 0 au lieu d'avoir un cntre comme les autres
+
+
+
 Stavaza 02.05.2026
 Je suis à la recherche de savoir pourquoi autant de troupes blances disparaissent dans les combats inter blancs, j'ai mis en place les log et cela à l'air de fonctionner pour identifier les problemes, dès Avril 2018, enormement de blancs et de legion tcheque disparaissent
 Etrange
-
+J'ai aussi redécouvert qu'une collission entre deux objets identiques (meme avec des valeurs interne différentes) est pas possible sans passer par un code javascript
 
 
 1.5.2026
