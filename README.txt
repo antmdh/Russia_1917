@@ -200,6 +200,23 @@ les troupes qui meurt c'est les conflits entre blancs, les troupes allemandes pa
 j'ai annulé la version enjs et j'ai fait une noouvelle mais l'ordinateur ne detcte pas la collission, je ne sais pas pourquoi, je dois faire des tests plus avancé
 
 
+Reflexion sur la musique sovietique d'avant garde
+
+Beaucoup de musique est trop intelectuel, elle ne s'adapte pas à un jeu vidéo
+Exemple qui ne convient pas
+Dans l'album
+RUssia Avant-garde Music
+https://www.youtube.com/watch?v=PEednk2DpOg&list=OLAK5uy_kSX2a4uiIEZ0NAtB4Xd-ruwcfacY4pkiw&index=3
+Peinture de Gennady Rozhdestvensky
+Offertorim de Oleg Kagan
+
+J'aime bien celle la
+Gogol-Suite VI the BUreaucrats
+https://www.youtube.com/watch?v=o7UxkNit0U4&list=OLAK5uy_kSX2a4uiIEZ0NAtB4Xd-ruwcfacY4pkiw&index=9
+Il y a des sons intéressant pour faire des boucles dans 
+Schnittke : Gogol Suite (Rozhdestvensky)
+https://www.youtube.com/watch?v=uevwzhfp_pk (28 minutes quand meme), il y a des choses intéressantes vers 23 minutes
+
 Stavaza 29.04.2026
 J'ai bien avancé sur la validation des décisions mais deux bugs
 - IL y a un décalage des réponses (ON indique réponse 7 validé alors que c'est la 6 dans situation du pays)
