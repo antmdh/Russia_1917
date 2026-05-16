@@ -179,6 +179,14 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
+
+Stavaza 16.05.2026
+- Rajout d'espace dans le menu "état du pays" pour rajouter des troupes pour des taches auxiliaires
+- Retravaille de la liste de débat
+- Commence un nouveau menu subdivisé par thématique
+- Changement de la carte avant garde, l'arrière fond est plus droit et fait par l'humain, pas par l'ïambe
+
+
 stavaza 04.05.2026
 La fonction combat blanc versus combat blanc fonctionne dans le mode test mais ne fonctionne pas dans le mode complet, je dois encore comprendre pourquoi 
 Il faut effacer la ligne de la markovitcha qui apparait en 1917
