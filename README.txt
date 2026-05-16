@@ -179,6 +179,10 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
+stavaza 04.05.2026
+La fonction combat blanc versus combat blanc fonctionne dans le mode test mais ne fonctionne pas dans le mode complet, je dois encore comprendre pourquoi 
+Il faut effacer la ligne de la markovitcha qui apparait en 1917
+
 
 stavaza 3.5.2026
 tentative de comprehension du bug
