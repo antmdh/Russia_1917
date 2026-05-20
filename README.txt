@@ -70,6 +70,11 @@ cordova build android
 5.Decret_controle_ouvrier
 6.Creation_tcheka
 7.Independance_finlande
+7bis.independance_ukraine
+7ter.Independance_turkmenistan
+7quater.Independance_bielorusse
+7quinter.independance_caucase
+7sixter.independance_baltes
 8.Mariage_civil_egalite_hf
 9.Nationalisation_banques_dettes
 10.Dissolution_assemblee_constituante
@@ -77,6 +82,7 @@ cordova build android
 12.Calendrier_gregorien
 13.Accord_brest_litovsk_1
 14.Accord_brest_litovsk_2
+14bis.Congres_education
 15.Monopole_commerce_exterieur
 16.Dictature_alimentaire
 17.Nationalisation_grande_industrie
