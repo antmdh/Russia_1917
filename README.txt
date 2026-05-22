@@ -186,6 +186,9 @@ Liste des situations :
 - ALLIANCE vs BLANCS_REGIONALISTES
 
 
+stavaza 22 05 2026
+- rajout de la pravda avec texte et titree dynamique et projet de changer de caneva chaque annee
+
 Stavaza 16.05.2026
 - Rajout d'espace dans le menu "état du pays" pour rajouter des troupes pour des taches auxiliaires
 - Retravaille de la liste de débat
