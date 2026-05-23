@@ -185,7 +185,8 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
-
+stavaza 23.05.2026
+- rajout du zoom et deplacement ecran pour pravda et menu politique
 stavaza 22 05 2026
 - rajout de la pravda avec texte et titree dynamique et projet de changer de caneva chaque annee
 
