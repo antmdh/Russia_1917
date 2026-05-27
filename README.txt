@@ -112,6 +112,8 @@ cordova build android
 41.Conference_genes
 42.Traite_rapallo
 43.Creation_URSS
+44.Creation_republique_extreme_orient
+45.Suppression_republique_extremeorient
 
 "Murmansk"
 "Petrograd"
@@ -184,6 +186,10 @@ Liste des situations :
 - ENTENTE vs BLANCS_NATIONALISTE
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
+
+stavaza 27.05.2026
+stavza travail sur débat politique et consequence
+rajout d"un log pour decsiion IA FCT1 pour tous les camp blancs sur la carte. en mode developpeeur
 
 stavaza 23.05.2026
 - rajout du zoom et deplacement ecran pour pravda et menu politique
