@@ -186,6 +186,24 @@ Liste des situations :
 - ENTENTE vs BLANCS_NATIONALISTE
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
+STAVAZA 29.05.2028
+
+la zone d'action des soldats. blancs etait fausse car elle a ete fixé de maniere brut dans le code,je l'aichangé en mode dynamique
+
+STAVAZA 28.05.2028
+- j'identifie que la zone des soldats blancs qu'ils peuvent acquerir est codé en dur
+- Je dois
+-creer des zones ou les troupes peuvent se deplacer et indiquer ensuite les references de ces zones dans la base de données au debut de la partie
+
+Dans mes autres taches, au niveau des debat
+- je dois identifier les consequences de chaque debat 
+- faire apparaitre chaque debat au temps prevu
+- limiter a un seul choix par debat
+- reflechir a interface utilisateur 
+- adapter le jouranl en fonction des debats mener
+-changer la musique
+
+
 
 stavaza 27.05.2026
 stavza travail sur débat politique et consequence
