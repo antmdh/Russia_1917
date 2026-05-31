@@ -186,6 +186,18 @@ Liste des situations :
 - ENTENTE vs BLANCS_NATIONALISTE
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
+
+
+stavaea 31.05.2026
+Je suis dans la partie 7 ville, j'essaye de reduire la frequence mais mon code (chaque seoncde) ne fonctionne pas bien
+OK resolue
+rajout du menu culture revolutionnaire
+
+STAVAZA 30.05.2026
+suppression de la vitesse montagne qui n'apporte rien au gameplay
+correction du menu fin de la partie qui ne s'affichait pas
+
+
 STAVAZA 29.05.2028
 
 la zone d'action des soldats. blancs etait fausse car elle a ete fixé de maniere brut dans le code,je l'aichangé en mode dynamique
