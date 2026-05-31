@@ -192,6 +192,7 @@ stavaea 31.05.2026
 Je suis dans la partie 7 ville, j'essaye de reduire la frequence mais mon code (chaque seoncde) ne fonctionne pas bien
 OK resolue
 rajout du menu culture revolutionnaire
+rajout du menu securite revolutionnaire
 
 STAVAZA 30.05.2026
 suppression de la vitesse montagne qui n'apporte rien au gameplay
