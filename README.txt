@@ -196,6 +196,10 @@ Liste des situations :
 - ALLIANCE vs BLANCS_REGIONALISTES
 
 
+Stavaza 5 juin
+Mise en place de l'aspect dynamique du journal pravda avec le texte qui se met à jour et dans la bonne mise en page
+
+
 stavaea 31.05.2026
 Je suis dans la partie 7 ville, j'essaye de reduire la frequence mais mon code (chaque seoncde) ne fonctionne pas bien
 OK resolue
