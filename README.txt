@@ -195,6 +195,12 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
+Quelques idées
+- Je devrais passer le nombre de soldat que chaque ville peut créer à 50 pour permettre l'allocation de ressources de vider plus de 170 soldats
+Je fais une version test ou je tente 50 soldat pour voir si c'est pertinet
+
+
+
 
 Stavaza 5 juin
 Mise en place de l'aspect dynamique du journal pravda avec le texte qui se met à jour et dans la bonne mise en page
