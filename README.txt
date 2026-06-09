@@ -200,7 +200,24 @@ Quelques idées
 Je fais une version test ou je tente 50 soldat pour voir si c'est pertinet
 
 
+Stavaza 9 juin 
+Objectif pour vendredi 
+Russia 1917
+-  Mettre trois modes
+     -  Mode stratégique
+     -  Mode stratégique et politique (quand on a réussis le mode stratégique)
+     -  Mode stratégique, politique et économique (quand on a réussis le mode  stratégique)
 
+- Préparer le mode stratégique avec
+       -  Un image d'intro
+       -  Une image d'évenement 
+       -  recommencer le premeir mois qui est trop lent
+
+- Préparer le mode politique avec 
+- 5 politique (indépendance pays + paix, terre, et controle ouvriers)
+- resoudre bug
+
+Mode ressources, on met une unité 
 
 Stavaza 5 juin
 Mise en place de l'aspect dynamique du journal pravda avec le texte qui se met à jour et dans la bonne mise en page
