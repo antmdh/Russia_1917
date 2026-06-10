@@ -198,7 +198,16 @@ Liste des situations :
 Quelques idées
 - Je devrais passer le nombre de soldat que chaque ville peut créer à 50 pour permettre l'allocation de ressources de vider plus de 170 soldats
 Je fais une version test ou je tente 50 soldat pour voir si c'est pertinet
+stavaza 10 jin
+j'ai eesussi a mettre un résumé des débats futur dans la pravda mais je n'arrive pas à rendre invisible (via animation) les cadres des débats
 
+Je lance 5 debats
+
+01.Faire_la_revolution si oui lance le jeu, sinon echec
+02.Decret_sur_la_paix transforme des villes en bolcheviks sans soldats
+03.Decret_sur_la_terre transforme des villes en bolcheviks sans soldats
+04.Droit_autodetermination_peuples lance les independances
+05.Decret_controle_ouvrier lance allocations ressources
 
 Stavaza 9 juin 
 Objectif pour vendredi 
