@@ -195,6 +195,24 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
+20 juin
+Je vais simplifier l'UI
+tu lances une politique ou pas, une par 15 secondes
+
+
+19 juin
+j'ai testé avec es zones de combat unique et deux variables
+soit une zone par villes (genre 28) les grand
+soit plusieurs zones par ville (par exemple finlande est dvisé en trois zones) version petite
+la version grande fonctionne bien, ya un vrai axe strategique 
+la version petite est vite chiante car on a trop d'unite a bouger
+
+par contre ce qui est sur c'est qu'on a une trop grande carte et c'est pas trop problematique mais un peu quand meme.
+Non ma version reste mieux
+
+12 juin
+je tente un nouveau game experience pour le deplacement des troupe,s troupe distinct versus drag en drop
+J'AI AUSSI RENCONTRÉ UN YOUTUBER
 
 10.06.2026
 resolution bug explication oeuvre d'art
