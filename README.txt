@@ -197,6 +197,11 @@ Liste des situations :
 
 21 juin V5
 J'ai rajouté le type de politique: diplomatie, pouvoir_revolutionnaire, culture, economie, armee_securite
+Je commence à mettre le menu V3 d'aboord le titre et puis les débats en cours
+Remarque, je vois que les opérations de novembre on lieu deux fois dans la liste, c'est sans doute lié au data et au saut de date, faudra sans dout les supprimer un epremiere fois
+RAjout du menu V3 mais sans activation des boutons nmais dynamique.
+UN premier retour donne bien 
+
 
 20 juin V5
 Je vais simplifier l'UI
