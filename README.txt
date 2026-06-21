@@ -121,7 +121,7 @@ cordova build android
 42.Traite_rapallo
 43.Creation_URSS
 44.Creation_republique_extreme_orient
-45.Suppression_republique_extremeorient
+
 
 "Murmansk"
 "Petrograd"
@@ -195,7 +195,10 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
-20 juin
+21 juin V5
+J'ai rajouté le type de politique: diplomatie, pouvoir_revolutionnaire, culture, economie, armee_securite
+
+20 juin V5
 Je vais simplifier l'UI
 tu lances une politique ou pas, une par 15 secondes
 
