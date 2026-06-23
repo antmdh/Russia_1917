@@ -4,7 +4,13 @@ Liste des evenements qui influence
 armee_securite
 
 
-
+Les consequences de chaque decisions sont
+- soit territoriale (nouvelles frontieres apparaissent)
+- soit politique : l'attitude des ennemis change
+- soit allocations ressourcs  créé des besoins
+- Soit militaire : crée des troupes
+- soit economique : augmente production
+- soit idéologique : augmente adhesion
 
 
 
@@ -194,6 +200,17 @@ Liste des situations :
 - ENTENTE vs BLANCS_NATIONALISTE
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
+
+23 juin
+Reorganisation du code, passage a la version V5
+rajout des icones a partir du menu debat :
+Les consequences de chaque decisions sont
+- soit territoriale (nouvelles frontieres apparaissent)
+- soit politique : l'attitude des ennemis change
+- soit allocations ressourcs  créé des besoins
+- Soit militaire : crée des troupes
+- soit economique : augmente production
+- soit idéologique : augmente adhesion
 
 21 juin V5
 J'ai rajouté le type de politique: diplomatie, pouvoir_revolutionnaire, culture, economie, armee_securite
