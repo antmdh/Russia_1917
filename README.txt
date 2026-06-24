@@ -201,6 +201,13 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
+27 juin 2026
+bloc 27
+je cherche a ne pas afficher ou afficher diferement le deabt validé dans le menu debat V3
+bug : 
+le code TABLE_MOIS_QUESTION.RESULTAT[nomchild_typededbat_encoursfini] = NA n'est pas correct car je prend l'indice de liste debat en cours ou fini (genre 10 ligne'z) pour contoler celui de §À LIGNES, je dois faitre autrement, peut etre copier les valeurs de la ligne : TABLE_MOIS_QUESTION.RESULTAT vers LISTE_TYPEDEBAT_ENCOURSOUFINI
+
+
 23 juin
 Reorganisation du code, passage a la version V5
 rajout des icones a partir du menu debat :
