@@ -200,8 +200,13 @@ Liste des situations :
 - ENTENTE vs BLANCS_NATIONALISTE
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
+25 juin
+Bloc 27
+J'ai fait disparaitrre les debqts qui ont ete resolué, je dois maintenant les faire reapparaitre à la fin en mode barré
+Je dois aussi rendre ce menu qui chnage a chaque clic de boutons
 
-27 juin 2026
+
+24 juin 2026
 bloc 27
 je cherche a ne pas afficher ou afficher diferement le deabt validé dans le menu debat V3
 bug : 
