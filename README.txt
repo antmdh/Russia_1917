@@ -200,7 +200,20 @@ Liste des situations :
 - ENTENTE vs BLANCS_NATIONALISTE
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
+
+26 juin
+J'ai deux bug
+au debut de la partie, la table TABLE_MOIS_QUESTION.MOIS_encours créé des enfant = nombre = 0 et je ne comprend pas pourquoi
+
+Ensuite 
+LISTE_DEBAT_ENCOURSOUFINI copie deux fois les debats en cours chaque mois
+
+et je pense que ces deux bugs influence le bloc 27 ou j'ai commencé à mettre l'image barré
+
 25 juin
+update
+£ 
+
 Bloc 27
 J'ai fait disparaitrre les debqts qui ont ete resolué, je dois maintenant les faire reapparaitre à la fin en mode barré
 Je dois aussi rendre ce menu qui chnage a chaque clic de boutons
