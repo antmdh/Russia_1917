@@ -201,6 +201,12 @@ Liste des situations :
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
 
+27juin
+Travail sur le bloc 27 menu debat V3
+bug actuel
+1. l'affichage de "non-resolu" a "resolu" n'est pas automatique des qu'on clique sur un bouton, c'est le changement de mois qui fait changer l'affichage
+2. l'affichage d'animation de approuve et non approuvé n'est pas correct
+
 26 juin
 J'ai deux bug
 au debut de la partie, la table TABLE_MOIS_QUESTION.MOIS_encours créé des enfant = nombre = 0 et je ne comprend pas pourquoi
