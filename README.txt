@@ -200,6 +200,9 @@ Liste des situations :
 - ENTENTE vs BLANCS_NATIONALISTE
 - ENTENTE vs BLANCS_REGIONALISTES
 - ALLIANCE vs BLANCS_REGIONALISTES
+28 juin
+Bloc 27 OK l'affichage des différents débats fonctionne correctement ;-)
+
 
 27juin
 Travail sur le bloc 27 menu debat V3
