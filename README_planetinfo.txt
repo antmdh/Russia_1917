@@ -13,13 +13,18 @@ Par ordre
 
 2) Quand je clique sur le petit carnet, il reste ouvert tous le temps meme si je change de débat OK
 
-3) Revoir le menu d'information qui apparaissent et disparaisse toute les 15 secondes et qui impose de faire un choix (le bouton menu clignote) et tu n'y a plus accès après pendant 15 secondes
+3) Revoir le menu d'information qui apparaissent et disparaisse toute les 15 secondes et qui impose de faire un choix (le bouton menu clignote) et tu n'y a plus accès après pendant 15 secondes OK
 
 
 4) 
 Revoir la question de la transmission d'information, pourquoi lire PRAVDA ?
 Revoir la question de la communication d'information : On a une carte (indispensable), une barre d'information (indispensable) des boutons (vers la politique et l'économie = ambition et l'état du pays, situation reel), une barre de notifications
 Voir image que j'ai faite
+
+
+je dois decider si je fais
+-on peut produire une unité quand on a 50 et 50 et on change pas le nombre de troupes disponibles
+- chaque x temps si on a 50/50 on peut produire eun troupe en plus
 
 5) Refaire le menu situation du pays et rendre accessible situation du pays en cas de perte
 
@@ -37,6 +42,7 @@ Résoudre le probleme qu'un soldat en contact avec plusieurs ennemis peut en tue
 Resoudre le probleme que lorsquu'on bouge un soldat, on a le zoom qui se déclenche, il faut que lorsqu'on tire la fleche, le zoom ne puisse pas s'activer durant une seconde
 Avoir une layout gaucher/ droitier
 Améliorer l'IA des blancs, pourquoi souvent ils ne bougent pas, surtout les blancs qui apparaissent sur les pays bales 
+Il faut que la barre des notifications ne s'affiche que si il y a des débats à valider
 
 
 

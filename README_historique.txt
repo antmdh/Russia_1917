@@ -1,5 +1,18 @@
 Historique developpement
 
+1er juillet
+j'ai fait l'indice economique et adhesion national et pour chaque ville bolcheviks
+
+30 juin
+J"'ai revu le temps de jeu  Revoir le temps pour que le jeu se termine après la perte de Moscou et petrograd - tester en jeu
+
+j'ai résolu le bug Quand je clique sur le petit carnet, il reste ouvert tous le temps meme si je change de débat OK
+
+j'ai introduit cela Revoir le menu d'information qui apparaissent et disparaisse toute les 15 secondes et qui impose de faire un choix (le bouton menu clignote) et tu n'y a plus accès après pendant 15 secondes OK
+
+J'ai commencé le calcul intensité et adhesion par ville mais pas encore fini
+
+
 28 juin
 Bloc 27 OK l'affichage des différents débats fonctionne correctement ;-)
 
