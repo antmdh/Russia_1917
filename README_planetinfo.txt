@@ -15,6 +15,17 @@ Par ordre
 
 3) Revoir le menu d'information qui apparaissent et disparaisse toute les 15 secondes et qui impose de faire un choix (le bouton menu clignote) et tu n'y a plus accès après pendant 15 secondes OK
 
+4) je dois reussisr a mettre un indcateur sur chaque ville puisque la creation depend du niveau 50/50 
+Je dois voir si je dois mettre une limite au nombre de soldat rajouté (pour l'instant pas de limite)
+
+5) comme je suis passé a une minute, je dois faire un tunnel
+a) Notifications qui t'infome de l'actualite et e puosse a participer au debat
+b) chosir un deabt
+c) valider ou non le dabt
+d) page allocation ressources pour appliquer la decision
+e) journal
+f) retour menu
+
 
 4) 
 Revoir la question de la transmission d'information, pourquoi lire PRAVDA ?

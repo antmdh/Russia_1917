@@ -1,5 +1,8 @@
 Historique developpement
 
+2 juillet
+Je rajoute le renouvellement des soldats, je rajoute qu'il faut 50/50 pour creer un soldat et je prolonge les mois a 1 minutes. PAr contre pas arrivée a faire un indice du niveau 50/50 par ville, a recommencer en jouant sur l'animation de possession ville et pas sur indice
+
 1er juillet
 j'ai fait l'indice economique et adhesion national et pour chaque ville bolcheviks
 
