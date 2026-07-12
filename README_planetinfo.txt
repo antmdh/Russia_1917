@@ -1,45 +1,43 @@
 https://excalidraw.com/#room=44dc19f319c08c2c59e6,h1ZXSZQWEENms35iYvHj3g
 
 
-
+12.07.2026
 PLAN
 Il y a les fonctionnalité pour améliorer le jeu
 Il y a les fonctionnalité pour terminer une premiere version du jeu
 
 - Construction de la base du jeu
+
+Reflexion
+- 1 debat par mois : je dois garder quitte à changer la nature des dabts à regrouper certains
+- 1 message par mois, qui ne bloque par le jeu mais qui propose d'aller débatre 
+- 1 message par mois qui invite à consulter la pravda pour connaitre des informations particulières directement dans le jeu (genre fin de la guerre)
+
 Par ordre
 
-1) Revoir le temps pour que le jeu se termine après la perte de Moscou et petrograd - tester en jeu
-
-2) Quand je clique sur le petit carnet, il reste ouvert tous le temps meme si je change de débat OK
-
-3) Revoir le menu d'information qui apparaissent et disparaisse toute les 15 secondes et qui impose de faire un choix (le bouton menu clignote) et tu n'y a plus accès après pendant 15 secondes OK
-
-4) je dois reussisr a mettre un indcateur sur chaque ville puisque la creation depend du niveau 50/50 
-Je dois voir si je dois mettre une limite au nombre de soldat rajouté (pour l'instant pas de limite)
-
-5) comme je suis passé a une minute, je dois faire un tunnel
-a) Notifications qui t'infome de l'actualite et e puosse a participer au debat
-b) chosir un deabt
-c) valider ou non le dabt
-d) page allocation ressources pour appliquer la decision
-e) journal
-f) retour menu
+- Finir la présentation de la situation de chaque ville dans le menu situation du pays (des carrés ou l'on voit la situation pour chaque ville) et sur la carte, un truc lisible qui montre évolution des deux niveaux (avec par exemple un graphique qui augmente artificiellement)
 
 
-4) 
-Revoir la question de la transmission d'information, pourquoi lire PRAVDA ?
-Revoir la question de la communication d'information : On a une carte (indispensable), une barre d'information (indispensable) des boutons (vers la politique et l'économie = ambition et l'état du pays, situation reel), une barre de notifications
-Voir image que j'ai faite
+Ensuite projet politique
 
+a)Mettre en place une ia qui va cloturer chaque débat si on ne choisis rien. IA valide un debat ou pas mais ne fait pas rien
+b) Faire le tunnel des décisions
+- clique sur menu débat / Liste débat / Pravda / Situation du pays / Debat / Economie et allocation des ressources / Pravda / menu Stratégique
+b) Faire un menu notifications qui affiche tout ce qui est possible pour ce mois
+(un peu plus travaillé) le but est d'aller cliquer sur débat 
+c) Retravailler menu pravda et menu situation du pays et menu économie
 
-je dois decider si je fais
--on peut produire une unité quand on a 50 et 50 et on change pas le nombre de troupes disponibles
-- chaque x temps si on a 50/50 on peut produire eun troupe en plus
+Voir ce que cela donne
 
-5) Refaire le menu situation du pays et rendre accessible situation du pays en cas de perte
+d)  je dois reussisr a mettre un indcateur sur chaque ville puisque la creation depend du niveau 50/50 
 
-6) Faire un bilan au niveau du congrès (chaque année)
+e) Rendre les boutons volants dans pravda
+
+f) Rajouter situation de chaque ville dans situation du pays
+
+g)  rendre accessible situation du pays en cas de perte
+
+h) Faire un bilan au niveau du congrès (chaque année)
 
 
 Faire le menu économie mais demande d'abord de calculer l'economie des troupes
@@ -49,11 +47,11 @@ Faire le menu économie mais demande d'abord de calculer l'economie des troupes
 
 
 - Amélioration annexe
-Résoudre le probleme qu'un soldat en contact avec plusieurs ennemis peut en tuer plusieurs
-Resoudre le probleme que lorsquu'on bouge un soldat, on a le zoom qui se déclenche, il faut que lorsqu'on tire la fleche, le zoom ne puisse pas s'activer durant une seconde
-Avoir une layout gaucher/ droitier
-Améliorer l'IA des blancs, pourquoi souvent ils ne bougent pas, surtout les blancs qui apparaissent sur les pays bales 
-Il faut que la barre des notifications ne s'affiche que si il y a des débats à valider
+a) Résoudre le probleme qu'un soldat en contact avec plusieurs ennemis peut en tuer plusieurs
+b) Resoudre le probleme que lorsquu'on bouge un soldat, on a le zoom qui se déclenche, il faut que lorsqu'on tire la fleche, le zoom ne puisse pas s'activer durant une seconde
+c) Avoir une layout gaucher/ droitier
+d) Améliorer l'IA des blancs, pourquoi souvent ils ne bougent pas, surtout les blancs qui apparaissent sur les pays bales 
+e) Il faut que la barre des notifications ne s'affiche que si il y a des débats à valider
 
 
 
