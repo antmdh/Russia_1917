@@ -1,6 +1,11 @@
 Historique developpement
 
+13 juillet :
+j'ai fait l'effet tunnel et j'i rajouté du texte pour mettre a jour la pravda qui doit se mettre a jour en temps reel
+
 12 juillet : rajout des banners pour les bolcheviks qui indique le niveau d'adhesion de leur ville et le niveau économique sur la carte stratégique
+
+Sinonj'ai commencé le mode tunnel mais c'est casse geule
 
 2 juillet
 Je rajoute le renouvellement des soldats, je rajoute qu'il faut 50/50 pour creer un soldat et je prolonge les mois a 1 minutes. PAr contre pas arrivée a faire un indice du niveau 50/50 par ville, a recommencer en jouant sur l'animation de possession ville et pas sur indice
