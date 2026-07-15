@@ -1,6 +1,6 @@
 https://excalidraw.com/#room=44dc19f319c08c2c59e6,h1ZXSZQWEENms35iYvHj3g
 
-
+Bug : verifier si la valeur temp est bien en pause pendant chaque etape du tunnel. (je pense que c'est pas le cas)
 12.07.2026
 PLAN
 Il y a les fonctionnalité pour améliorer le jeu

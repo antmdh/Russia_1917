@@ -1,4 +1,6 @@
 Historique developpement
+15v juillet
+J'ai travaillé sur la question de la pravda pour que chaque mois elle affiche la dérniere décision prise
 
 13 juillet :
 j'ai fait l'effet tunnel et j'i rajouté du texte pour mettre a jour la pravda qui doit se mettre a jour en temps reel
