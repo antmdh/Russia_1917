@@ -1,4 +1,7 @@
 Historique developpement
+16 juillet resolution du bug de pause
+travail de reflexion sur le menu des commissaires au peuple
+
 15v juillet
 J'ai travaillé sur la question de la pravda pour que chaque mois elle affiche la dérniere décision prise
 
