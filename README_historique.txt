@@ -1,4 +1,6 @@
 Historique developpement
+17 juillet mise en page du menu allocation ressources et debut allocation ressources
+
 16 juillet resolution du bug de pause
 travail de reflexion sur le menu des commissaires au peuple
 
