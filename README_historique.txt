@@ -1,3 +1,7 @@
+Historique developpement 19 juiolet
+je travail sur le bouton rajoutersoldat alloc8
+l'aspect "ok pour cliquer fonctionne mais pas le reste"
+
 Historique developpement
 17 juillet mise en page du menu allocation ressources et debut allocation ressources
 
