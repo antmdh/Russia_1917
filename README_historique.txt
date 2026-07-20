@@ -3,6 +3,11 @@ je travail sur le bouton rajoutersoldat alloc8
 l'aspect "ok pour cliquer fonctionne mais pas le reste"
 
 Historique developpement
+20 juillet
+retravaile les indices adgesion et economie
+et commence la suppression soldat du commissariat avec identification de la ville d'origine et la derniere ville de cantonnement
+
+
 17 juillet mise en page du menu allocation ressources et debut allocation ressources
 
 16 juillet resolution du bug de pause
