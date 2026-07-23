@@ -1,5 +1,9 @@
 https://excalidraw.com/#room=44dc19f319c08c2c59e6,h1ZXSZQWEENms35iYvHj3g
 
+https://excalidraw.com/#json=3PS6WiyBerwySZkdpfVtI,BzPQI-BFf8N-8BKSKr6iHw
+
+bug : les finlandaid n'arrrete pas leur ouvement avec pause. pourquoi ?
+bug c'est la fonction COMBAT entre type blanc V3 en pseudocode (fonctionne issus du mode test) qui provoque des lag
 
 12.07.2026
 PLAN

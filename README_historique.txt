@@ -1,3 +1,11 @@
+23 juillet
+je tente d'identifier le ralentissement
+j'obtiens 4 fonctions qui pose soucis
+sur pc, j'arrivea limiter le bug
+mais sur mobile, chaquee fonction ralentit l'ensemble, et par exemple la fonction "preparer tous les blancs ralentis encore de 10 frames
+Bref faut optimiser et tester via apk (voir 7bug)
+et je dois aussi remmettre les ameliorations de 7bug vers 7
+
 Historique developpement 19 juiolet
 je travail sur le bouton rajoutersoldat alloc8
 l'aspect "ok pour cliquer fonctionne mais pas le reste"
