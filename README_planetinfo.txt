@@ -4,6 +4,7 @@ https://excalidraw.com/#json=3PS6WiyBerwySZkdpfVtI,BzPQI-BFf8N-8BKSKr6iHw
 
 bug : les finlandaid n'arrrete pas leur ouvement avec pause. pourquoi ?
 bug c'est la fonction COMBAT entre type blanc V3 en pseudocode (fonctionne issus du mode test) qui provoque des lag
+verifier les villes
 
 12.07.2026
 PLAN

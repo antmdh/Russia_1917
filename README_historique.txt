@@ -1,3 +1,14 @@
+26 juillet j'ai foiré la versio debug qui bloque l'IA blanc et n'affiche plus les indice d'	dhesion si on est pas en mode pc
+bref a rechercher
+
+et j'ai envoyé l'article en angais
+
+25 juilllet
+J'ai bien deboguer le jeu, ilest plus rapide et tiens a 30 fps sur mobile
+mais j'ai completement voiré la gestion des villes, maintenant je suis invicible
+mais ce mode invicible est bien pour debuger, surtout l'IA
+
+
 23 juillet
 je tente d'identifier le ralentissement
 j'obtiens 4 fonctions qui pose soucis
