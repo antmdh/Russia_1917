@@ -1,3 +1,7 @@
+27 njuillet
+il reste bug ahesion mettre en blanc si l'adhesion est zu blanc et au rouge si adhesion est zu rouge, pas ok
+resolue une partire desbugs d'hier
+
 26 juillet j'ai foiré la versio debug qui bloque l'IA blanc et n'affiche plus les indice d'	dhesion si on est pas en mode pc
 bref a rechercher
 
