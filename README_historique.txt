@@ -1,3 +1,6 @@
+28 juillet
+bug resolu on voit le nieau dezs blanc descende et des rouges monter
+
 27 njuillet
 il reste bug ahesion mettre en blanc si l'adhesion est zu blanc et au rouge si adhesion est zu rouge, pas ok
 resolue une partire desbugs d'hier
