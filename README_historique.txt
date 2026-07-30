@@ -1,3 +1,6 @@
+30 juillet
+resolution bug affichage carte avec des tuiles a tester chez sophie
+
 28 juillet
 bug resolu on voit le nieau dezs blanc descende et des rouges monter
 
