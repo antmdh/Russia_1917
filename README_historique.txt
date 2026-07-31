@@ -1,3 +1,7 @@
+31 juillet
+resolution du buug mini soldat qui apparassait incorectement
+j'ai commencé le travail de determiner le nombre de place de soldat disponibledan les ministeres mais pas terminé, je dois matcher la place dans la colonne avec la reference du commissariat et cela ne peut pas etre fait dans une variable local
+
 30 juillet
 resolution bug affichage carte avec des tuiles a tester chez sophie
 

@@ -75,6 +75,20 @@ Les consequences de chaque decisions sont
 - soit economique : augmente production
 - soit idéologique : augmente adhesion
 
+LES COMMISSARIAT
+COM_AFF_ETR
+COM_AGR_ALIM
+COM_GUERRE
+COM_COMMERCE_INDUSTRIE
+COM_EDUCATION
+COM_BIEN_ETRE
+COM_INTERIEUR
+COM_JUSTICE
+COM_TRAVAIL
+COM_NATIONALITE
+COM_POSTE_TELEGR
+COM_FINANCE
+
 
 
 Les nations
