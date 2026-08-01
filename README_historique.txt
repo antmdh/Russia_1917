@@ -1,3 +1,7 @@
+1er aout 2026
+J'ai refait la fonction qui rajoute des places vide dans le local economie si on applique certaines décisions
+J'ai refait la fonction qui rajotue des soldats quand on clique sur le bouton mais je dois encore faire ceux qui quitte le commissariat
+
 31 juillet
 resolution du buug mini soldat qui apparassait incorectement
 j'ai commencé le travail de determiner le nombre de place de soldat disponibledan les ministeres mais pas terminé, je dois matcher la place dans la colonne avec la reference du commissariat et cela ne peut pas etre fait dans une variable local
