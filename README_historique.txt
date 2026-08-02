@@ -1,3 +1,6 @@
+2 aour 2026
+J'ai fini la fonction allocations rrssources, et je rajoute que chaque independance rajoute un champ vide pour le ministere de l'intérieur
+
 1er aout 2026
 J'ai refait la fonction qui rajoute des places vide dans le local economie si on applique certaines décisions
 J'ai refait la fonction qui rajotue des soldats quand on clique sur le bouton mais je dois encore faire ceux qui quitte le commissariat
