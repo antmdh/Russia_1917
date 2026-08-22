@@ -1,80 +1,37 @@
-name: temp localization inventory
+name: temp apply localization
 on:
   pull_request:
     branches: [main]
     paths:
       - '.github/workflows/tmp-localization-inventory.yml'
 permissions:
-  contents: read
+  contents: write
 jobs:
-  inventory:
+  apply:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: experiment/menu-9-demo-langues
-      - name: Build inventory
+          fetch-depth: 0
+      - name: Install translation engine
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install argostranslate
+      - name: Repair temporary script literal
         run: |
           python - <<'PY'
-          import json, os
           from pathlib import Path
-          root=Path('.')
-          project=Path('Russia 1917 .json')
-          data=json.loads(project.read_text(encoding='utf-8'))
-          targets={
-            'database.dialogue_petites_phrases',
-            'texte_rapport_PV',
-            'texte_rapport_RESUME',
-            'texte_rapport_EFFET',
-            'database.Question_secondaire',
-          }
-          found=[]
-          def walk(node, path=(), ancestors=()):
-              if isinstance(node, dict):
-                  newanc=ancestors
-                  if node.get('type') in ('BuiltinCommonInstructions::Standard','BuiltinCommonInstructions::ForEach'):
-                      newanc=ancestors+(node,)
-                  acts=node.get('actions')
-                  if isinstance(acts,list):
-                      for i,a in enumerate(acts):
-                          params=a.get('parameters',[]) if isinstance(a,dict) else []
-                          hits=[t for t in targets if t in params]
-                          if hits:
-                              conds=[]
-                              for ev in newanc:
-                                  for c in ev.get('conditions',[]):
-                                      conds.append(c)
-                              found.append({
-                                  'path': list(path)+['actions',i],
-                                  'hits': hits,
-                                  'action': a,
-                                  'conditions': conds,
-                              })
-                  for k,v in node.items():
-                      walk(v,path+(k,),newanc)
-              elif isinstance(node,list):
-                  for i,v in enumerate(node): walk(v,path+(i,),ancestors)
-          walk(data)
-          names=[]
-          for p in root.rglob('*'):
-              if p.is_file() and ('fiche_info_blancs_rempli' in p.name or 'pravda_titre_et_article_DECISION' in p.name or p.name=='README_historique.txt'):
-                  names.append(str(p))
-          out=Path('/tmp/localization_inventory')
-          out.mkdir(exist_ok=True)
-          (out/'matches.json').write_text(json.dumps(found,ensure_ascii=False,indent=2),encoding='utf-8')
-          (out/'paths.txt').write_text('\n'.join(sorted(names))+'\n',encoding='utf-8')
-          for name in names:
-              p=Path(name)
-              dest=out/(p.name+'.source')
-              dest.write_bytes(p.read_bytes())
-          print('TARGET_ACTIONS',len(found))
-          from collections import Counter
-          cnt=Counter(h for x in found for h in x['hits'])
-          print('COUNTS',dict(cnt))
-          print('FILES')
-          print('\n'.join(sorted(names)))
+          p=Path('.github/scripts/tmp_apply_localization.py')
+          s=p.read_text(encoding='utf-8')
+          broken='raise RuntimeError("Séquence littérale \\\n détectée dans un texte localisé")'
+          fixed='raise RuntimeError("Séquence littérale \\\\n détectée dans un texte localisé")'
+          if broken not in s:
+              raise SystemExit('motif temporaire à réparer introuvable')
+          p.write_text(s.replace(broken,fixed),encoding='utf-8')
+          compile(p.read_text(encoding='utf-8'), str(p), 'exec')
           PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: localization-inventory
-          path: /tmp/localization_inventory
+      - name: Apply five requested commits
+        run: python .github/scripts/tmp_apply_localization.py
+      - name: Push generated commits
+        run: git push origin HEAD:experiment/menu-9-demo-langues
