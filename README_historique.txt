@@ -1,3 +1,9 @@
+22 août 2026
+- Internationalisation du menu 9 de la démo : les textes visibles sont maintenant conditionnés par MODE_LANGUE pour les six langues FR, NL, IT, ES, DE et EN.
+- Ajout et vérification des traductions néerlandaise, italienne, espagnole, allemande et anglaise, en conservant correctement les textes multilignes de GDevelop.
+- Correction de la pause des troupes blanches : la vitesse de chaque soldat blanc est sauvegardée avant la pause, mise à 0 pendant la pause puis restaurée au retour en vitesse normale. Cela corrige notamment les troupes finlandaises qui continuaient parfois à se déplacer en pause.
+- Diagnostic du problème des troupes japonaises qui quittent leur zone d'action : la cause identifiée est le statut JAPONAIS configuré en ACTIF au lieu de ACTIF_LIMITE. La correction de ce statut n'a pas encore été appliquée.
+
 2 aour 2026
 J'ai fini la fonction allocations rrssources, et je rajoute que chaque independance rajoute un champ vide pour le ministere de l'intérieur
 
