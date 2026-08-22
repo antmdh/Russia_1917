@@ -23,12 +23,22 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           p=Path('.github/scripts/tmp_apply_localization.py')
-          s=p.read_text(encoding='utf-8')
-          broken='raise RuntimeError("Séquence littérale \\\n détectée dans un texte localisé")'
-          fixed='raise RuntimeError("Séquence littérale \\\\n détectée dans un texte localisé")'
-          if broken not in s:
-              raise SystemExit('motif temporaire à réparer introuvable')
-          p.write_text(s.replace(broken,fixed),encoding='utf-8')
+          lines=p.read_text(encoding='utf-8').splitlines()
+          fixed=[]
+          i=0
+          repaired=False
+          while i < len(lines):
+              if 'raise RuntimeError("Séquence littérale' in lines[i] and i+1 < len(lines) and 'détectée dans un texte localisé")' in lines[i+1]:
+                  indent=lines[i].split('raise RuntimeError',1)[0]
+                  fixed.append(indent+'raise RuntimeError("Séquence littérale backslash+n détectée dans un texte localisé")')
+                  i += 2
+                  repaired=True
+              else:
+                  fixed.append(lines[i])
+                  i += 1
+          if not repaired:
+              raise SystemExit('ligne temporaire à réparer introuvable')
+          p.write_text('\n'.join(fixed)+'\n',encoding='utf-8')
           compile(p.read_text(encoding='utf-8'), str(p), 'exec')
           PY
       - name: Apply five requested commits
