@@ -1,3 +1,6 @@
+23 aout
+J'ai rajouté un calendrier par semaine pour les premiers mois ca fonctionne
+
 22 août 2026
 - Internationalisation du menu 9 de la démo : les textes visibles sont maintenant conditionnés par MODE_LANGUE pour les six langues FR, NL, IT, ES, DE et EN.
 - Ajout et vérification des traductions néerlandaise, italienne, espagnole, allemande et anglaise, en conservant correctement les textes multilignes de GDevelop.
