@@ -1,3 +1,6 @@
+25 aout
+J'ai changé la date des décisions politiques en rajoutant la semaine et pas seulement le mois et j'ai étalé les premieres décisions sur plusieurs semaine le meme mois, cela donne bien
+
 23 aout
 J'ai rajouté un calendrier par semaine pour les premiers mois ca fonctionne
 
