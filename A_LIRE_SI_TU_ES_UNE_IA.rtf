@@ -1,0 +1,441 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # \uc0\u9888 \u65039  A LIRE SI TU ES UNE IA\
+\
+Ce fichier contient les r\'e8gles \'e0 respecter avant toute modification du projet **Russia 1917**.\
+\
+Le projet est d\'e9velopp\'e9 avec **GDevelop** et son fichier principal est :\
+\
+`Russia 1917 .json`\
+\
+Ce fichier est tr\'e8s volumineux et contient une grande partie de la logique du jeu.\
+\
+---\
+\
+# 1. R\'c8GLE PRINCIPALE : NE PAS CASSER LE JEU\
+\
+Avant toute modification :\
+\
+1. comprendre exactement ce que demande l'utilisateur ;\
+2. identifier les fichiers et \'e9v\'e9nements concern\'e9s ;\
+3. modifier uniquement ce qui est n\'e9cessaire ;\
+4. ne pas profiter d'une modification pour \'ab nettoyer \'bb, r\'e9organiser ou am\'e9liorer autre chose ;\
+5. v\'e9rifier le diff avant de cr\'e9er un commit.\
+\
+Une petite modification demand\'e9e par l'utilisateur doit produire une petite modification logique du projet.\
+\
+---\
+\
+# 2. NE JAMAIS RENOMMER LES VARIABLES GDEVELOP\
+\
+Les noms de variables, objets, structures, sc\'e8nes et identifiants sont consid\'e9r\'e9s comme du code.\
+\
+Exemples :\
+\
+- `MODE_LANGUE`\
+- `TABLE_MOIS_QUESTION`\
+- `database.Question_secondaire`\
+- `database.dialogue_petites_phrases`\
+- `texte_rapport_PV`\
+- `texte_rapport_RESUME`\
+- `texte_rapport_EFFET`\
+\
+M\'eame si un nom contient une faute d'orthographe ou semble mal choisi :\
+\
+**NE PAS LE RENOMMER sauf demande explicite de l'utilisateur.**\
+\
+Changer le nom peut casser des r\'e9f\'e9rences ailleurs dans le projet.\
+\
+---\
+\
+# 3. NE PAS MODIFIER LA LOGIQUE DU JEU SANS DEMANDE\
+\
+Lorsqu'une demande concerne :\
+\
+- une traduction ;\
+- un texte ;\
+- un chemin de fichier ;\
+- une ressource ;\
+- une interface ;\
+- une condition de langue ;\
+\
+ne pas modifier en m\'eame temps :\
+\
+- les calculs ;\
+- les conditions de gameplay ;\
+- les timers ;\
+- les combats ;\
+- les d\'e9placements ;\
+- l'IA ;\
+- les variables \'e9conomiques ;\
+- les variables politiques ;\
+- les m\'e9canismes de pause ;\
+- les \'e9v\'e9nements mensuels ou hebdomadaires.\
+\
+---\
+\
+# 4. ATTENTION AU FICHIER `Russia 1917 .json`\
+\
+Le fichier est tr\'e8s gros.\
+\
+\'c9viter absolument de le reformater enti\'e8rement pour une petite modification.\
+\
+Une IA doit autant que possible :\
+\
+- conserver l'ordre des \'e9v\'e9nements ;\
+- conserver l'ordre des propri\'e9t\'e9s ;\
+- conserver la structure existante ;\
+- \'e9viter de r\'e9\'e9crire des dizaines de milliers de lignes inutilement ;\
+- v\'e9rifier que le JSON reste valide.\
+\
+Ne jamais effectuer une op\'e9ration globale de \'ab nettoyage \'bb ou de reformatage sans demande explicite.\
+\
+---\
+\
+# 5. LANGUES DU JEU\
+\
+Le jeu utilise six langues :\
+\
+- `FR` = fran\'e7ais\
+- `NL` = n\'e9erlandais\
+- `EN` = anglais\
+- `ES` = espagnol\
+- `IT` = italien\
+- `DE` = allemand\
+\
+La variable utilis\'e9e par le projet est :\
+\
+`MODE_LANGUE`\
+\
+Exemple :\
+\
+`MODE_LANGUE = "FR"`\
+\
+Pour une fonctionnalit\'e9 multilingue, conserver exactement ces codes.\
+\
+Ne pas inventer :\
+\
+- `FRA`\
+- `ENG`\
+- `NED`\
+- `GER`\
+- etc.\
+\
+---\
+\
+# 6. LOCALISATION DANS GDEVELOP\
+\
+Lorsqu'un \'e9v\'e9nement contient plusieurs versions linguistiques, conserver la m\'eame logique pour les six langues.\
+\
+Exemple conceptuel :\
+\
+- si `MODE_LANGUE = "FR"` \uc0\u8594  texte fran\'e7ais\
+- si `MODE_LANGUE = "NL"` \uc0\u8594  texte n\'e9erlandais\
+- si `MODE_LANGUE = "EN"` \uc0\u8594  texte anglais\
+- si `MODE_LANGUE = "ES"` \uc0\u8594  texte espagnol\
+- si `MODE_LANGUE = "IT"` \uc0\u8594  texte italien\
+- si `MODE_LANGUE = "DE"` \uc0\u8594  texte allemand\
+\
+Les blocs linguistiques doivent rester au m\'eame endroit logique que le bloc fran\'e7ais.\
+\
+Ne pas d\'e9placer le reste de l'\'e9v\'e9nement.\
+\
+---\
+\
+# 7. TRADUIRE UNIQUEMENT LES TEXTES DESTIN\'c9S AU JOUEUR\
+\
+Ne pas traduire automatiquement les identifiants techniques.\
+\
+Par exemple :\
+\
+`6.Creation_tcheka`\
+\
+ou :\
+\
+`8.Mariage_civil_egalite_hf`\
+\
+peuvent \'eatre des identifiants utilis\'e9s par le programme.\
+\
+Ils doivent rester identiques dans toutes les langues sauf instruction explicite contraire.\
+\
+Avant de traduire une cha\'eene, se demander :\
+\
+> Est-ce un texte affich\'e9 au joueur ou un identifiant utilis\'e9 par le programme ?\
+\
+Si c'est un identifiant : **ne pas traduire.**\
+\
+---\
+\
+# 8. RETOURS \'c0 LA LIGNE\
+\
+Attention aux textes GDevelop contenant plusieurs lignes.\
+\
+Lorsque le texte d'origine poss\'e8de de vrais retours \'e0 la ligne, conserver de vrais retours \'e0 la ligne.\
+\
+Ne pas remplacer ceux-ci par :\
+\
+`\\n`\
+\
+et encore moins :\
+\
+`/n`\
+\
+si le syst\'e8me GDevelop concern\'e9 attend de vrais retours \'e0 la ligne.\
+\
+La structure du texte original doit \'eatre conserv\'e9e.\
+\
+---\
+\
+# 9. PONCTUATION ET S\'c9PARATEURS\
+\
+Certaines cha\'eenes utilisent des caract\'e8res ayant une fonction dans le jeu.\
+\
+Par exemple :\
+\
+`;`\
+\
+peut s\'e9parer plusieurs petites phrases.\
+\
+Lors d'une traduction :\
+\
+- conserver le m\'eame nombre de segments ;\
+- conserver les s\'e9parateurs ;\
+- ne pas fusionner deux \'e9l\'e9ments ;\
+- ne pas supprimer un `;` utilis\'e9 par la logique du jeu.\
+\
+---\
+\
+# 10. FICHIERS JSON DE DONN\'c9ES\
+\
+Certains fichiers JSON externes sont utilis\'e9s comme bases de donn\'e9es par GDevelop.\
+\
+Lorsqu'on cr\'e9e des versions linguistiques :\
+\
+1. conserver le fichier original ;\
+2. cr\'e9er de nouveaux fichiers ;\
+3. ne jamais \'e9craser l'original sans demande explicite ;\
+4. v\'e9rifier que tous les fichiers produits sont des JSON valides.\
+\
+Exemple important :\
+\
+`Fiche_info/fiche_info_blancs_rempli.json`\
+\
+CE FICHIER ORIGINAL DOIT \'caTRE CONSERV\'c9.\
+\
+Les versions linguistiques peuvent \'eatre :\
+\
+- `fiche_info_blancs_rempli_FR.json`\
+- `fiche_info_blancs_rempli_NL.json`\
+- `fiche_info_blancs_rempli_EN.json`\
+- `fiche_info_blancs_rempli_ES.json`\
+- `fiche_info_blancs_rempli_IT.json`\
+- `fiche_info_blancs_rempli_DE.json`\
+\
+Le fichier original :\
+\
+`fiche_info_blancs_rempli.json`\
+\
+ne doit pas \'eatre supprim\'e9.\
+\
+---\
+\
+# 11. IMPORT DES FICHIERS SELON LA LANGUE\
+\
+Lorsqu'un fichier existe en plusieurs langues, l'import GDevelop doit d\'e9pendre de `MODE_LANGUE`.\
+\
+Exemple :\
+\
+`MODE_LANGUE = "FR"`\
+\uc0\u8594  charger la version `_FR.json`\
+\
+`MODE_LANGUE = "NL"`\
+\uc0\u8594  charger la version `_NL.json`\
+\
+etc.\
+\
+Ne pas changer ce que le programme fait avec les donn\'e9es apr\'e8s leur chargement.\
+\
+Seul le fichier source doit changer.\
+\
+---\
+\
+# 12. LES RESSOURCES GDEVELOP\
+\
+Cr\'e9er un fichier dans le d\'e9p\'f4t ne suffit pas toujours.\
+\
+Si GDevelop utilise ce fichier comme ressource, v\'e9rifier \'e9galement que la nouvelle ressource est d\'e9clar\'e9e dans :\
+\
+`Russia 1917 .json`\
+\
+Les chemins doivent correspondre exactement aux vrais noms de fichiers.\
+\
+Attention :\
+\
+- aux majuscules ;\
+- aux minuscules ;\
+- aux espaces ;\
+- aux underscores ;\
+- \'e0 l'extension `.json`.\
+\
+---\
+\
+# 13. NE PAS EFFACER LES FICHIERS ORIGINAUX\
+\
+R\'e8gle g\'e9n\'e9rale du projet :\
+\
+Lorsqu'une variante est cr\'e9\'e9e \'e0 partir d'un fichier existant, conserver l'original sauf demande explicite.\
+\
+L'original peut encore \'eatre utilis\'e9 :\
+\
+- par d'autres sc\'e8nes ;\
+- par une ancienne version ;\
+- comme r\'e9f\'e9rence ;\
+- par un syst\'e8me qui n'a pas encore \'e9t\'e9 multilinguis\'e9.\
+\
+---\
+\
+# 14. TRAVAIL SUR GITHUB\
+\
+Avant tout commit :\
+\
+- v\'e9rifier la branche actuelle ;\
+- v\'e9rifier les fichiers modifi\'e9s ;\
+- v\'e9rifier que des fichiers personnels ou temporaires ne sont pas ajout\'e9s ;\
+- v\'e9rifier que le commit contient uniquement le travail demand\'e9.\
+\
+Ne pas ajouter accidentellement :\
+\
+- `.DS_Store`\
+- `.Rhistory`\
+- fichiers `.autosave`\
+- scripts temporaires\
+- workflows temporaires\
+- fichiers d'audit\
+- fichiers g\'e9n\'e9r\'e9s pour d\'e9boguer\
+\
+sauf demande explicite.\
+\
+---\
+\
+# 15. WORKFLOWS ET SCRIPTS TEMPORAIRES\
+\
+Une IA peut exceptionnellement utiliser un script ou un workflow temporaire pour modifier le tr\'e8s gros fichier GDevelop.\
+\
+Dans ce cas :\
+\
+1. le consid\'e9rer comme un outil de travail temporaire ;\
+2. v\'e9rifier son r\'e9sultat ;\
+3. ne pas laisser ce fichier dans le commit final sauf demande explicite ;\
+4. ne pas laisser les commits techniques temporaires polluer l'historique final.\
+\
+Le r\'e9sultat final doit contenir les fichiers utiles au jeu, pas les outils utilis\'e9s pour les produire.\
+\
+---\
+\
+# 16. NE PAS REJOUER UNE \'c9TAPE D\'c9J\'c0 TERMIN\'c9E\
+\
+Avant d'appliquer un script automatique, v\'e9rifier l'\'e9tat actuel du projet.\
+\
+Exemple :\
+\
+si les traductions FR/NL/EN/ES/IT/DE ont d\'e9j\'e0 \'e9t\'e9 cr\'e9\'e9es pour une partie du jeu, ne pas relancer un ancien script qui tente de les recr\'e9er.\
+\
+Un script ancien peut avoir \'e9t\'e9 \'e9crit pour un \'e9tat pr\'e9c\'e9dent du projet.\
+\
+Toujours adapter l'op\'e9ration \'e0 l'\'e9tat actuel du d\'e9p\'f4t.\
+\
+---\
+\
+# 17. PROT\'c9GER LE TRAVAIL HUMAIN\
+\
+Le d\'e9veloppeur travaille directement dans GDevelop entre les interventions de l'IA.\
+\
+Il peut donc y avoir de nouvelles modifications humaines apr\'e8s le dernier travail de l'IA.\
+\
+Ne jamais supposer que la derni\'e8re version manipul\'e9e par l'IA est encore la version actuelle.\
+\
+Avant une modification importante :\
+\
+- r\'e9cup\'e9rer l'\'e9tat actuel ;\
+- comparer avec le dernier point connu ;\
+- prot\'e9ger les changements r\'e9alis\'e9s entre-temps.\
+\
+Une modification r\'e9cente faite manuellement par le d\'e9veloppeur ne doit pas dispara\'eetre parce qu'une IA repart d'une ancienne version du fichier.\
+\
+---\
+\
+# 18. EN CAS DE CONFLIT\
+\
+Si une nouvelle version du projet contient \'e0 la fois :\
+\
+- des modifications r\'e9alis\'e9es manuellement ;\
+- et des modifications produites pr\'e9c\'e9demment par une IA ;\
+\
+ne pas \'e9craser arbitrairement l'une par l'autre.\
+\
+Il faut reconstruire le changement demand\'e9 sur la version la plus r\'e9cente en conservant les deux travaux lorsque c'est possible.\
+\
+---\
+\
+# 19. VALIDATIONS MINIMALES\
+\
+Apr\'e8s une modification du projet :\
+\
+### JSON\
+\
+V\'e9rifier que tous les JSON modifi\'e9s ou cr\'e9\'e9s sont valides.\
+\
+### GDevelop\
+\
+V\'e9rifier que :\
+\
+- les conditions ont la bonne structure ;\
+- les actions sont toujours pr\'e9sentes ;\
+- les param\'e8tres conservent leur ordre ;\
+- les chemins de ressources existent ;\
+- les identifiants techniques n'ont pas chang\'e9.\
+\
+### Git\
+\
+V\'e9rifier :\
+\
+`git diff --check`\
+\
+et contr\'f4ler la liste exacte des fichiers modifi\'e9s.\
+\
+---\
+\
+# 20. PRINCIPE FINAL\
+\
+Quand tu es une IA qui travaille sur **Russia 1917**, ton objectif n'est pas de r\'e9\'e9crire le projet selon tes propres pr\'e9f\'e9rences.\
+\
+Ton objectif est :\
+\
+> **effectuer exactement la modification demand\'e9e en conservant au maximum tout ce qui existe d\'e9j\'e0.**\
+\
+Si une solution n\'e9cessite de choisir entre :\
+\
+A. une modification \'e9l\'e9gante mais tr\'e8s invasive ;\
+\
+B. une modification plus simple qui respecte la structure actuelle ;\
+\
+privil\'e9gier g\'e9n\'e9ralement **B**.\
+\
+La stabilit\'e9 du projet est prioritaire.\
+\
+---\
+\
+# EN R\'c9SUM\'c9\
+\
+Avant de modifier Russia 1917 :\
+\
+**COMPRENDRE \uc0\u8594  LOCALISER \u8594  MODIFIER LE MINIMUM \u8594  VALIDER \u8594  COMPARER \u8594  COMMITTER**\
+\
+Et surtout :\
+\
+> **NE PAS CASSER CE QUI FONCTIONNE POUR AM\'c9LIORER CE QUI N'A PAS \'c9T\'c9 DEMAND\'c9.**}

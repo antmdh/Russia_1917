@@ -1,4 +1,11 @@
 25 aout
+J'ai modifié la taille des characteres, j'ai trois modes, petit, moyen et grand
+La taille des phylacteres
+taille de police 20-25-30
+Taille espace 9-11-12.5
+Hauteur phylactere 35, 44; 53
+J'ai modifié la pause pour que si on met en pause en 191710, des que la pause est enelvé on passe directement en 191711
+
 J'ai changé la date des décisions politiques en rajoutant la semaine et pas seulement le mois et j'ai étalé les premieres décisions sur plusieurs semaine le meme mois, cela donne bien
 
 23 aout
