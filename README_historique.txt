@@ -1,3 +1,6 @@
+26 aout
+Bouton pravda et allocation aux ressources retravaillé
+
 
 25 aout
 J'ai modifié la taille des characteres, j'ai trois modes, petit, moyen et grand
