@@ -1,3 +1,14 @@
+30 aout
+J'ai rajouté un contexte historique, on commence par la question sur la révolution et un message d'echec si on choisi d'attendre.
+
+Je dois encore faire
+QUelques elements de traduction (accepter, refuser, votre avis, les elements de la pravda et le choix des politiques)
+j'ai un bug pour l'instant je ne sais pas faire un deuxieme choix politique
+L'aspect tunnel doit etre réduis si on fait le choix de la révolution, surtout la question des ressources
+Je dois réduire la taille du menu pravda et surtout faire un texte pour chaque situation
+Et puis m'attaquer aux choix d'avant mars 1918
+
+
 26 aout
 Bouton pravda et allocation aux ressources retravaillé
 
