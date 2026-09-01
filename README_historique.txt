@@ -1,4 +1,13 @@
+1er septembre
+1. Trouver les 4 images de l'intro
+2. Changer le texte des politiques pour que ce soit bien dans chaque langue 
+3. Changer le visuel du bouton participer 
+4. Définir l'action de chaque politique et activer la carte en question
+
+
 30 aout
+resolution de bug
+
 J'ai rajouté un contexte historique, on commence par la question sur la révolution et un message d'echec si on choisi d'attendre.
 
 Je dois encore faire
