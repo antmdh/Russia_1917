@@ -1,3 +1,7 @@
+5 septembre
+rajout des frontieres pour ukraine, finlande, turkmenistan et belarus et application décision
+
+
 1er septembre
 1. Trouver les 4 images de l'intro
 2. Changer le texte des politiques pour que ce soit bien dans chaque langue 
