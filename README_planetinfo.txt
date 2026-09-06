@@ -1,3 +1,9 @@
+bug : quand je reste trop longtemps sur "lancer la partie après avoir accepté la revolution, je retourne au menu(a mon avis la pause ne s'est pas arreté)e
+bug le texte du mois est decalé en anglais
+bug rajouter nom du pays russie
+
+bug la carte avant garde ne match pas visuellement avec la version gimp, il y a un petit decalage avec les nouvelles frontieres, je devrais changer le calque newfrontiere de -1 ou -2 en Y  quand il est en mode avant garde. j'ai essayer de changer le pourcentage, reimporter la carte en tuile, je ne comprend pas ce qui se passe
+
 https://excalidraw.com/#room=44dc19f319c08c2c59e6,h1ZXSZQWEENms35iYvHj3g
 
 https://excalidraw.com/#json=3PS6WiyBerwySZkdpfVtI,BzPQI-BFf8N-8BKSKr6iHw
